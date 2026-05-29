@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "locale": "en_EE",
+    "id": "393880"
+  },
+  "id": "393880",
+  "name": "Katted24 OÜ",
+  "address": {
+    "line1": "Gaasi 7",
+    "city": "Tallinn",
+    "region": "Harju maakond",
+    "postalCode": "13816",
+    "countryCode": "EE"
+  },
+  "mainPhone": "+372 566 555 66",
+  "emails": [
+    "info@katted24.ee"
+  ],
+  "facebookPageUrl": "https://www.facebook.com/katted24",
+  "slug": "en",
+  "c_navLabels": [
+    "Solutions",
+    "Use cases",
+    "Inspiration",
+    "FAQ",
+    "About",
+    "Contact"
+  ],
+  "c_ctaPrimaryLabel": "Request a quote",
+  "c_ctaSecondaryLabel": "Explore solutions",
+  "c_heroEyebrow": "",
+  "c_heroTitle": "PVC cover manufacturing and repair",
+  "c_heroLede": "We make tarpaulins, load covers and partition curtains to order — built to your exact dimensions.",
+  "c_heroMetaKicker": "",
+  "c_heroMetaNum": "",
+  "c_heroMetaSub": "",
+  "c_trustLabels": [
+    "01 — Colours",
+    "02 — Speed",
+    "03 — Custom"
+  ],
+  "c_trustValues": [
+    "Widest range in Estonia",
+    "Fast production",
+    "Built to every need"
+  ],
+  "c_valuePropsHeading": "We've got you covered!",
+  "c_valuePropTitles": [
+    "The widest range of PVC fabrics in Estonia",
+    "Fast, high-quality craftsmanship",
+    "Covers for every need",
+    "Flexible custom solutions",
+    "Cover-system build and maintenance"
+  ],
+  "c_valuePropBodies": [
+    "A wide range of colours and materials in one place — we'll find the right fit.",
+    "We can confidently say our covers are made the fastest.",
+    "From private clients to large companies — every cover built to your need.",
+    "Tell us what you need and we'll propose a solution you won't find elsewhere.",
+    "We build and maintain cover systems — from project to repair."
+  ],
+  "c_useCasesEyebrow": "Use cases",
+  "c_useCasesHeading": "Where can PVC fabric covers be used?",
+  "c_useCasesIntro": "Almost anything can be made from PVC fabric. Below is a small part of what we've built.",
+  "c_useCaseItems": [
+    "Tarpaulins",
+    "Load covers",
+    "Partition curtains",
+    "Watercraft covers",
+    "Garden-furniture covers",
+    "Sandbox covers",
+    "Pool covers",
+    "Barrel-sauna covers",
+    "Light-trailer covers",
+    "Woodpile covers",
+    "Lawn-tractor covers",
+    "Grill and smoker covers",
+    "Leaf bags",
+    "Awning covers",
+    "Fire-pit covers",
+    "Pond liners",
+    "Rally-car floor mats",
+    "Dinghy add-ons",
+    "Floating tubes and rings",
+    "Transport and lifting covers",
+    "Acid-bath covers"
+  ],
+  "c_repairHeading": "We repair PVC fabric too!",
+  "c_repairItems": [
+    "Party tents",
+    "Inflatable attractions",
+    "Dinghies",
+    "Trampolines",
+    "Floating tubes",
+    "Rally arches and start-finish arches"
+  ],
+  "c_solutionsEyebrow": "Solutions",
+  "c_solutionsHeading": "A solution for every need",
+  "c_solutionsIntro": "We work daily with hauliers, builders, farmers, boat owners and homeowners. Pick a category to read more.",
+  "c_solutionTags": [
+    "Private",
+    "Service",
+    "Transport",
+    "Construction",
+    "PVC halls",
+    "Agriculture",
+    "Industry",
+    "Defence",
+    "Hobby & water",
+    "Advertising",
+    "Sales",
+    "Training",
+    "Briefing"
+  ],
+  "c_solutionTitles": [
+    "Covers for private clients",
+    "PVC cover repair and service",
+    "Transport — tarpaulins and load covers",
+    "Construction and buildings",
+    "PVC halls — maintenance and repair",
+    "Agriculture and forestry",
+    "PVC fabric tubes and bellows",
+    "Defence industry",
+    "Hobby and watercraft",
+    "Banners",
+    "PVC fabric sales",
+    "Driver training",
+    "Technicians and facility managers"
+  ],
+  "c_solutionBodies": [
+    "Covers for sandboxes, grills, smokers, garden furniture, pools, barrel saunas and other backyard gear. Air- and watertight solutions, built to your dimensions.",
+    "We repair anything made of PVC fabric: trailer covers, trampolines, floating tubes, dinghies, party-tent repairs and entertainment structures (rally arches, start-finish arches, inflatable attractions). Plus trailer-cover repairs, PVC patching, zippers, straps, fastenings and worn-edge reinforcement.",
+    "Tarpaulins for truck trailers and load covers for construction debris, lumber and logs. Side and roof solutions, hatches, reinforced seams, eyelet/strap/hook fastenings and optional printed logos.",
+    "PVC partition curtains, carports, container covers, shed covers and more. Movable curtains on rails, transparent strips and enclosed solutions for warehouses, workshops and car-washes.",
+    "We don't build or install PVC halls (yet!), but all aftercare and repair is our work: hall-cover replacement, leak repair and storm-damage repair. A hall cover lasts 15–20 years. It must be re-tensioned 4× a year and always after a major storm; do an annual visual inspection — check cover tension, cables, bolts, ground anchors and fittings. We can add air vents for better circulation. In windy weather keep doors closed — an open door raises internal pressure and can tear the roof. Physical damage must always be repaired immediately — later it costs many times more. For large halls we travel across Estonia, including the islands.",
+    "Bottom and underlay covers, grain socks, slurry-tank covers and other solutions for farming and forestry.",
+    "PVC-fabric tubes, bellows and ducts for industrial use — custom-made to your dimensions.",
+    "Camo covers for military vehicles and structures, and other special-purpose covers for the defence industry.",
+    "Transport and storage covers for hobby vehicles (snowmobiles, lawn tractors, motorcycles), underlay mats for motorsport (e.g. rally pit floors so oil and fluids don't reach the ground). PVC curtains and covers: plain, mesh, film and welding curtains. Plus private-client covers for sandboxes, grills, garden furniture, pools and barrel saunas.",
+    "Advertising banners and large-format prints on PVC fabric — durable and weatherproof.",
+    "We also sell PVC fabric by the metre — ask for the right material and quantity.",
+    "We train drivers in the correct use and care of covers. (Content to be confirmed with the client.)",
+    "Solutions for technical and facility managers — maintenance contracts and periodic inspection. (Brief to be confirmed with the client.)"
+  ],
+  "c_aboutEyebrow": "About",
+  "c_aboutHeading": "Estonian-made, an honest handshake",
+  "c_aboutBody": "Katted24 OÜ is a family-owned Estonian company manufacturing, selling and repairing PVC-fabric products since 2010. Our workshop is in Tallinn at Gaasi 7.\n\nOur main products are tarpaulins for truck trailers, various load covers and partition curtains. In addition we make PVC-fabric covers for light trailers, watercraft, barrel saunas and pools, plus garden-house, grill and sandbox covers for home yards.",
+  "c_aboutPhotoTag": "Katted24 workshop · Tallinn",
+  "c_aboutSignatureName": "— The Katted24 team",
+  "c_aboutSignatureRole": "Tallinn, Gaasi 7",
+  "c_aboutStatNums": [
+    "2010",
+    "15+ yrs",
+    "Estonia"
+  ],
+  "c_aboutStatLabels": [
+    "Founded in Tallinn",
+    "Experience with PVC products",
+    "Our own workshop, Gaasi 7"
+  ],
+  "c_valuesHeading": "Our values",
+  "c_valueTitles": [
+    "Speed",
+    "Quality",
+    "Honesty",
+    "Flexibility"
+  ],
+  "c_valueBodies": [
+    "We can confidently say our covers are made the fastest.",
+    "Quality craftsmanship and durable materials that last for years.",
+    "Honest pricing and clear communication — material, labour and delivery shown separately.",
+    "The widest colour range in Estonia and the readiness to solve even the most unusual request."
+  ],
+  "c_inspirationEyebrow": "Inspiration",
+  "c_inspirationHeading": "See what PVC fabric can do",
+  "c_inspirationIntro": "A wide selection of examples of PVC covers in use — for inspiration and ideas.",
+  "c_faqEyebrow": "FAQ",
+  "c_faqHeading": "Frequently asked questions",
+  "c_faqIntro": "The most common questions about pricing, ordering and production.",
+  "c_faqQuestions": [
+    "How is the price calculated?",
+    "How does ordering work?",
+    "How long does production take?",
+    "Do you offer delivery and installation?",
+    "What material do you use?"
+  ],
+  "c_faqAnswers": [
+    "Price depends on dimensions, material and fittings. We send a detailed quote with material, labour and delivery shown separately. (Exact pricing logic to be confirmed with the client.)",
+    "Send us your dimensions and a photo or drawing and we'll send you a quote. (Ordering process to be confirmed with the client.)",
+    "It depends on the product and volume — we give an exact timeline with the quote. We can speed up urgent orders where possible.",
+    "Yes — we pick up and deliver across Estonia, including the islands. We can install on site and show you how to use it.",
+    "We use durable PVC fabric (up to 900 g/m²), UV-stable materials and stainless fittings."
+  ],
+  "c_formEyebrow": "Quote request",
+  "c_formTitle": "Send your dimensions, get an exact quote",
+  "c_formLede": "Fill in the form — we'll email you a quote. Quotes are free and come with no obligation.",
+  "c_formBulletTitles": [
+    "Transparent pricing",
+    "Always custom",
+    "Quality craftsmanship",
+    "Flexible payment"
+  ],
+  "c_formBulletBodies": [
+    "we break down material, labour and delivery separately",
+    "every cover is built to your dimensions and colour preference",
+    "durable materials and strong seams — we'll repair if needed",
+    "30% deposit, the rest on delivery — cash or invoice"
+  ],
+  "c_testimonialQuote": "",
+  "c_testimonialName": "",
+  "c_testimonialMeta": "",
+  "c_testimonialLocation": "",
+  "c_formCardHead": "Order your cover",
+  "c_formStepPill": "Free · easy",
+  "c_formGroupLabels": [
+    "Product details",
+    "Your contact"
+  ],
+  "c_formProductTypeLabel": "What would you like to order?",
+  "c_formProductTypeOptions": [
+    "Choose a product…",
+    "Tarpaulin (truck or trailer)",
+    "Load cover",
+    "Partition curtain",
+    "Light-trailer cover",
+    "Boat or watercraft cover",
+    "Barrel-sauna or pool cover",
+    "Garden-house or grill cover",
+    "Repair",
+    "Other / I'll describe"
+  ],
+  "c_formFieldLabels": [
+    "Width",
+    "Length",
+    "Height",
+    "Preferred colour",
+    "Needed by",
+    "Notes, fittings, special requirements",
+    "First and last name",
+    "Phone",
+    "Email",
+    "Attach photos or drawings"
+  ],
+  "c_formFieldPlaceholders": [
+    "e.g. 4.2",
+    "e.g. 8.5",
+    "e.g. 2.4",
+    "e.g. blue, black, white…",
+    "Pick a date",
+    "e.g. previous cover torn on the right edge, need hatches on both sides…",
+    "Mary Smith",
+    "+372 555 0000",
+    "mary@example.com",
+    ""
+  ],
+  "c_formOptionalLabel": "Optional",
+  "c_formValidationMessages": [
+    "Choose a product type",
+    "Please enter your name",
+    "Check your phone number",
+    "Check your email",
+    "Required",
+    "Required"
+  ],
+  "c_formFootHelp": "By pressing **Send request** you agree that we may contact you to discuss your quote. We never share your details with third parties.",
+  "c_formSubmitIdle": "Send request",
+  "c_formSubmitBusy": "Sending…",
+  "c_formSuccessTitle": "Your quote is on its way",
+  "c_formSuccessBody": "We'll review your request and send a detailed quote as soon as we can.",
+  "c_formSuccessRowTitles": [
+    "Email:",
+    "Phone:",
+    "Quote is free"
+  ],
+  "c_formSuccessRowBodies": [
+    "we'll send confirmation to",
+    "we'll call if we need clarifications",
+    "and you're not committed to anything"
+  ],
+  "c_formSuccessCardTitle": "Request sent",
+  "c_formSuccessCardBody": "We'll review the details and send a quote as soon as we can.",
+  "c_formSuccessAgain": "Send another",
+  "c_teamEyebrow": "Team",
+  "c_teamHeading": "Our team",
+  "c_teamIntro": "A small, dedicated crew that builds every cover to your dimensions.",
+  "c_teamNames": [
+    "Katted24 production",
+    "Sales and support"
+  ],
+  "c_teamRoles": [
+    "PVC product manufacturing and installation",
+    "Quotes and advice"
+  ],
+  "c_mapEmbedUrl": "https://www.google.com/maps?q=Gaasi+7,+Tallinn,+Estonia&output=embed",
+  "c_careersEyebrow": "Careers",
+  "c_careersHeading": "Join our team",
+  "c_careersBody": "We always welcome people who want to learn PVC-cover making. Send your CV to info@katted24.ee.",
+  "c_careersEmail": "info@katted24.ee",
+  "c_contactEyebrow": "Contact",
+  "c_contactHeading": "Call, write, or drop by",
+  "c_contactIntro": "The fastest way to reach us is the quote form. The workshop is open Mon–Fri — call ahead if you're stopping by.",
+  "c_contactCallLabel": "Fill in the form — we'll reply as soon as we can",
+  "c_contactRowKeys": [
+    "Phone",
+    "Email",
+    "Address",
+    "Opening hours"
+  ],
+  "c_contactRowValues": [
+    "+372 566 555 66",
+    "info@katted24.ee",
+    "Gaasi 7, Tallinn",
+    "Mon–Fri 9:00–17:00"
+  ],
+  "c_contactRowSmall": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "c_footerTagline": "PVC covers, tarpaulins and load covers. Made in Estonia, built to order, delivered nationwide.",
+  "c_footerColHeadings": [
+    "Pages",
+    "Contact",
+    "Language"
+  ],
+  "c_footerLegalLine": "© 2026 Katted24 OÜ",
+  "c_footerLegalLinks": [
+    "Privacy",
+    "Terms",
+    "Cookies"
+  ],
+  "c_metaDescription": "Katted24 OÜ makes custom PVC covers — tarpaulins, load covers, partition curtains, boat and sauna covers, plus PVC-hall maintenance. Request a quote.",
+  "c_keywords": [
+    "PVC covers",
+    "tarpaulins",
+    "load covers",
+    "partition curtains",
+    "PVC hall repair",
+    "watercraft covers",
+    "custom covers",
+    "Tallinn"
+  ],
+  "c_yearsExperience": "15",
+  "c_foundingYear": "2010",
+  "c_privacyPolicyContent": "The data controller is Katted24 OÜ (Gaasi 7, Tallinn 11415). We collect only the data you submit in the quote form (name, phone, email, product description) in order to prepare your quote. Data is not shared with third parties or used for marketing profiling. You have the right to access, correct and erase your data — write to info@katted24.ee. The supervisory authority is the Estonian Data Protection Inspectorate (info@aki.ee).",
+  "c_cookiesContent": "This site uses only necessary cookies and — with your consent — Yext first-party analytics (pageviews, clicks, session ID, coarse location). Analytics do not run before consent. Data is retained ~13 months. You can change your choice any time via the footer link 'Cookie settings'.",
+  "c_cookieHeading": "Cookies on this site",
+  "c_cookieBody": "We use necessary cookies and, with your consent, analytics to improve the site. No tracking happens before you accept.",
+  "c_cookieAcceptLabel": "Accept",
+  "c_cookieRejectLabel": "Reject",
+  "c_cookieLearnMore": "Read the privacy policy",
+  "c_policyHeading": "Privacy and cookies",
+  "c_policyPrivacyTab": "Privacy",
+  "c_policyCookiesTab": "Cookies",
+  "c_policyClose": "Close",
+  "c_heroImage": {
+    "image": {
+      "url": "https://static.wixstatic.com/media/9022ee_1b169f214c754f899b265bd4b555b2ac~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+      "width": 1400,
+      "height": 900
+    }
+  },
+  "c_aboutPhoto": {
+    "image": {
+      "url": "https://static.wixstatic.com/media/9022ee_ea914aba911d4fe1951530e6a2d0bb53~mv2.jpg/v1/fill/w_1080,h_1350,al_c,q_85,enc_auto/.jpg",
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "c_inspirationGallery": [
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_1b169f214c754f899b265bd4b555b2ac~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Tendid ja koormakatted"
+      },
+      "description": "Tendid ja koormakatted"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_3b6eb78390ff4cf5bb4b67f902f211f6~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Kollane kerghaagise kate"
+      },
+      "description": "Kollane kerghaagise kate"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_6e138e7ade184e4f8e59f1ca4d487d70~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Must PVC järelhaagise kate"
+      },
+      "description": "Must PVC järelhaagise kate"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_90ef3abcfccc471c9019bd901365ae6b~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Sini-must-valge erilahendus"
+      },
+      "description": "Sini-must-valge erilahendus"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_8dda5be1166949749c3dae94a11a459e~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Läbipaistev kate aiamajale"
+      },
+      "description": "Läbipaistev kate aiamajale"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_909126281d24428f94551355fe9c8430~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "PVC parandustööd"
+      },
+      "description": "PVC parandustööd"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_f6c46cc3571f454a9e88d476b7a78c7c~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Sinine treileri kate"
+      },
+      "description": "Sinine treileri kate"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_6f48f3d03dbc42afab4503a3b48d5625~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Punane kastikate"
+      },
+      "description": "Punane kastikate"
+    }
+  ]
+}

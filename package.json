@@ -1,0 +1,30 @@
+{
+  "name": "katted24-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Katted24 OÜ — PVC covers, tarpaulins and repairs. Built on Yext Pages (PagesJS).",
+  "scripts": {
+    "dev": "pages dev",
+    "dev:preview": "vite --config vite.preview.config.ts",
+    "prod": "pages prod",
+    "build": "pages build",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "fmt": "prettier --write \"src/**/*.{ts,tsx,css}\""
+  },
+  "dependencies": {
+    "@yext/pages": "^1.2.0",
+    "@yext/pages-components": "^1.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}

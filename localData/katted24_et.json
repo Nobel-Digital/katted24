@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "locale": "et",
+    "id": "393880"
+  },
+  "id": "393880",
+  "name": "Katted24 OÜ",
+  "address": {
+    "line1": "Gaasi 7",
+    "city": "Tallinn",
+    "region": "Harju maakond",
+    "postalCode": "13816",
+    "countryCode": "EE"
+  },
+  "mainPhone": "+372 566 555 66",
+  "emails": [
+    "info@katted24.ee"
+  ],
+  "facebookPageUrl": "https://www.facebook.com/katted24",
+  "slug": "",
+  "c_navLabels": [
+    "Lahendused",
+    "Kasutusalad",
+    "Inspiratsioon",
+    "KKK",
+    "Meist",
+    "Kontakt"
+  ],
+  "c_ctaPrimaryLabel": "Küsi pakkumist",
+  "c_ctaSecondaryLabel": "Tutvu lahendustega",
+  "c_heroEyebrow": "",
+  "c_heroTitle": "PVC katete valmistamine ja parandamine",
+  "c_heroLede": "Valmistame tendid, koormakatted ja vahekardinad eritellimusena — Sinu mõõtude järgi.",
+  "c_heroMetaKicker": "",
+  "c_heroMetaNum": "",
+  "c_heroMetaSub": "",
+  "c_trustLabels": [
+    "01 — Värvid",
+    "02 — Kiirus",
+    "03 — Lahendus"
+  ],
+  "c_trustValues": [
+    "Suurim värvivalik Eestis",
+    "Kiire valmistus",
+    "Eritellimus igale vajadusele"
+  ],
+  "c_valuePropsHeading": "Meil on kattetahe!",
+  "c_valuePropTitles": [
+    "Suurim värvivalik PVC kangaid Eestis",
+    "Kiire ja kvaliteetne käsitöö",
+    "Katted igaks vajaduseks",
+    "Paindlikud erilahendused",
+    "Kattesüsteemide ehitus ja hooldus"
+  ],
+  "c_valuePropBodies": [
+    "Lai valik värve ja materjale ühest kohast — leiame Sulle sobiva lahenduse.",
+    "Julgelt võime öelda, et meie juures valmivad katted kõige kiiremini.",
+    "Erakliendist suurettevõtteni — iga kate valmib Sinu vajaduse järgi.",
+    "Räägi oma soovist ja pakume välja lahenduse, mida mujalt ei saa.",
+    "Ehitame ja hooldame kattesüsteeme — alates projektist kuni remondini."
+  ],
+  "c_useCasesEyebrow": "Kasutusalad",
+  "c_useCasesHeading": "Kus saab PVC kangast katteid kasutada?",
+  "c_useCasesIntro": "PVC kangast valmib praktiliselt mida iganes. Allpool väike osa sellest, mida oleme valmistanud.",
+  "c_useCaseItems": [
+    "Tendid",
+    "Koormakatted",
+    "Vahekardinad",
+    "Veesõidukite katted",
+    "Aiamööbli katted",
+    "Liivakastikatted",
+    "Basseinikatted",
+    "Tünnisauna katted",
+    "Kerghaagiste katted",
+    "Puuriitade katted",
+    "Murutraktorite katted",
+    "Grillide ja suitsuahjude katted",
+    "Lehekotid",
+    "Markiiside katted",
+    "Lõkkealuste katted",
+    "Tiikide põhjakatted",
+    "Ralliautode põhjakatted",
+    "Kummipaatide lisad",
+    "Veepealsed tuubid ja rõngad",
+    "Veo- ja tõstekatted",
+    "Happevanni katted"
+  ],
+  "c_repairHeading": "PVC kanga abil saame ka parandada!",
+  "c_repairItems": [
+    "Peotelgid",
+    "Täispuhutavad atraktsioonid",
+    "Kummipaadid",
+    "Batuudid",
+    "Veepealsed tuubid",
+    "Rallikaared ning start-finish kaared"
+  ],
+  "c_solutionsEyebrow": "Lahendused",
+  "c_solutionsHeading": "Lahendus igale vajadusele",
+  "c_solutionsIntro": "Töötame igapäevaselt veofirmade, ehitajate, põllumeeste, paadiomanike ja eraisikutega. Vali kategooria ja loe lähemalt.",
+  "c_solutionTags": [
+    "Erakliendile",
+    "Hooldus",
+    "Transport",
+    "Ehitus",
+    "PVC hallid",
+    "Põllumajandus",
+    "Tööstus",
+    "Kaitsetööstus",
+    "Hobi ja vesi",
+    "Reklaam",
+    "Müük",
+    "Koolitus",
+    "Briifing"
+  ],
+  "c_solutionTitles": [
+    "Katted erakliendile",
+    "PVC katete parandamine ja remont",
+    "Transport — tendid ja koormakatted",
+    "Ehitus ja hooned",
+    "PVC hallid — hooldus ja remont",
+    "Põllumajandus ja metsandus",
+    "PVC kangast torud ja lõõtsad",
+    "Kaitsetööstus",
+    "Hobi- ja veesõidukid",
+    "Bännerid",
+    "PVC kanga müük",
+    "Autojuhtide koolitus",
+    "Tehnikud ja haldusjuhid"
+  ],
+  "c_solutionBodies": [
+    "Katted liivakastile, grillidele, suitsuahjule, aiamööblile, basseinile, tünnisaunale ja muule koduhoovi varustusele. Õhu- ja veekindlad lahendused, Sinu mõõtude järgi.",
+    "Parandame kõike, mis on PVC-kangast: haagiste katted, batuudid, veepealsed tuubid, kummipaadid, peotelkide remont ning meelelahutuslikud rajatised (rallikaared, start-finish kaared, täispuhutavad atraktsioonid). Lisaks haagisekatete parandused, PVC-kanga lappimine, lukud, rihmad, kinnitused ja kulunud servade tugevdamine.",
+    "Tendid veoautohaagistele ja koormakatted ehitusprahile, puidule ning palkidele. Külg- ja katuselahendused, luukidega, tugevdatud õmblused, aas-, rihm- või konkskinnitused, soovi korral logotrükk.",
+    "PVC vahekardinad, katusealused, konteinerite katted, katted kuuridele ja muudele rajatistele. Liigutatavad kardinad rööbastel, läbipaistvad ribad ja kinnised lahendused ladudele, töökodadele ja autopesudele.",
+    "Me ei ehita ega paigalda PVC-halle (veel!), kuid kogu järelhooldus ja remont on meie töö: halli katete vahetus, lekkekohtade parandamine ja tormikahjustuste likvideerimine. Halli katte eluiga on 15–20 aastat. Katet tuleb pingutada 4× aastas ja kindlasti pärast suuremat tormi; kord aastas tee visuaalne kontroll — kontrolli katte pinget, trosse, polte, maakiile ja kinnitusi. Vajadusel lisame õhuavasid parema õhuringluse jaoks. Tuulise ilmaga hoia uksed suletuna — lahtine uks tõstab sisemist rõhku ja võib katuse lõhki rebida. Füüsilised kahjustused tuleb alati lasta koheselt parandada — hiljem on kulu kordades suurem. Suurte hallide juures käime üle Eesti, vajadusel ka saartel.",
+    "Põhja- ja aluskatted, viljasokid, lägamahutite katted ja muud lahendused põllu- ning metsamajandusse.",
+    "PVC-kangast torud, lõõtsad ja kanalid tööstuslikeks rakendusteks — eritellimusena Sinu mõõtude järgi.",
+    "Camo-katted militaarsõidukitele ja -rajatistele ning muud eriotstarbelised katted kaitsetööstusele.",
+    "Transpordi- ja seisukatted hobisõidukitele (lumesaanid, murutraktorid, mootorrattad), aluskatted mototehnikale (nt rallibokside põrandakatted, et õli ja vedelikud ei satuks loodusesse). PVC-kardinad ja -katted: tavalised, võrguga, kilega ja keevituskardinad. Lisaks erakliendi katted liivakastile, grillile, aiamööblile, basseinile ja tünnisaunale.",
+    "Reklaambännerid ja suuremõõdulised trükid PVC-kangale — vastupidavad ning ilmastikukindlad.",
+    "Müüme PVC-kangast ka metraažina — küsi sobivat materjali ja kogust.",
+    "Koolitame autojuhte katete õigeks kasutamiseks ja hoolduseks. (Sisu täpsustub kliendiga.)",
+    "Lahendused tehnikajuhtidele ja haldusjuhtidele — hoolduslepingud ja perioodiline kontroll. (Briif täpsustub kliendiga.)"
+  ],
+  "c_aboutEyebrow": "Meist",
+  "c_aboutHeading": "Eesti tootmine, aus käepigistus",
+  "c_aboutBody": "Katted24 OÜ on Eesti perefirma, mis tegeleb PVC-kangast toodete valmistamise, müügi ja remondiga alates 2010. aastast. Töökoda asub Tallinnas, Gaasi 7.\n\nMeie põhilised tooted on tendid veoautohaagistele, erinevad koormakatted ning vahekardinad. Lisaks toodame PVC-kangast katteid erinevatele kerghaagistele, veesõidukitele, tünnisaunadele ja basseinidele ning koduhoovidesse aiamaja-, grilli- ja liivakastikatteid.",
+  "c_aboutPhotoTag": "Katted24 töökoda · Tallinn",
+  "c_aboutSignatureName": "— Katted24 tiim",
+  "c_aboutSignatureRole": "Tallinn, Gaasi 7",
+  "c_aboutStatNums": [
+    "2010",
+    "15+ a",
+    "Eesti"
+  ],
+  "c_aboutStatLabels": [
+    "Asutatud Tallinnas",
+    "Kogemust PVC-toodetega",
+    "Oma tootmine, Gaasi 7"
+  ],
+  "c_valuesHeading": "Meie väärtused",
+  "c_valueTitles": [
+    "Kiirus",
+    "Kvaliteet",
+    "Ausus",
+    "Paindlikkus"
+  ],
+  "c_valueBodies": [
+    "Julgelt võime öelda, et meie juures valmivad katted kõige kiiremini.",
+    "Kvaliteetne käsitöö ja vastupidavad materjalid, mis kestavad aastaid.",
+    "Aus hinnastamine ja selge suhtlus — näitame materjali, töö ja transpordi maksumuse eraldi.",
+    "Suurim värvivalik Eestis ja valmidus lahendada ka kõige ebatavalisem soov."
+  ],
+  "c_inspirationEyebrow": "Inspiratsioon",
+  "c_inspirationHeading": "Vaata, mida PVC kangast saab teha",
+  "c_inspirationIntro": "Lai valik näiteid PVC katete kasutamisest — inspiratsiooniks ja ideede saamiseks.",
+  "c_faqEyebrow": "KKK",
+  "c_faqHeading": "Korduma kippuvad küsimused",
+  "c_faqIntro": "Levinumad küsimused hinna, tellimise ja valmistamise kohta.",
+  "c_faqQuestions": [
+    "Kuidas kujuneb katte hind?",
+    "Kuidas tellimine käib?",
+    "Kui kaua valmistamine võtab?",
+    "Kas pakute kohaletoimetamist ja paigaldust?",
+    "Millist materjali kasutate?"
+  ],
+  "c_faqAnswers": [
+    "Hind sõltub mõõtudest, materjalist ja kinnitustest. Saadame täpse pakkumise, kus materjali, töö ja transpordi maksumus on eraldi välja toodud. (Täpne hinnastamise loogika täpsustub kliendiga.)",
+    "Saada meile mõõdud ja foto või joonis ning saadame Sulle hinnapakkumise. (Tellimise protsess täpsustub kliendiga.)",
+    "Sõltub tootest ja mahust — täpse tähtaja anname pakkumisega. Kiireloomuliste tellimuste korral kiirendame võimalusel.",
+    "Jah, toome ja viime kogu Eesti piires, vajadusel ka saartel. Vajadusel paigaldame ja õpetame kasutuse selgeks.",
+    "Kasutame vastupidavat PVC-kangast (kuni 900 g/m²), UV-kindlaid materjale ja roostevabu kinnitusi."
+  ],
+  "c_formEyebrow": "Pakkumise päring",
+  "c_formTitle": "Saada mõõdud, saa täpne pakkumine",
+  "c_formLede": "Täida vorm — saadame Sulle e-kirjaga hinnapakkumise. Pakkumine on tasuta ja Sind ei kohusta millekski.",
+  "c_formBulletTitles": [
+    "Täpne hind",
+    "Eritellimus alati",
+    "Kvaliteetne käsitöö",
+    "Maksmise paindlikkus"
+  ],
+  "c_formBulletBodies": [
+    "näitame välja materjali, töö ja transpordi maksumuse eraldi",
+    "iga kate valmib Sinu mõõtude ja värvieelistuse järgi",
+    "vastupidavad materjalid ja tugevad õmblused — vajadusel parandame",
+    "ettemaks 30%, ülejäänud kättesaamisel — sularahas või arvega"
+  ],
+  "c_testimonialQuote": "",
+  "c_testimonialName": "",
+  "c_testimonialMeta": "",
+  "c_testimonialLocation": "",
+  "c_formCardHead": "Telli oma kate",
+  "c_formStepPill": "Tasuta · lihtne",
+  "c_formGroupLabels": [
+    "Toote andmed",
+    "Sinu kontakt"
+  ],
+  "c_formProductTypeLabel": "Mida soovid tellida?",
+  "c_formProductTypeOptions": [
+    "Vali toode…",
+    "Tend (veoauto või haagis)",
+    "Koormakate",
+    "Vahekardin",
+    "Kerghaagise kate",
+    "Paadi- või veesõiduki kate",
+    "Tünnisauna- või basseinikate",
+    "Aiamaja- või grillkate",
+    "Parandustöö",
+    "Muu / täpsustan kirjeldusena"
+  ],
+  "c_formFieldLabels": [
+    "Laius",
+    "Pikkus",
+    "Kõrgus",
+    "Eelistatud värv",
+    "Soovitud valmimine",
+    "Lisainfo, kinnitused, eritingimused",
+    "Ees- ja perekonnanimi",
+    "Telefon",
+    "E-post",
+    "Lisa fotod või joonised"
+  ],
+  "c_formFieldPlaceholders": [
+    "nt 4,2",
+    "nt 8,5",
+    "nt 2,4",
+    "nt sinine, must, valge…",
+    "Vali kuupäev",
+    "Nt. eelmine kate sai katki paremas servas, vajan luuke kahel pool…",
+    "Mari Tamm",
+    "+372 555 0000",
+    "mari@näide.ee",
+    ""
+  ],
+  "c_formOptionalLabel": "Valikuline",
+  "c_formValidationMessages": [
+    "Vali toote tüüp",
+    "Palun sisesta oma nimi",
+    "Kontrolli telefoninumbrit",
+    "Kontrolli e-posti",
+    "Vajalik",
+    "Vajalik"
+  ],
+  "c_formFootHelp": "Vajutades **Saada päring** nõustud, et võtame Sinuga ühendust pakkumise edastamiseks. Andmeid me kolmandatele osapooltele ei jaga.",
+  "c_formSubmitIdle": "Saada päring",
+  "c_formSubmitBusy": "Saatmine…",
+  "c_formSuccessTitle": "Pakkumine teel su postkasti",
+  "c_formSuccessBody": "Vaatame Sinu päringu üle ja saadame täpse hinnapakkumise esimesel võimalusel.",
+  "c_formSuccessRowTitles": [
+    "E-post:",
+    "Telefon:",
+    "Pakkumine on tasuta"
+  ],
+  "c_formSuccessRowBodies": [
+    "saadame kinnituse aadressile",
+    "helistame, kui vajame täpsustusi",
+    "ja Sind ei kohusta millekski"
+  ],
+  "c_formSuccessCardTitle": "Päring saadetud",
+  "c_formSuccessCardBody": "Tutvume andmetega ja saadame hinnapakkumise esimesel võimalusel.",
+  "c_formSuccessAgain": "Saada veel üks",
+  "c_teamEyebrow": "Meeskond",
+  "c_teamHeading": "Meie meeskond",
+  "c_teamIntro": "Väike, pühendunud tiim, kes teeb iga katte valmis Sinu mõõtude järgi.",
+  "c_teamNames": [
+    "Katted24 tootmine",
+    "Müük ja klienditugi"
+  ],
+  "c_teamRoles": [
+    "PVC-toodete valmistamine ja paigaldus",
+    "Pakkumised ja nõustamine"
+  ],
+  "c_mapEmbedUrl": "https://www.google.com/maps?q=Gaasi+7,+Tallinn,+Estonia&output=embed",
+  "c_careersEyebrow": "Karjäär",
+  "c_careersHeading": "Tule meie meeskonda",
+  "c_careersBody": "Meie meeskonda on alati oodatud inimesed, kes tahavad omandada PVC-katete valmistamist. Saada oma CV aadressile info@katted24.ee.",
+  "c_careersEmail": "info@katted24.ee",
+  "c_contactEyebrow": "Kontakt",
+  "c_contactHeading": "Helista, kirjuta või tule kohale",
+  "c_contactIntro": "Kõige kiiremini saad vastuse päringuvormi kaudu. Töökoda on avatud E–R, kohale tulles helista varem.",
+  "c_contactCallLabel": "Täida päringuvorm — vastame esimesel võimalusel",
+  "c_contactRowKeys": [
+    "Telefon",
+    "E-post",
+    "Aadress",
+    "Lahtiolekuajad"
+  ],
+  "c_contactRowValues": [
+    "+372 566 555 66",
+    "info@katted24.ee",
+    "Gaasi 7, Tallinn",
+    "E–R 9.00–17.00"
+  ],
+  "c_contactRowSmall": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "c_footerTagline": "PVC katted, tendid ja koormakatted. Eesti tootmine, eritellimused, üle Eesti kohaletoimetamine.",
+  "c_footerColHeadings": [
+    "Lehel",
+    "Kontakt",
+    "Keel"
+  ],
+  "c_footerLegalLine": "© 2026 Katted24 OÜ",
+  "c_footerLegalLinks": [
+    "Privaatsus",
+    "Tingimused",
+    "Küpsised"
+  ],
+  "c_metaDescription": "Katted24 OÜ valmistab PVC katteid eritellimusena — tendid, koormakatted, vahekardinad, paadi- ja saunakatted ning PVC-hallide hooldus. Küsi pakkumist.",
+  "c_keywords": [
+    "PVC katted",
+    "tendid",
+    "koormakatted",
+    "vahekardinad",
+    "PVC hallide remont",
+    "veesõidukite katted",
+    "eritellimus katted",
+    "Tallinn"
+  ],
+  "c_yearsExperience": "15",
+  "c_foundingYear": "2010",
+  "c_privacyPolicyContent": "Vastutav töötleja on Katted24 OÜ (Gaasi 7, Tallinn 11415). Kogume ainult andmeid, mille Sa ise päringuvormis edastad (nimi, telefon, e-post, toote kirjeldus), et Sulle pakkumist teha. Andmeid ei jagata kolmandatele osapooltele ega kasutata turunduslikuks profileerimiseks. Sul on õigus oma andmetega tutvuda, neid parandada ja kustutada — kirjuta info@katted24.ee. Järelevalveasutus on Andmekaitse Inspektsioon (info@aki.ee).",
+  "c_cookiesContent": "See veebileht kasutab ainult vajalikke küpsiseid ja — Sinu nõusolekul — Yexti esmapoolset analüütikat (lehevaated, klikid, seansi-ID, ligikaudne asukoht). Analüütikat ei käivitata enne nõustumist. Andmeid säilitatakse ~13 kuud. Saad oma valikut igal ajal muuta jaluse lingilt „Küpsiste seaded“.",
+  "c_cookieHeading": "Küpsised sellel veebilehel",
+  "c_cookieBody": "Kasutame vajalikke küpsiseid ja Sinu nõusolekul analüütikat, et lehte paremaks teha. Jälgimist ei toimu enne nõustumist.",
+  "c_cookieAcceptLabel": "Nõustu",
+  "c_cookieRejectLabel": "Keeldu",
+  "c_cookieLearnMore": "Loe privaatsuspoliitikat",
+  "c_policyHeading": "Privaatsus ja küpsised",
+  "c_policyPrivacyTab": "Privaatsus",
+  "c_policyCookiesTab": "Küpsised",
+  "c_policyClose": "Sulge",
+  "c_heroImage": {
+    "image": {
+      "url": "https://static.wixstatic.com/media/9022ee_1b169f214c754f899b265bd4b555b2ac~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+      "width": 1400,
+      "height": 900
+    }
+  },
+  "c_aboutPhoto": {
+    "image": {
+      "url": "https://static.wixstatic.com/media/9022ee_ea914aba911d4fe1951530e6a2d0bb53~mv2.jpg/v1/fill/w_1080,h_1350,al_c,q_85,enc_auto/.jpg",
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "c_inspirationGallery": [
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_1b169f214c754f899b265bd4b555b2ac~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Tendid ja koormakatted"
+      },
+      "description": "Tendid ja koormakatted"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_3b6eb78390ff4cf5bb4b67f902f211f6~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Kollane kerghaagise kate"
+      },
+      "description": "Kollane kerghaagise kate"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_6e138e7ade184e4f8e59f1ca4d487d70~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Must PVC järelhaagise kate"
+      },
+      "description": "Must PVC järelhaagise kate"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_90ef3abcfccc471c9019bd901365ae6b~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Sini-must-valge erilahendus"
+      },
+      "description": "Sini-must-valge erilahendus"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_8dda5be1166949749c3dae94a11a459e~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Läbipaistev kate aiamajale"
+      },
+      "description": "Läbipaistev kate aiamajale"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_909126281d24428f94551355fe9c8430~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "PVC parandustööd"
+      },
+      "description": "PVC parandustööd"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_f6c46cc3571f454a9e88d476b7a78c7c~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Sinine treileri kate"
+      },
+      "description": "Sinine treileri kate"
+    },
+    {
+      "image": {
+        "url": "https://static.wixstatic.com/media/9022ee_6f48f3d03dbc42afab4503a3b48d5625~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_85,enc_auto/.jpg",
+        "alternateText": "Punane kastikate"
+      },
+      "description": "Punane kastikate"
+    }
+  ]
+}
