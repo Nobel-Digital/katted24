@@ -184,9 +184,9 @@
   "c_faqHeading": "Korduma kippuvad küsimused",
   "c_faqIntro": "Levinumad küsimused hinna, tellimise ja valmistamise kohta.",
   "c_faqQuestions": [
-    "Kuidas kujuneb hind?",
-    "Kuidas tellimine käib?",
-    "Kuidas käib mõõtmine?",
+    "Hinnastamise loogika",
+    "Tellimise protsess",
+    "Mõõtmise protsess",
     "Kuidas toimub saatmine ja transport?",
     "Kui paks ja vastupidav on kate?",
     "Kas kate on veekindel?",
@@ -201,9 +201,9 @@
     "Kas toodate ka vana katte järgi?"
   ],
   "c_faqAnswers": [
-    "Iga projekt on erinev, mistõttu saame anda täpse hinnapakkumise alles pärast vajaliku info saamist. Selleks palume edastada:\n\n• Mõõdud — täpsed mõõdud tagavad korrektse hinnastuse ja sobiva lõpptulemuse.\n• Visand või joonis — lihtne käsitsi tehtud visand sobib suurepäraselt.\n• Fotod kohast või esemest, kuhu katet soovite — soovitavalt 2–3 pilti erinevatest külgedest, et mõista konteksti ja eripärasid.\n• Soovitud värvus — värv mõjutab nii materjali valikut kui ka lõplikku hinda.\n\nKui kõik vajalik info on olemas, saame koostada täpse ja kiire hinnapakkumise.",
-    "Tellimine on lihtne ja kiire. Täpse tulemuse tagamiseks toimub protsess järgmiste sammudena:\n\n• Info edastamine — klient saadab meile mõõdud, 2–3 fotot paigalduskohast ning soovitud värvuse. Soovi korral võib lisada ka visandi või joonise.\n• Meistri täpsustused — meister võtab kliendiga ühendust, et ühiselt üle kontrollida mõõdud, eripärad ja kõik olulised detailid enne töö alustamist.\n• Valmimisaja kinnitamine — kui kõik andmed on täpsustatud, annab meister teada orienteeruva valmimisaja ning kate läheb tootmisse.",
-    "Täpsed mõõdud on kvaliteetse tulemuse alus. Kui klient ei ole kindel, kuidas mõõte võtta:\n\n• Telefoninõustamine — meister selgitab telefoni teel samm sammult, kuidas vajalikud mõõdud õigesti võtta, et tagada täpne sobivus ja ilus lõpptulemus.\n• Kohapealne mõõtmine — soovi korral tuleme ise kohale ja võtame mõõdud professionaalselt. Teenuse hind lepitakse eelnevalt kokku, sõltuvalt objekti asukohast.",
+    "Iga projekt on erinev, mistõttu saame anda täpse hinnapakkumise alles pärast vajaliku info saamist. Selleks palume edastada:\n\n• **Mõõdud** Täpsed mõõdud tagavad korrektse hinnastuse ja sobiva lõpptulemuse.\n• **Visand või joonis** Lihtne käsitsi tehtud visand sobib suurepäraselt.\n• **Fotod kohast või esemest, kuhu katet soovite** Soovitavalt 2–3 pilti erinevatest külgedest, et mõista konteksti ja eripärasid.\n• **Soovitud värvus** Värv mõjutab nii materjali valikut kui ka lõplikku hinda.\n\nKui kõik vajalik info on olemas, saame koostada täpse ja kiire hinnapakkumise.",
+    "Tellimine on lihtne ja kiire. Täpse tulemuse tagamiseks toimub protsess järgmiste sammudena:\n\n• **Info edastamine** Klient saadab meile mõõdud, 2–3 fotot paigalduskohast ning soovitud värvuse. Soovi korral võib lisada ka visandi või joonise.\n• **Meistri täpsustused** Meister võtab kliendiga ühendust, et ühiselt üle kontrollida mõõdud, eripärad ja kõik olulised detailid enne töö alustamist.\n• **Valmimisaja kinnitamine** Kui kõik andmed on täpsustatud, annab meister teada orienteeruva valmimisaja ning kate läheb tootmisse.",
+    "Täpsed mõõdud on kvaliteetse tulemuse alus. Kui klient ei ole kindel, kuidas mõõte võtta, siis:\n\n• **Telefoninõustamine** Meister selgitab telefoni teel samm sammult, kuidas vajalikud mõõdud õigesti võtta, et tagada täpne sobivus ja ilus lõpptulemus.\n• **Kohapealne mõõtmine** Soovi korral tuleme ise kohale ja võtame mõõdud professionaalselt. Teenuse hind lepitakse eelnevalt kokku, sõltuvalt objekti asukohast.",
     "Väiksemad pakid saadame üle Eesti pakiautomaatidesse. Suuremad tooted liiguvad kas Cargobusi esindusse või Jet Expressi kulleriga otse teie koju või tehasesse. Transpordiviis sõltub toote mõõtudest ja kaalust — leiame alati kõige mugavama lahenduse.",
     "Kasutame kvaliteetseid ja vastupidavaid materjale, mis taluvad igapäevast kasutust, niiskust ja välitingimusi. Materjali paksus ja tugevus sõltub valitud kangast, kuid kõik variandid on mõeldud pikaajaliseks kasutamiseks.",
     "Kõik katted on veekindlad või vett hülgavad, mis vastavad kliendi vajadustele ja kasutuskohale.",

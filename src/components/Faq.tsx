@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { Katted24Entity } from "@/types/entity";
 import { zipParallel } from "@/types/entity";
+import { renderBold } from "@/lib/text";
 import { Icon } from "./Icon";
 
 type Props = { entity: Katted24Entity };
@@ -28,7 +29,7 @@ export function Faq({ entity }: Props) {
                   <span className="acc-title">{it.q}</span>
                   <span className="acc-sign"><Icon.plus style={{ width: 18, height: 18 }} /></span>
                 </button>
-                <div className="acc-body"><div className="acc-body-inner">{it.a}</div></div>
+                <div className="acc-body"><div className="acc-body-inner">{renderBold(it.a)}</div></div>
               </div>
             );
           })}

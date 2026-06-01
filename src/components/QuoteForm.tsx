@@ -1,17 +1,12 @@
-import { useState, Fragment } from "react";
+import { useState } from "react";
 import type { Katted24Entity } from "@/types/entity";
 import { zipParallel } from "@/types/entity";
+import { renderBold } from "@/lib/text";
 import { Icon } from "./Icon";
 
 // Code-side field order — content lists (c_formFieldLabels / placeholders) follow this order.
 const FIELD_KEYS = ["width", "length", "height", "color", "deadline", "info", "name", "phone", "email", "files"] as const;
 type FieldKey = (typeof FIELD_KEYS)[number];
-
-function renderBold(str: string) {
-  return str.split(/(\*\*[^*]+\*\*)/).map((p, i) =>
-    p.startsWith("**") && p.endsWith("**") ? <b key={i}>{p.slice(2, -2)}</b> : <Fragment key={i}>{p}</Fragment>,
-  );
-}
 
 type Props = { entity: Katted24Entity };
 
