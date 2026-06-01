@@ -616,6 +616,7 @@
     .contact-grid { grid-template-columns: 1fr; }
     .foot-grid { grid-template-columns: 1fr 1fr; }
     .nav-links { display: none; }
+    .hamburger { display: inline-flex; }
   }
   @media (max-width: 640px) {
     .wrap { padding: 0 18px; }
@@ -624,7 +625,6 @@
     .lang-switch { display: none; }
     .nav-cta span:not(.arrow) { display: none; }
     .nav-cta { padding: 9px 12px; }
-    .hamburger { display: inline-flex; }
     .field-row.cols-2, .field-row.cols-3 { grid-template-columns: 1fr; }
     .form-card { padding: 22px; }
     .products-grid { grid-template-columns: 1fr; }

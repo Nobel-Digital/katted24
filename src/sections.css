@@ -131,3 +131,61 @@
   .cookie-actions { justify-content: stretch; }
   .cookie-btn { flex: 1; }
 }
+
+/* ---------- logo (image variant — used when Yext logo field is set) ---------- */
+.logo-image { display: inline-flex; align-items: center; }
+.logo-image img { display: block; height: 40px; width: auto; max-width: 220px; }
+/* The uploaded brand logo is white-on-transparent. Invert it on light-background
+   nav states (scrolled past hero, or while the mobile menu drawer is open) so it
+   stays visible. Footer stays dark — no filter applied there. */
+.nav.scrolled .logo-image img,
+.nav.menu-open .logo-image img { filter: invert(1); }
+
+/* ---------- mobile menu (hamburger drawer) ---------- */
+.mobile-menu {
+  position: fixed; inset: 64px 0 0 0; z-index: 49;
+  background: #fff; padding: 28px 24px 36px;
+  display: flex; flex-direction: column; gap: 22px;
+  overflow-y: auto;
+  animation: mm-in 200ms ease;
+}
+@keyframes mm-in { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+.mobile-menu-links { display: flex; flex-direction: column; }
+.mobile-menu-links a {
+  font-size: 22px; font-weight: 600; color: var(--ink); text-decoration: none;
+  padding: 18px 0; border-bottom: 1px solid var(--line-2); letter-spacing: -0.015em;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.mobile-menu-links a::after { content: "›"; color: var(--ink-3); font-weight: 400; font-size: 22px; }
+.mobile-menu-links a:hover { color: var(--brand-soft); }
+.mobile-menu-lang {
+  display: flex; gap: 8px; flex-wrap: wrap; padding-top: 6px;
+}
+.mobile-lang-btn {
+  flex: 1; min-width: 0;
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 12px 14px; border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #fff; color: var(--ink);
+  text-decoration: none; font-size: 14px; font-weight: 600;
+}
+.mobile-lang-btn.active { background: var(--brand); color: #fff; border-color: var(--brand); }
+.mobile-lang-btn .mobile-lang-code { font-weight: 700; letter-spacing: 0.04em; }
+.mobile-lang-btn .mobile-lang-name { color: var(--ink-2); font-weight: 500; }
+.mobile-lang-btn.active .mobile-lang-name { color: rgba(255,255,255,0.85); }
+.mobile-menu-cta { justify-content: center; margin-top: 8px; }
+
+/* Hamburger bars animate into an X when the menu is open */
+.hamburger span::before, .hamburger span::after {
+  transition: transform 200ms ease, top 200ms ease;
+}
+.hamburger.open span { background: transparent; }
+.hamburger.open span::before { transform: rotate(45deg);  top: 0; }
+.hamburger.open span::after  { transform: rotate(-45deg); top: 0; }
+
+/* When the menu is open: header bg becomes white (overrides the dark hero nav state). */
+.nav.menu-open { background: #fff; color: var(--ink); border-bottom-color: var(--line-2); }
+.nav.menu-open .hamburger { background: var(--bg-soft); border-color: var(--line); color: var(--ink); }
+.nav.menu-open .lang-switch { background: rgba(20,24,26,0.04); border-color: var(--line); }
+.nav.menu-open .lang-btn.active { background: var(--brand); color: #fff; }
+.nav.menu-open .nav-cta { background: var(--brand); border-color: var(--brand); color: #fff; }
