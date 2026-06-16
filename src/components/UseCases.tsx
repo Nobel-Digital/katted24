@@ -19,7 +19,7 @@ export function UseCases({ entity }: Props) {
           ))}
         </div>
         <div className="usecase-repair">
-          <h3 className="serif">{entity.c_repairHeading}</h3>
+          <h3>{entity.c_repairHeading}</h3>
           <div className="chips">
             {entity.c_repairItems.map((item, i) => (
               <span className="chip" key={i}>{item}</span>
