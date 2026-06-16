@@ -14,11 +14,11 @@ export function Solutions({ entity }: Props) {
   const [open, setOpen] = useState(0);
 
   return (
-    <section className="section-pad" id="solutions" style={{ background: "var(--bg)" }}>
+    <section className="section-pad section-dark" id="solutions">
       <div className="wrap">
         <div className="section-head">
           <div>
-            <span className="eyebrow">{entity.c_solutionsEyebrow}</span>
+            <span className="eyebrow on-dark">{entity.c_solutionsEyebrow}</span>
             <h2 style={{ marginTop: 18 }}>{entity.c_solutionsHeading}</h2>
           </div>
           <div className="sh-right">{entity.c_solutionsIntro}</div>

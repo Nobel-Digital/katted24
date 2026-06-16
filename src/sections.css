@@ -25,6 +25,26 @@
 .usecase-repair h3 { font-size: clamp(22px, 2.4vw, 28px); letter-spacing: -0.02em; margin-bottom: 16px; }
 .usecase-repair .chip { background: var(--bg-soft); }
 
+/* ---------- dark section modifier ---------- */
+.section-dark { background: var(--brand) !important; border-top-color: transparent !important; }
+.section-dark h2,
+.section-dark h3 { color: #fff; }
+.section-dark h2 .serif { color: rgba(255,255,255,0.55) !important; }
+.section-dark .section-head .sh-right { color: rgba(255,255,255,0.58); }
+.section-dark .vp-card { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); }
+.section-dark .vp-card h3 { color: #fff; }
+.section-dark .vp-card p { color: rgba(255,255,255,0.62); }
+.section-dark .vp-card .vp-n { color: rgba(255,255,255,0.3); }
+.section-dark .acc { border-top-color: rgba(255,255,255,0.12); }
+.section-dark .acc-item { border-bottom-color: rgba(255,255,255,0.12); }
+.section-dark .acc-head { color: #fff; }
+.section-dark .acc-head:hover { color: rgba(255,255,255,0.72); }
+.section-dark .acc-tag { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.65); }
+.section-dark .acc-title { color: #fff; }
+.section-dark .acc-sign { color: rgba(255,255,255,0.45); }
+.section-dark .acc-item.open .acc-sign { color: #fff; }
+.section-dark .acc-body-inner { color: rgba(255,255,255,0.62); }
+
 /* ---------- accordion (solutions VAADE4 + FAQ VAADE7) ---------- */
 .acc { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
 .acc-item { border-bottom: 1px solid var(--line); }
