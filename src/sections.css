@@ -26,7 +26,7 @@
 .usecase-repair .chip { background: var(--bg-soft); }
 
 /* ---------- dark section modifier ---------- */
-.section-dark { background: var(--brand) !important; border-top-color: transparent !important; }
+.section-dark { background: #14181a !important; border-top-color: transparent !important; }
 .section-dark h2,
 .section-dark h3 { color: #fff; }
 .section-dark h2 .serif { color: rgba(255,255,255,0.55) !important; }
@@ -97,7 +97,7 @@
 /* ---------- careers (VAADE11) ---------- */
 .careers-band {
   display: grid; grid-template-columns: minmax(0,1.4fr) auto; gap: 32px; align-items: center;
-  background: var(--brand); color: #fff; border-radius: 16px; padding: 40px 44px;
+  background: #14181a; color: #fff; border-radius: 16px; padding: 40px 44px;
 }
 .careers-band h2 { color: #fff; font-size: clamp(28px, 3.4vw, 40px); }
 .careers-band p { color: rgba(255,255,255,0.82); font-size: 17px; line-height: 1.55; margin-top: 12px; max-width: 52ch; }
