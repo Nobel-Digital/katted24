@@ -44,6 +44,10 @@
 .section-dark .acc-sign { color: rgba(255,255,255,0.45); }
 .section-dark .acc-item.open .acc-sign { color: #fff; }
 .section-dark .acc-body-inner { color: rgba(255,255,255,0.62); }
+.section-dark .form-side .lede { color: rgba(255,255,255,0.72); }
+.section-dark .form-bullets li { color: rgba(255,255,255,0.82); }
+.section-dark .form-bullets .check { background: rgba(255,255,255,0.12); color: #fff; }
+.section-dark .form-card { background: #fff; } /* card stays white for contrast */
 
 /* ---------- accordion (solutions VAADE4 + FAQ VAADE7) ---------- */
 .acc { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
