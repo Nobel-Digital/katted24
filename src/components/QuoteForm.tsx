@@ -62,10 +62,10 @@ export function QuoteForm({ entity }: Props) {
 
   if (done) {
     return (
-      <section className="form-section section-pad" id="form">
+      <section className="form-section section-pad section-dark" id="form">
         <div className="wrap"><div className="form-grid">
           <div className="form-side">
-            <span className="eyebrow">{entity.c_formEyebrow}</span>
+            <span className="eyebrow on-dark">{entity.c_formEyebrow}</span>
             <h2 style={{ marginTop: 18 }}><span className="serif">{entity.c_formSuccessTitle}</span></h2>
             <p className="lede" style={{ marginTop: 18 }}>{entity.c_formSuccessBody}</p>
             <ul className="form-bullets" style={{ marginTop: 28 }}>
@@ -95,7 +95,7 @@ export function QuoteForm({ entity }: Props) {
   const Opt = () => <span className="opt">{entity.c_formOptionalLabel}</span>;
 
   return (
-    <section className="form-section section-pad" id="form">
+    <section className="form-section section-pad section-dark" id="form">
       <div className="wrap"><div className="form-grid">
         <div className="form-side">
           <span className="eyebrow">{entity.c_formEyebrow}</span>
