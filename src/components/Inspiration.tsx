@@ -5,11 +5,11 @@ type Props = { entity: Katted24Entity };
 export function Inspiration({ entity }: Props) {
   const gallery = entity.c_inspirationGallery ?? [];
   return (
-    <section className="insp-section section-pad" id="inspiration">
+    <section className="insp-section section-pad section-dark" id="inspiration">
       <div className="wrap">
         <div className="section-head">
           <div>
-            <span className="eyebrow">{entity.c_inspirationEyebrow}</span>
+            <span className="eyebrow on-dark">{entity.c_inspirationEyebrow}</span>
             <h2 style={{ marginTop: 18 }}>{entity.c_inspirationHeading}</h2>
           </div>
           <div className="sh-right">{entity.c_inspirationIntro}</div>

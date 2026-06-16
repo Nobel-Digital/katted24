@@ -67,7 +67,7 @@
 .acc-body-inner { padding: 0 8px 26px; color: var(--ink-2); font-size: 16px; line-height: 1.6; max-width: 78ch; white-space: pre-line; }
 
 /* ---------- inspiration gallery (VAADE6) ---------- */
-.insp-section { background: #fff; }
+.insp-section { background: #fff; } /* overridden by .section-dark when applied */
 .insp-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .insp-item {
   position: relative; overflow: hidden; border-radius: 14px; aspect-ratio: 4/3;
