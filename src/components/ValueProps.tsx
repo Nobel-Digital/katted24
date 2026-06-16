@@ -16,7 +16,6 @@ export function ValueProps({ entity }: Props) {
         <div className="vp-grid">
           {items.map((it, i) => (
             <div className="vp-card" key={i}>
-              <span className="vp-n">{String(i + 1).padStart(2, "0")}</span>
               <h3>{it.title}</h3>
               <p>{it.body}</p>
             </div>
