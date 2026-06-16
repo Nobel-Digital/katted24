@@ -171,6 +171,7 @@
   .hero h1 .accent { color: var(--accent); font-weight: 700; }
   .hero p.lede { margin-top: 22px; font-size: clamp(17px, 1.4vw, 20px); line-height: 1.45; color: rgba(255,255,255,0.82); max-width: 50ch; }
   .hero-actions { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .hero-actions .btn { white-space: nowrap; }
   .btn {
     appearance: none; border: 0; cursor: pointer;
     padding: 16px 22px; border-radius: 999px;
