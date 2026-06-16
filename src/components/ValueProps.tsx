@@ -6,7 +6,7 @@ type Props = { entity: Katted24Entity };
 export function ValueProps({ entity }: Props) {
   const items = zipParallel({ title: entity.c_valuePropTitles, body: entity.c_valuePropBodies });
   return (
-    <section className="vp-section section-pad section-dark">
+    <section className="vp-section section-pad">
       <div className="wrap">
         <div className="section-head">
           <div>
