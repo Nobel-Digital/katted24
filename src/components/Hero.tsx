@@ -29,11 +29,11 @@ export function Hero({ entity, locale }: Props) {
             <h1 style={{ marginTop: entity.c_heroEyebrow ? 18 : 0 }}>{entity.c_heroTitle}</h1>
             <p className="lede">{entity.c_heroLede}</p>
             <div className="hero-actions">
-              <a href="#form" className="btn btn-primary btn-lg">
+              <a href="#form" className="btn btn-primary">
                 {entity.c_ctaPrimaryLabel}
                 <Icon.arrow className="arrow" />
               </a>
-              <a href="#solutions" className="btn btn-ghost btn-lg">
+              <a href="#solutions" className="btn btn-ghost">
                 {entity.c_ctaSecondaryLabel}
                 <Icon.arrow className="arrow" />
               </a>
