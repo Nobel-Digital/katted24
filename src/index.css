@@ -162,7 +162,7 @@
   }
   .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 48px; align-items: end; }
   .hero h1 {
-    font-size: clamp(54px, 8.4vw, 116px);
+    font-size: clamp(38px, 5.5vw, 76px);
     line-height: 0.93; letter-spacing: -0.04em; font-weight: 700;
     max-width: 12ch;
     text-wrap: balance;
@@ -621,7 +621,7 @@
   @media (max-width: 640px) {
     .wrap { padding: 0 18px; }
     .hero { padding-top: 110px; padding-bottom: 36px; min-height: 92svh; }
-    .hero h1 { font-size: clamp(46px, 13vw, 72px); }
+    .hero h1 { font-size: clamp(32px, 10vw, 52px); }
     .lang-switch { display: none; }
     .nav-cta span:not(.arrow) { display: none; }
     .nav-cta { padding: 9px 12px; }

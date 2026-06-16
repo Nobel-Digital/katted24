@@ -50,7 +50,7 @@ export function Hero({ entity, locale }: Props) {
         <div className="trust-strip">
           {trust.map((t, i) => (
             <div key={i}>
-              <span className="label">{t.label}</span>
+              <span className="label">{t.label.replace(/^\d+\s*[—–-]\s*/, "")}</span>
               <span className="value">{t.value}</span>
             </div>
           ))}
