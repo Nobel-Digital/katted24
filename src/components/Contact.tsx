@@ -12,7 +12,7 @@ export function Contact({ entity }: Props) {
         <div className="section-head">
           <div>
             <span className="eyebrow">{entity.c_contactEyebrow}</span>
-            <h2 style={{ marginTop: 18 }}><span className="serif">{entity.c_contactHeading}</span></h2>
+            <h2 style={{ marginTop: 18 }}>{entity.c_contactHeading}</h2>
           </div>
           <div className="sh-right">{entity.c_contactIntro}</div>
         </div>

@@ -25,7 +25,7 @@ export function About({ entity }: Props) {
           </div>
           <div className="about-copy">
             <span className="eyebrow">{entity.c_aboutEyebrow}</span>
-            <h2 style={{ marginTop: 18 }}><span className="serif">{entity.c_aboutHeading}</span></h2>
+            <h2 style={{ marginTop: 18 }}>{entity.c_aboutHeading}</h2>
             {paras.map((p, i) => (<p key={i} style={i === 0 ? { marginTop: 28 } : undefined}>{p}</p>))}
             <div className="signature">
               <span className="scribble">{entity.c_aboutSignatureName}</span>
