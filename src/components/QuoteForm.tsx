@@ -142,7 +142,7 @@ export function QuoteForm({ entity }: Props) {
             <div className="field-row cols-3" style={{ marginTop: 14 }}>
               {(["width", "length", "height"] as FieldKey[]).map((k) => (
                 <div className={fieldClass(k)} key={k}>
-                  <label htmlFor={k}><span>{label(k)}{k !== "height" ? <span className="req">*</span> : null}</span>{k === "height" ? <Opt /> : null}</label>
+                  <label htmlFor={k}><span>{label(k)}</span><Opt /></label>
                   <input id={k} name={k} type="number" inputMode="decimal" value={v[k]} onChange={update(k)} placeholder={ph(k)} />
                   <span className="suffix">m</span>
                   <Err k={k} />
