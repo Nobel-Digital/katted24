@@ -327,7 +327,7 @@
   .submit-btn {
     appearance: none; border: 0; cursor: pointer;
     background: var(--brand); color: #fff;
-    padding: 16px 24px; border-radius: 10px;
+    padding: 16px 24px; border-radius: 999px;
     font-size: 16px; font-weight: 600; letter-spacing: -0.005em;
     display: inline-flex; align-items: center; gap: 12px;
     transition: background 180ms ease, transform 160ms ease, box-shadow 180ms ease;
@@ -546,7 +546,7 @@
   }
   .contact-call {
     display: flex; align-items: center; justify-content: space-between; gap: 24px;
-    padding: 22px 26px; background: var(--brand); color: #fff; border-radius: 12px;
+    padding: 22px 26px; background: var(--brand); color: #fff; border-radius: 999px;
     text-decoration: none;
     transition: background 180ms ease, transform 160ms ease;
   }
