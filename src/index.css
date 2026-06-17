@@ -132,7 +132,7 @@
   .nav-cta:hover { background: rgba(255,255,255,0.16); }
   .nav.scrolled .nav-cta { background: var(--brand); border-color: var(--brand); color: #fff; }
   .nav.scrolled .nav-cta:hover { background: var(--brand-soft); }
-  .nav-cta .arrow { transition: transform 180ms ease; }
+  .nav-cta .arrow { transition: transform 180ms ease; width: 16px; height: 16px; flex-shrink: 0; }
   .nav-cta:hover .arrow { transform: translateX(2px); }
 
   .hamburger { display: none; width: 38px; height: 38px; border-radius: 10px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); align-items: center; justify-content: center; cursor: pointer; }
