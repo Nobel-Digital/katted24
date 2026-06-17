@@ -167,8 +167,8 @@
 
 /* ---------- mobile menu (hamburger drawer) ---------- */
 .mobile-menu {
-  position: fixed; inset: 64px 0 0 0; z-index: 49;
-  background: #fff; padding: 28px 24px 36px;
+  position: fixed; inset: 0 0 0 0; z-index: 49;
+  background: #fff; padding: 72px 24px 36px;
   display: flex; flex-direction: column; gap: 22px;
   overflow-y: auto;
   animation: mm-in 200ms ease;
@@ -187,16 +187,15 @@
 }
 .mobile-lang-btn {
   flex: 1; min-width: 0;
-  display: inline-flex; align-items: center; gap: 10px;
-  padding: 12px 14px; border-radius: 12px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  padding: 10px 12px; border-radius: 999px;
   border: 1px solid var(--line);
   background: #fff; color: var(--ink);
-  text-decoration: none; font-size: 14px; font-weight: 600;
+  text-decoration: none; font-size: 13px; font-weight: 700;
 }
 .mobile-lang-btn.active { background: var(--brand); color: #fff; border-color: var(--brand); }
 .mobile-lang-btn .mobile-lang-code { font-weight: 700; letter-spacing: 0.04em; }
-.mobile-lang-btn .mobile-lang-name { color: var(--ink-2); font-weight: 500; }
-.mobile-lang-btn.active .mobile-lang-name { color: rgba(255,255,255,0.85); }
+.mobile-lang-btn .mobile-lang-name { display: none; }
 .mobile-menu-cta { justify-content: center; margin-top: 8px; }
 
 /* Hamburger bars animate into an X when the menu is open */
