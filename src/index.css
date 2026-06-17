@@ -125,6 +125,7 @@
     padding: 9px 16px 9px 18px; border-radius: 999px;
     font-size: 13px; font-weight: 600; letter-spacing: -0.005em;
     cursor: pointer; display: inline-flex; align-items: center; gap: 8px;
+    white-space: nowrap;
     transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
     text-decoration: none;
   }
