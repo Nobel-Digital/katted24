@@ -51,8 +51,8 @@
   .eyebrow.on-dark::before { background: rgba(255,255,255,0.5); }
 
   h1, h2, h3 { margin: 0; letter-spacing: -0.025em; line-height: 1.02; font-weight: 700; }
-  h2 { font-size: clamp(36px, 5vw, 64px); letter-spacing: 0.04em; line-height: 1; text-transform: uppercase; }
-  h3 { font-size: clamp(20px, 2vw, 24px); letter-spacing: -0.015em; line-height: 1.2; font-weight: 600; }
+  h2 { font-size: clamp(26px, 3vw, 44px); letter-spacing: 0.04em; line-height: 1; text-transform: uppercase; }
+  h3 { font-size: clamp(18px, 1.8vw, 22px); letter-spacing: -0.015em; line-height: 1.2; font-weight: 600; }
   p  { margin: 0; }
 
   /* ---------- layout ---------- */
@@ -164,7 +164,7 @@
   .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 48px; align-items: end; }
   .hero h1 {
     font-size: clamp(38px, 5.5vw, 76px);
-    line-height: 0.93; letter-spacing: -0.04em; font-weight: 700;
+    line-height: 0.93; letter-spacing: 0.02em; font-weight: 700; text-transform: uppercase;
     max-width: 12ch;
     text-wrap: balance;
   }
@@ -351,7 +351,6 @@
     padding: 110px 0;
     position: relative;
   }
-  .products-section h2 { font-size: clamp(36px, 5vw, 60px); }
   .products-section h2 .serif { color: var(--ink-2); }
   .products-section .section-head { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr); margin-bottom: 56px; }
 
