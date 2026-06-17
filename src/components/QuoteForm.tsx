@@ -66,7 +66,7 @@ export function QuoteForm({ entity }: Props) {
         <div className="wrap"><div className="form-grid">
           <div className="form-side">
             <span className="eyebrow on-dark">{entity.c_formEyebrow}</span>
-            <h2 style={{ marginTop: 18 }}><span className="serif">{entity.c_formSuccessTitle}</span></h2>
+            <h2 style={{ marginTop: 18 }}>{entity.c_formSuccessTitle}</h2>
             <p className="lede" style={{ marginTop: 18 }}>{entity.c_formSuccessBody}</p>
             <ul className="form-bullets" style={{ marginTop: 28 }}>
               {successRows.map((r, i) => (
@@ -99,7 +99,7 @@ export function QuoteForm({ entity }: Props) {
       <div className="wrap"><div className="form-grid">
         <div className="form-side">
           <span className="eyebrow">{entity.c_formEyebrow}</span>
-          <h2 style={{ marginTop: 18 }}><span className="serif">{entity.c_formTitle}</span></h2>
+          <h2 style={{ marginTop: 18 }}>{entity.c_formTitle}</h2>
           <p className="lede" style={{ marginTop: 22 }}>{entity.c_formLede}</p>
           <ul className="form-bullets">
             {bullets.map((b, i) => (

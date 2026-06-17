@@ -10,7 +10,7 @@ export function ValueProps({ entity }: Props) {
       <div className="wrap">
         <div className="section-head">
           <div>
-            <h2><span className="serif">{entity.c_valuePropsHeading}</span></h2>
+            <h2>{entity.c_valuePropsHeading}</h2>
           </div>
         </div>
         <div className="vp-grid">

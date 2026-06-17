@@ -51,7 +51,7 @@
   .eyebrow.on-dark::before { background: rgba(255,255,255,0.5); }
 
   h1, h2, h3 { margin: 0; letter-spacing: -0.025em; line-height: 1.02; font-weight: 700; }
-  h2 { font-size: clamp(36px, 5vw, 64px); letter-spacing: -0.03em; line-height: 1; }
+  h2 { font-size: clamp(36px, 5vw, 64px); letter-spacing: 0.04em; line-height: 1; text-transform: uppercase; }
   h3 { font-size: clamp(20px, 2vw, 24px); letter-spacing: -0.015em; line-height: 1.2; font-weight: 600; }
   p  { margin: 0; }
 
