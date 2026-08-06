@@ -5,7 +5,7 @@ import type { Katted24Entity } from "@/types/entity";
 import type { SolutionEntity } from "@/types/entity";
 import { Icon } from "./Icon";
 
-const THUMB_COUNT = 4;
+const THUMB_COUNT = 6;
 
 type Props = { entity: Katted24Entity; locale: string };
 
