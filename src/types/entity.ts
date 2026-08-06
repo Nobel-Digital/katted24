@@ -23,11 +23,25 @@ export type YextAddress = {
   countryCode?: string;
 };
 
-/**
- * The `location` entity once the Yext stream resolves. Every viewable on-site
- * string is a custom field; repeating items are parallel string lists zipped at
- * render time (structs are unavailable on this tier).
- */
+/** A single photo from a Photo Gallery field (no wrapper). */
+export type YextPhotoGalleryItem = {
+  url: string;
+  width?: number;
+  height?: number;
+  alternateText?: string;
+};
+
+/** A `ce_solution` linked entity. */
+export type SolutionEntity = {
+  id: string;
+  name?: string;
+  c_solutionTags?: string[];
+  c_solutionTitles?: string[];
+  c_solutionBodies?: string[];
+  c_solutionGallery?: YextPhotoGalleryItem[];
+};
+
+
 export type Katted24Entity = {
   // Built-in identity
   id: string;
@@ -70,13 +84,11 @@ export type Katted24Entity = {
   c_repairHeading: string;
   c_repairItems: string[];
 
-  // Solutions (VAADE4) — 13 categories
+  // Solutions (VAADE4)
   c_solutionsEyebrow: string;
   c_solutionsHeading: string;
   c_solutionsIntro: string;
-  c_solutionTags: string[];
-  c_solutionTitles: string[];
-  c_solutionBodies: string[];
+  c_solutions?: SolutionEntity[];
 
   // About (VAADE5)
   c_aboutEyebrow: string;

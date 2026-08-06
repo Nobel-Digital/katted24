@@ -66,9 +66,22 @@
 .acc-title { flex: 1; font-size: clamp(18px, 2vw, 22px); font-weight: 600; letter-spacing: -0.015em; }
 .acc-sign { flex: 0 0 auto; width: 28px; height: 28px; display: grid; place-items: center; color: var(--ink-3); transition: transform 200ms ease; }
 .acc-item.open .acc-sign { transform: rotate(45deg); color: var(--brand); }
-.acc-body { overflow: hidden; max-height: 0; transition: max-height 260ms ease; }
-.acc-item.open .acc-body { max-height: 1200px; }
+.acc-body { overflow: hidden; max-height: 0; transition: max-height 360ms ease; }
+.acc-item.open .acc-body { max-height: 2000px; }
 .acc-body-inner { padding: 0 8px 26px; color: var(--ink-2); font-size: 16px; line-height: 1.6; max-width: 78ch; white-space: pre-line; }
+
+/* ---------- solution gallery thumbnails ---------- */
+.sol-gallery { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+.sol-thumb {
+  position: relative; width: 100px; height: 72px; border-radius: 8px;
+  overflow: hidden; cursor: pointer; flex-shrink: 0;
+}
+.sol-thumb-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transition: transform 220ms ease; }
+.sol-thumb:hover .sol-thumb-bg { transform: scale(1.06); }
+.sol-thumb-more {
+  position: absolute; inset: 0; background: rgba(0,0,0,0.55);
+  display: grid; place-items: center; color: #fff; font-size: 15px; font-weight: 700;
+}
 
 /* ---------- inspiration gallery (VAADE6) ---------- */
 .insp-section { background: #fff; } /* overridden by .section-dark when applied */
