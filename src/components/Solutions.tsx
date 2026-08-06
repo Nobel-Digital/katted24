@@ -1,16 +1,53 @@
 import { useState } from "react";
-import type { Katted24Entity, Locale } from "@/types/entity";
-import { zipParallel } from "@/types/entity";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import type { Katted24Entity } from "@/types/entity";
+import type { SolutionEntity } from "@/types/entity";
 import { Icon } from "./Icon";
 
-type Props = { entity: Katted24Entity; locale: Locale };
+const THUMB_COUNT = 4;
+
+type Props = { entity: Katted24Entity; locale: string };
+
+function SolutionGallery({ solution }: { solution: SolutionEntity }) {
+  const photos = solution.c_solutionGallery ?? [];
+  const [lbIndex, setLbIndex] = useState(-1);
+
+  if (photos.length === 0) return null;
+
+  const slides = photos.map((p) => ({ src: p.url, alt: p.alternateText ?? "" }));
+  const visible = photos.slice(0, THUMB_COUNT);
+  const extra = photos.length - THUMB_COUNT;
+
+  return (
+    <div className="sol-gallery">
+      {visible.map((p, i) => (
+        <div
+          key={i}
+          className="sol-thumb"
+          onClick={() => setLbIndex(i)}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => e.key === "Enter" && setLbIndex(i)}
+        >
+          <div className="sol-thumb-bg" style={{ backgroundImage: `url("${p.url}")` }} />
+          {i === THUMB_COUNT - 1 && extra > 0 && (
+            <div className="sol-thumb-more">+{extra}</div>
+          )}
+        </div>
+      ))}
+      <Lightbox
+        open={lbIndex >= 0}
+        index={lbIndex}
+        close={() => setLbIndex(-1)}
+        slides={slides}
+      />
+    </div>
+  );
+}
 
 export function Solutions({ entity }: Props) {
-  const items = zipParallel({
-    tag: entity.c_solutionTags,
-    title: entity.c_solutionTitles,
-    body: entity.c_solutionBodies,
-  });
+  const items = entity.c_solutions ?? [];
   const [open, setOpen] = useState(0);
 
   return (
@@ -26,19 +63,25 @@ export function Solutions({ entity }: Props) {
         <div className="acc">
           {items.map((it, i) => {
             const isOpen = open === i;
+            const tag = it.c_solutionTags?.[0] ?? "";
+            const title = it.c_solutionTitles?.[0] ?? "";
+            const body = it.c_solutionBodies?.[0] ?? "";
             return (
-              <div className={`acc-item ${isOpen ? "open" : ""}`} key={i}>
+              <div className={`acc-item ${isOpen ? "open" : ""}`} key={it.id ?? i}>
                 <button
                   className="acc-head"
                   aria-expanded={isOpen}
                   onClick={() => setOpen(isOpen ? -1 : i)}
                 >
-                  <span className="acc-tag">{it.tag}</span>
-                  <span className="acc-title">{it.title}</span>
+                  <span className="acc-tag">{tag}</span>
+                  <span className="acc-title">{title}</span>
                   <span className="acc-sign"><Icon.plus style={{ width: 18, height: 18 }} /></span>
                 </button>
                 <div className="acc-body">
-                  <div className="acc-body-inner">{it.body}</div>
+                  <div className="acc-body-inner">
+                    {body}
+                    <SolutionGallery solution={it} />
+                  </div>
                 </div>
               </div>
             );
