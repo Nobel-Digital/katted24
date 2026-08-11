@@ -20,7 +20,7 @@ export function Footer({ entity }: Props) {
       <div className="wrap">
         <div className="foot-grid">
           <div>
-            <Logo dark logoUrl={entity.logo?.image?.url} />
+            <Logo dark logoUrl={entity.c_logoImage?.image?.url ?? entity.logo?.image?.url} />
             <p style={{ marginTop: 16, fontSize: 14.5, lineHeight: 1.55, maxWidth: "36ch" }}>{entity.c_footerTagline}</p>
             {entity.facebookPageUrl && (
               <a href={entity.facebookPageUrl} target="_blank" rel="noopener noreferrer" style={{ marginTop: 18, display: "inline-flex", alignItems: "center", gap: 8, fontSize: 13.5 }}>

@@ -20,7 +20,7 @@
   "facebookPageUrl": "https://www.facebook.com/katted24",
   "logo": {
     "image": {
-      "url": "https://a.mktgcdn.com/p/wBfiYHJOaObxAzKYPYIiJ-BqDC9i6cwE_E8_yssErqw/2336x2336.png"
+      "url": "https://a.mktgcdn.com/p/o_zI73SIvn3N7e5SrtK-EliWMwANYZ0yyjQ27haz0Jg/560x560.png"
     }
   },
   "slug": "en",
@@ -460,5 +460,10 @@
       },
       "description": "Red box cover"
     }
-  ]
+  ],
+  "c_logoImage": {
+    "image": {
+      "url": "/assets/logo.png"
+    }
+  }
 }

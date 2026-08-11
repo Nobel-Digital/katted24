@@ -171,7 +171,7 @@
 
 /* ---------- logo (image variant — used when Yext logo field is set) ---------- */
 .logo-image { display: inline-flex; align-items: center; }
-.logo-image img { display: block; height: 40px; width: auto; max-width: 220px; }
+.logo-image img { display: block; height: 52px; width: auto; max-width: 280px; }
 /* The uploaded brand logo is white-on-transparent. Invert it on light-background
    nav states (scrolled past hero, or while the mobile menu drawer is open) so it
    stays visible. Footer stays dark — no filter applied there. */

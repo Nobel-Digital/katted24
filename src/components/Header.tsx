@@ -33,7 +33,7 @@ export function Header({ entity, locale }: Props) {
     <>
       <header className={`nav ${scrolled || menuOpen ? "scrolled" : ""} ${menuOpen ? "menu-open" : ""}`}>
         <div className="wrap nav-inner">
-          <a href="#top" className="logo" aria-label="Katted24" onClick={closeMenu}><Logo logoUrl={entity.logo?.image?.url} /></a>
+          <a href="#top" className="logo" aria-label="Katted24" onClick={closeMenu}><Logo logoUrl={entity.c_logoImage?.image?.url ?? entity.logo?.image?.url} /></a>
           <nav className="nav-links" aria-label={entity.name}>
             {entity.c_navLabels.map((label, i) => (
               <a key={i} href={NAV_ANCHORS[i] ?? "#top"}>{label}</a>
