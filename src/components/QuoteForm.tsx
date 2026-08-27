@@ -1,16 +1,20 @@
 import { useState } from "react";
-import type { Katted24Entity } from "@/types/entity";
+import type { Katted24Entity, Locale } from "@/types/entity";
 import { zipParallel } from "@/types/entity";
 import { renderBold } from "@/lib/text";
+import { ui } from "@/i18n";
 import { Icon } from "./Icon";
 
 // Code-side field order — content lists (c_formFieldLabels / placeholders) follow this order.
 const FIELD_KEYS = ["width", "length", "height", "color", "deadline", "info", "name", "phone", "email", "files"] as const;
 type FieldKey = (typeof FIELD_KEYS)[number];
 
-type Props = { entity: Katted24Entity };
+const FORMCARRY_ENDPOINT = import.meta.env.YEXT_PUBLIC_FORMCARRY_QUOTE_ENDPOINT as string | undefined;
 
-export function QuoteForm({ entity }: Props) {
+type Props = { entity: Katted24Entity; locale: Locale };
+
+export function QuoteForm({ entity, locale }: Props) {
+  const s = ui(locale);
   const label = (k: FieldKey) => entity.c_formFieldLabels[FIELD_KEYS.indexOf(k)] ?? k;
   const ph = (k: FieldKey) => entity.c_formFieldPlaceholders[FIELD_KEYS.indexOf(k)] ?? "";
   const V = {
@@ -27,6 +31,7 @@ export function QuoteForm({ entity }: Props) {
   const [errors, setErrors] = useState<Record<string, string | undefined>>({});
   const [busy, setBusy] = useState(false);
   const [done, setDone] = useState(false);
+  const [networkError, setNetworkError] = useState(false);
 
   const update = (k: string) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setV((s) => ({ ...s, [k]: e.target.value }));
@@ -44,7 +49,7 @@ export function QuoteForm({ entity }: Props) {
     return e;
   };
 
-  const onSubmit = (e: React.FormEvent) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const errs = validate();
     setErrors(errs);
@@ -53,8 +58,31 @@ export function QuoteForm({ entity }: Props) {
       el?.focus();
       return;
     }
+    setNetworkError(false);
     setBusy(true);
-    setTimeout(() => { setBusy(false); setDone(true); }, 900);
+
+    if (!FORMCARRY_ENDPOINT) {
+      // No endpoint configured for this environment (e.g. local preview) — keep the UI usable.
+      setTimeout(() => { setBusy(false); setDone(true); }, 900);
+      return;
+    }
+
+    try {
+      const fd = new FormData(e.currentTarget);
+      fd.set("language", locale);
+      const res = await fetch(FORMCARRY_ENDPOINT, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: fd,
+      });
+      const body = await res.json().catch(() => null);
+      if (!res.ok || body?.status !== "success") throw new Error("formcarry submit failed");
+      setBusy(false);
+      setDone(true);
+    } catch {
+      setBusy(false);
+      setNetworkError(true);
+    }
   };
 
   const successRows = zipParallel({ b: entity.c_formSuccessRowTitles, t: entity.c_formSuccessRowBodies });
@@ -196,6 +224,11 @@ export function QuoteForm({ entity }: Props) {
 
           <div className="form-foot">
             <p className="help">{renderBold(entity.c_formFootHelp)}</p>
+            {networkError && (
+              <p style={{ marginBottom: 12, display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: "var(--danger)" }}>
+                <Icon.warning style={{ width: 13, height: 13, flexShrink: 0 }} /> {s.formNetworkError}
+              </p>
+            )}
             <button type="submit" className="submit-btn" disabled={busy}>
               {busy ? entity.c_formSubmitBusy : entity.c_formSubmitIdle}
               {!busy && <Icon.arrow style={{ width: 16, height: 16 }} className="arrow" />}

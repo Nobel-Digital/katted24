@@ -28,12 +28,13 @@ type UiStrings = {
   menu: string;
   language: string;
   sections: string;
+  formNetworkError: string;
 };
 
 const UI: Record<Locale, UiStrings> = {
-  et: { scroll: "Keri alla", readMore: "Loe rohkem", readLess: "Sulge", menu: "Menüü", language: "Keel", sections: "Sektsioonid" },
-  en_EE: { scroll: "Scroll", readMore: "Read more", readLess: "Close", menu: "Menu", language: "Language", sections: "Sections" },
-  ru: { scroll: "Прокрутите", readMore: "Подробнее", readLess: "Свернуть", menu: "Меню", language: "Язык", sections: "Разделы" },
+  et: { scroll: "Keri alla", readMore: "Loe rohkem", readLess: "Sulge", menu: "Menüü", language: "Keel", sections: "Sektsioonid", formNetworkError: "Vabandust, päringu saatmine ebaõnnestus. Palun proovi uuesti või helista meile otse." },
+  en_EE: { scroll: "Scroll", readMore: "Read more", readLess: "Close", menu: "Menu", language: "Language", sections: "Sections", formNetworkError: "Sorry, we couldn't send your request. Please try again or call us directly." },
+  ru: { scroll: "Прокрутите", readMore: "Подробнее", readLess: "Свернуть", menu: "Меню", language: "Язык", sections: "Разделы", formNetworkError: "Извините, не удалось отправить запрос. Попробуйте ещё раз или позвоните нам напрямую." },
 };
 
 export function ui(locale: Locale): UiStrings {

@@ -29,7 +29,7 @@ export function Page({ entity, locale }: Props) {
         <About entity={entity} />
         <Inspiration entity={entity} />
         <Faq entity={entity} />
-        <QuoteForm entity={entity} />
+        <QuoteForm entity={entity} locale={locale} />
         <Contact entity={entity} />
         <Team entity={entity} />
         <Careers entity={entity} />
