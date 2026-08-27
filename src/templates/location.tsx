@@ -35,7 +35,7 @@ export const config: TemplateConfig = {
       "c_aboutEyebrow", "c_aboutHeading", "c_aboutBody", "c_aboutPhoto", "c_aboutPhotoTag", "c_aboutSignatureName",
       "c_valueTitles", "c_valueBodies",
       "c_inspirationEyebrow", "c_inspirationHeading", "c_inspirationIntro", "c_inspirationGallery",
-      "c_faqEyebrow", "c_faqHeading", "c_faqIntro", "c_faqQuestions", "c_faqAnswers",
+      "c_faqEyebrow", "c_faqHeading", "c_faqIntro", "frequentlyAskedQuestions",
       "c_formEyebrow", "c_formTitle", "c_formLede", "c_formBulletTitles", "c_formBulletBodies",
       "c_testimonialQuote", "c_testimonialName", "c_testimonialMeta", "c_testimonialLocation",
       "c_formCardHead", "c_formStepPill", "c_formGroupLabels", "c_formProductTypeLabel", "c_formProductTypeOptions",

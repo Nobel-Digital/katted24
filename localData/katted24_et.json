@@ -160,40 +160,6 @@
   "c_faqEyebrow": "KKK",
   "c_faqHeading": "Korduma kippuvad küsimused",
   "c_faqIntro": "Levinumad küsimused hinna, tellimise ja valmistamise kohta.",
-  "c_faqQuestions": [
-    "Hinnastamise loogika",
-    "Tellimise protsess",
-    "Mõõtmise protsess",
-    "Kuidas toimub saatmine ja transport?",
-    "Kui paks ja vastupidav on kate?",
-    "Kas kate on veekindel?",
-    "Kas kate talub UV-kiirgust?",
-    "Kuidas katet hooldada?",
-    "Kas kate sobib aastaringseks kasutamiseks?",
-    "Kui täpsed peavad mõõdud olema?",
-    "Kui kaua tootmine aega võtab?",
-    "Kas teete ka erikujulisi või ebastandardseid katteid?",
-    "Kas saan valida värvi ja materjali?",
-    "Kas paigaldate ka katte ise?",
-    "Kas toodate ka vana katte järgi?"
-  ],
-  "c_faqAnswers": [
-    "Iga projekt on erinev, mistõttu saame anda täpse hinnapakkumise alles pärast vajaliku info saamist. Selleks palume edastada:\n\n• **Mõõdud** Täpsed mõõdud tagavad korrektse hinnastuse ja sobiva lõpptulemuse.\n• **Visand või joonis** Lihtne käsitsi tehtud visand sobib suurepäraselt.\n• **Fotod kohast või esemest, kuhu katet soovite** Soovitavalt 2–3 pilti erinevatest külgedest, et mõista konteksti ja eripärasid.\n• **Soovitud värvus** Värv mõjutab nii materjali valikut kui ka lõplikku hinda.\n\nKui kõik vajalik info on olemas, saame koostada täpse ja kiire hinnapakkumise.",
-    "Tellimine on lihtne ja kiire. Täpse tulemuse tagamiseks toimub protsess järgmiste sammudena:\n\n• **Info edastamine** Klient saadab meile mõõdud, 2–3 fotot paigalduskohast ning soovitud värvuse. Soovi korral võib lisada ka visandi või joonise.\n• **Meistri täpsustused** Meister võtab kliendiga ühendust, et ühiselt üle kontrollida mõõdud, eripärad ja kõik olulised detailid enne töö alustamist.\n• **Valmimisaja kinnitamine** Kui kõik andmed on täpsustatud, annab meister teada orienteeruva valmimisaja ning kate läheb tootmisse.",
-    "Täpsed mõõdud on kvaliteetse tulemuse alus. Kui klient ei ole kindel, kuidas mõõte võtta, siis:\n\n• **Telefoninõustamine** Meister selgitab telefoni teel samm sammult, kuidas vajalikud mõõdud õigesti võtta, et tagada täpne sobivus ja ilus lõpptulemus.\n• **Kohapealne mõõtmine** Soovi korral tuleme ise kohale ja võtame mõõdud professionaalselt. Teenuse hind lepitakse eelnevalt kokku, sõltuvalt objekti asukohast.",
-    "Väiksemad pakid saadame üle Eesti pakiautomaatidesse. Suuremad tooted liiguvad kas Cargobusi esindusse või Jet Expressi kulleriga otse teie koju või tehasesse. Transpordiviis sõltub toote mõõtudest ja kaalust — leiame alati kõige mugavama lahenduse.",
-    "Kasutame kvaliteetseid ja vastupidavaid materjale, mis taluvad igapäevast kasutust, niiskust ja välitingimusi. Materjali paksus ja tugevus sõltub valitud kangast, kuid kõik variandid on mõeldud pikaajaliseks kasutamiseks.",
-    "Kõik katted on veekindlad või vett hülgavad, mis vastavad kliendi vajadustele ja kasutuskohale.",
-    "Jah — kasutame UV-kaitsega materjale, mis säilitavad oma värvi ka päikese käes. See on eriti oluline välitingimustes kasutatavate katete puhul.",
-    "Kate vajab minimaalset hooldust. Soovitame puhastada niiske lapiga või õrna pesuvahendiga. Regulaarne hooldus pikendab oluliselt katte eluiga.",
-    "Kõik meie materjalid sobivad aastaringseks kasutamiseks.",
-    "Mida täpsemad mõõdud, seda parem tulemus. Kui klient ei ole kindel, kuidas mõõta, saab alati helistada — meister juhendab samm sammult. Soovi korral tuleme ka ise kohale mõõte võtma (hind kokkuleppel).",
-    "Tootmisaeg sõltub töö keerukusest ja järjekorrast. Keskmiselt kulub 1–3 tööpäeva. Täpse valmimisaja kinnitab meister pärast mõõtude ja detailide ülevaatamist.",
-    "Jah — kõik meie tööd on eritellimusel. Saame valmistada katteid igas mõõdus ja kujus.",
-    "Jah — meil on Eesti suurim värvi- ja materjalivalik. Kui klient ei ole kindel, milline materjal sobib, aitab meister valida kõige vastupidavama ja sobivama variandi.",
-    "Kui tegemist on tootega, mis vajab paigaldust, saame selle soovi korral ise teostada. Paigaldusvõimalus ja hind sõltuvad asukohast ja töö iseloomust.",
-    "Jah — valmistame katteid nii täpsete mõõtude järgi kui ka olemasoleva vana katte põhjal. Kui soovite uut katet vana järgi, on oluline, et vana kate oleks võimalikult terves seisukorras. Aja jooksul võivad mõned materjalid päikese käes kokku tõmmata, seega palume alati täpsustada, kas soovite uut katet täpselt sama mõõduga või pigem veidi suuremat, et see sobiks ideaalselt.\n\nKui asute Tallinnast kaugemal, pole probleemi — saate vana katte meile mugavalt saata. Meil on koostöö Cargobusi ja Jet Expressi kulleritega, kes toimetavad pakid turvaliselt meieni ning hiljem uued katted ka tagasi teie aadressile."
-  ],
   "c_formEyebrow": "Pakkumise päring",
   "c_formTitle": "Saada mõõdud, saa täpne pakkumine",
   "c_formLede": "Täida vorm — saadame Sulle e-kirjaga hinnapakkumise. Pakkumine on tasuta ja Sind ei kohusta millekski.",
@@ -441,5 +407,67 @@
   "c_ctaSecondary": {
     "label": "Tutvu lahendustega",
     "uRL": "#solutions"
-  }
+  },
+  "frequentlyAskedQuestions": [
+    {
+      "question": "Hinnastamise loogika",
+      "answer": "Iga projekt on erinev, mistõttu saame anda täpse hinnapakkumise alles pärast vajaliku info saamist. Selleks palume edastada: \n\n• Mõõdud – Täpsed mõõdud tagavad korrektse hinnastuse ja sobiva lõpptulemuse. \n\n• Visand või joonis – Lihtne käsitsi tehtud visand sobib suurepäraselt. \n\n• Fotod kohast või esemest, kuhu katet soovid – Soovitavalt 2–3 pilti erinevatest külgedest, et mõista konteksti ja eripärasid. \n\n• Soovitud värvus – Värv mõjutab nii materjali valikut kui ka lõplikku hinda."
+    },
+    {
+      "question": "Tellimise protsess",
+      "answer": "Tellimine on lihtne ja kiire. Täpse tulemuse tagamiseks toimub protsess järgmiste sammudena: \n\n \n\n• Info edastamine – Klient saadab meile mõõdud, 2–3 fotot paigalduskohast ning soovitud värvuse. Soovi korral võib lisada ka visandi või joonise. \n\n• Meistri täpsustused – Meister võtab kliendiga ühendust, et enne töö alustamist ühiselt üle kontrollida mõõdud, eripärad ja kõik olulised detailid. \n\n• Valmimisaja kinnitamine – Kui kõik andmed on täpsustatud, annab meister teada orienteeruva valmimisaja ning kate läheb tootmisse."
+    },
+    {
+      "question": "Mõõtmise protsess",
+      "answer": "Täpsed mõõdud on kvaliteetse tulemuse alus. Kui klient ei ole kindel, kuidas mõõte võtta, siis on võimalik: \n\n• Telefoninõustamine – Meister selgitab telefoni teel samm-sammult, kuidas vajalikud mõõdud õigesti võtta, et tagada täpne sobivus ja ilus lõpptulemus. \n\n• Kohapealne mõõtmine – Soovi korral tuleme ise kohale ja võtame mõõdud professionaalselt. Teenuse hind lepitakse eelnevalt kokku, sõltuvalt objekti asukohast."
+    },
+    {
+      "question": "Kuidas toimub saatmine ja transport?",
+      "answer": "Väiksemad pakid saadame üle Eesti pakiautomaatidesse. Suuremad tooted liiguvad kas Cargobusi esindusse või Jet Expressi kulleriga otse teie koju või tehasesse. Transpordiviis sõltub toote mõõtudest ja kaalust — leiame alati kõige mugavama lahenduse."
+    },
+    {
+      "question": "Kui paks ja vastupidav on kate?",
+      "answer": "Kasutame kvaliteetseid ja vastupidavaid materjale, mis taluvad igapäevast kasutust, niiskust ja välitingimusi. Materjali paksus ja tugevus sõltuvad valitud kangast, kuid kõik variandid on mõeldud pikaajaliseks kasutamiseks."
+    },
+    {
+      "question": "Kas kate on veekindel?",
+      "answer": "Kõik katted on veekindlad või vetthülgavad, vastates kliendi vajadustele ja kasutuskohale."
+    },
+    {
+      "question": "Kas kate talub UV-kiirgust?",
+      "answer": "Jah – kasutame UV-kaitsega materjale, mis säilitavad oma värvi ka päikese käes. See on eriti oluline välitingimustes kasutatavate katete puhul."
+    },
+    {
+      "question": "Kuidas katet hooldada?",
+      "answer": "Kate vajab minimaalset hooldust. Soovitame puhastada niiske lapiga või õrna pesuvahendiga. Regulaarne hooldus pikendab oluliselt katte eluiga."
+    },
+    {
+      "question": "Kas kate sobib aastaringseks kasutamiseks?",
+      "answer": "Kõik meie materjalid sobivad aastaringseks kasutamiseks."
+    },
+    {
+      "question": "Kui täpsed peavad mõõdud olema?",
+      "answer": "Mida täpsemad mõõdud, seda parem tulemus. Kui klient ei ole kindel, kuidas mõõta, saab alati helistada – meister juhendab samm-sammult. Soovi korral tuleme ka ise kohale mõõte võtma (hind kokkuleppel)."
+    },
+    {
+      "question": "Kui kaua tootmine aega võtab?",
+      "answer": "Tootmisaeg sõltub töö keerukusest ja järjekorrast. Keskmiselt kulub 1–3 tööpäeva. Täpse valmimisaja kinnitab meister pärast mõõtude ja detailide ülevaatamist."
+    },
+    {
+      "question": "Kas teete ka erikujulisi või ebastandardseid katteid?",
+      "answer": "Jah – kõik meie tööd valmivad eritellimusel. Saame valmistada katteid igas mõõdus ja kujus."
+    },
+    {
+      "question": "Kas saan valida värvi ja materjali?",
+      "answer": "Jah – meil on Eesti suurim värvi- ja materjalivalik. Kui klient ei ole kindel, milline materjal sobib, aitab meister valida kõige vastupidavama ja sobivama variandi."
+    },
+    {
+      "question": "Kas paigaldate katte ise?",
+      "answer": "Kui tegemist on tootega, mis vajab paigaldust, saame selle soovi korral ise teostada. Paigaldusvõimalus ja hind sõltuvad asukohast ja töö iseloomust."
+    },
+    {
+      "question": "Kas toodate ka vana katte järgi?",
+      "answer": "Jah – valmistame katteid nii täpsete mõõtude järgi kui ka olemasoleva vana katte põhjal. Kui soovite uut katet vana järgi, on oluline, et vana kate oleks võimalikult terves seisukorras. Aja jooksul võivad mõned materjalid päikese käes kokku tõmmata, seega palume alati täpsustada, kas soovite uut katet täpselt sama mõõduga või pigem veidi suuremat, et see sobiks ideaalselt. \n\n \n\nKui asute Tallinnast kaugemal, pole probleemi – saate vana katte meile mugavalt saata. Meil on koostöö Cargobusi ja Jet Expressi kulleritega, kes toimetavad pakid turvaliselt meieni ning hiljem uued katted ka tagasi teie aadressile."
+    }
+  ]
 }

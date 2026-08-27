@@ -1,14 +1,15 @@
 import { useState } from "react";
 import type { Katted24Entity } from "@/types/entity";
-import { zipParallel } from "@/types/entity";
 import { renderBold } from "@/lib/text";
 import { Icon } from "./Icon";
 
 type Props = { entity: Katted24Entity };
 
 export function Faq({ entity }: Props) {
-  const items = zipParallel({ q: entity.c_faqQuestions, a: entity.c_faqAnswers });
+  const items = entity.frequentlyAskedQuestions ?? [];
   const [open, setOpen] = useState(0);
+
+  if (!items.length) return null;
 
   return (
     <section className="section-pad" id="faq" style={{ background: "var(--bg-soft)", borderTop: "1px solid var(--line-2)" }}>
@@ -26,10 +27,10 @@ export function Faq({ entity }: Props) {
             return (
               <div className={`acc-item ${isOpen ? "open" : ""}`} key={i}>
                 <button className="acc-head" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? -1 : i)}>
-                  <span className="acc-title">{it.q}</span>
+                  <span className="acc-title">{it.question}</span>
                   <span className="acc-sign"><Icon.plus style={{ width: 18, height: 18 }} /></span>
                 </button>
-                <div className="acc-body"><div className="acc-body-inner">{renderBold(it.a)}</div></div>
+                <div className="acc-body"><div className="acc-body-inner">{renderBold(it.answer ?? "")}</div></div>
               </div>
             );
           })}

@@ -111,8 +111,7 @@ export type Katted24Entity = {
   c_faqEyebrow: string;
   c_faqHeading: string;
   c_faqIntro: string;
-  c_faqQuestions: string[];
-  c_faqAnswers: string[];
+  frequentlyAskedQuestions?: { question: string; answer?: string }[];
 
   // Inquiry form (VAADE8)
   c_formEyebrow: string;

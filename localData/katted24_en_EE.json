@@ -160,40 +160,6 @@
   "c_faqEyebrow": "FAQ",
   "c_faqHeading": "Frequently asked questions",
   "c_faqIntro": "The most common questions about pricing, ordering and production.",
-  "c_faqQuestions": [
-    "Pricing logic",
-    "Ordering process",
-    "Measurement process",
-    "How does shipping and transport work?",
-    "How thick and durable is the cover?",
-    "Is the cover waterproof?",
-    "Does the cover handle UV exposure?",
-    "How do I care for the cover?",
-    "Is the cover suitable for year-round use?",
-    "How precise do measurements need to be?",
-    "How long does production take?",
-    "Do you make custom or non-standard shapes?",
-    "Can I choose the colour and material?",
-    "Do you install the cover yourselves?",
-    "Do you produce from an existing old cover?"
-  ],
-  "c_faqAnswers": [
-    "Every project is different, so we can only quote accurately after we have the essentials. Please share:\n\n• **Dimensions** Accurate measurements ensure correct pricing and a proper fit.\n• **A sketch or drawing** A simple hand-drawn sketch works perfectly.\n• **Photos of the location or item** Preferably 2–3 shots from different angles so we understand the context.\n• **Preferred colour** Colour affects both material choice and the final price.\n\nWith all of that in hand, we can put together a precise quote quickly.",
-    "Ordering is simple and fast. To make sure the result is exactly right, the process runs as follows:\n\n• **Sending information** You send us dimensions, 2–3 photos of the installation spot and the preferred colour. A sketch or drawing is welcome.\n• **Maker's clarifications** Our maker contacts you to go over measurements, special requirements and any details before work begins.\n• **Confirming completion** Once the details are agreed, the maker tells you an indicative completion time and the cover goes into production.",
-    "Accurate measurements are the foundation of a quality result. If you're not sure how to measure:\n\n• **Phone guidance** The maker walks you through the steps over the phone so the measurements come out right.\n• **On-site measuring** We can come and take the measurements professionally. The fee is agreed beforehand, depending on the location.",
-    "Smaller packages go via parcel lockers across Estonia. Larger items move via Cargobus or by Jet Express courier directly to your home or workshop. The method depends on dimensions and weight — we always find the most convenient option.",
-    "We use high-quality, durable materials that handle everyday use, moisture and outdoor conditions. Thickness and strength depend on the chosen fabric, but every option is built to last.",
-    "Every cover we make is either waterproof or water-repellent — matched to the customer's needs and the place it will be used.",
-    "Yes — we use UV-protected materials that keep their colour even in direct sun. This is especially important for covers used outdoors.",
-    "The cover needs minimal upkeep. We recommend cleaning with a damp cloth or mild detergent. Regular care significantly extends its life.",
-    "All of our materials are suitable for year-round use.",
-    "The more precise, the better the result. If you're not sure how to measure, just call us — the maker will guide you step by step. We can also come and measure on site (price agreed in advance).",
-    "Production time depends on the complexity of the work and the current queue. On average it takes 1–3 working days. The maker confirms the exact completion time after reviewing measurements and details.",
-    "Yes — all of our work is made to order. We can produce covers in any size and shape.",
-    "Yes — we have the widest colour and material selection in Estonia. If you're unsure which material is right, the maker helps you choose the most durable and appropriate option.",
-    "If the product needs installation, we can take care of it. Availability and price depend on location and the nature of the work.",
-    "Yes — we can make covers either from accurate measurements or based on an existing old cover. If you'd like a new cover made from the old one, the old one should be in as intact a condition as possible. Over time some materials can shrink in the sun, so please let us know whether you want the new cover identical to the old one or slightly larger for a perfect fit.\n\nIf you're further from Tallinn, no problem — you can ship the old cover to us. We work with Cargobus and Jet Express couriers who deliver parcels to us safely and return the new covers to your address."
-  ],
   "c_formEyebrow": "Quote request",
   "c_formTitle": "Send your dimensions, get an exact quote",
   "c_formLede": "Fill in the form — we'll email you a quote. Quotes are free and come with no obligation.",
@@ -441,5 +407,6 @@
   "c_ctaSecondary": {
     "label": "Explore solutions",
     "uRL": "#solutions"
-  }
+  },
+  "frequentlyAskedQuestions": []
 }
