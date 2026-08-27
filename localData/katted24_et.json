@@ -249,17 +249,6 @@
   "c_formSuccessCardTitle": "Päring saadetud",
   "c_formSuccessCardBody": "Tutvume andmetega ja saadame hinnapakkumise esimesel võimalusel.",
   "c_formSuccessAgain": "Saada veel üks",
-  "c_teamEyebrow": "Meeskond",
-  "c_teamHeading": "Meie meeskond",
-  "c_teamIntro": "Väike, pühendunud tiim, kes teeb iga katte valmis Sinu mõõtude järgi.",
-  "c_teamNames": [
-    "Katted24 tootmine",
-    "Müük ja klienditugi"
-  ],
-  "c_teamRoles": [
-    "PVC-toodete valmistamine ja paigaldus",
-    "Pakkumised ja nõustamine"
-  ],
   "c_mapEmbedUrl": "https://www.google.com/maps?q=Gaasi+7,+Tallinn,+Estonia&output=embed",
   "c_careersEyebrow": "Karjäär",
   "c_careersHeading": "Tule meie meeskonda",

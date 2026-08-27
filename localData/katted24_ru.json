@@ -249,17 +249,6 @@
   "c_formSuccessCardTitle": "Запрос отправлен",
   "c_formSuccessCardBody": "Рассмотрим данные и пришлём расчёт при первой возможности.",
   "c_formSuccessAgain": "Отправить ещё один",
-  "c_teamEyebrow": "Команда",
-  "c_teamHeading": "Наша команда",
-  "c_teamIntro": "Небольшая преданная команда, которая шьёт каждое изделие по вашим размерам.",
-  "c_teamNames": [
-    "Производство Katted24",
-    "Продажи и поддержка"
-  ],
-  "c_teamRoles": [
-    "Изготовление и монтаж ПВХ-изделий",
-    "Расчёты и консультации"
-  ],
   "c_mapEmbedUrl": "https://www.google.com/maps?q=Gaasi+7,+Tallinn,+Estonia&output=embed",
   "c_careersEyebrow": "Карьера",
   "c_careersHeading": "Присоединяйтесь к команде",

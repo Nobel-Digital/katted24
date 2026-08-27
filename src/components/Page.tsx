@@ -9,7 +9,6 @@ import { Inspiration } from "./Inspiration";
 import { Faq } from "./Faq";
 import { QuoteForm } from "./QuoteForm";
 import { Contact } from "./Contact";
-import { Team } from "./Team";
 import { Careers } from "./Careers";
 import { Footer } from "./Footer";
 import { CookieBanner } from "./CookieBanner";
@@ -31,7 +30,6 @@ export function Page({ entity, locale }: Props) {
         <Faq entity={entity} />
         <QuoteForm entity={entity} locale={locale} />
         <Contact entity={entity} />
-        <Team entity={entity} />
         <Careers entity={entity} />
       </main>
       <Footer entity={entity} locale={locale} />

@@ -249,17 +249,6 @@
   "c_formSuccessCardTitle": "Request sent",
   "c_formSuccessCardBody": "We'll review the details and send a quote as soon as we can.",
   "c_formSuccessAgain": "Send another",
-  "c_teamEyebrow": "Team",
-  "c_teamHeading": "Our team",
-  "c_teamIntro": "A small, dedicated crew that builds every cover to your dimensions.",
-  "c_teamNames": [
-    "Katted24 production",
-    "Sales and support"
-  ],
-  "c_teamRoles": [
-    "PVC product manufacturing and installation",
-    "Quotes and advice"
-  ],
   "c_mapEmbedUrl": "https://www.google.com/maps?q=Gaasi+7,+Tallinn,+Estonia&output=embed",
   "c_careersEyebrow": "Careers",
   "c_careersHeading": "Join our team",

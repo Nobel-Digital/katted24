@@ -42,7 +42,6 @@ export const config: TemplateConfig = {
       "c_formFieldLabels", "c_formFieldPlaceholders", "c_formOptionalLabel", "c_formValidationMessages",
       "c_formFootHelp", "c_formSubmitIdle", "c_formSubmitBusy",
       "c_formSuccessTitle", "c_formSuccessBody", "c_formSuccessRowTitles", "c_formSuccessRowBodies", "c_formSuccessCardTitle", "c_formSuccessCardBody", "c_formSuccessAgain",
-      "c_teamEyebrow", "c_teamHeading", "c_teamIntro", "c_teamNames", "c_teamRoles",
       "c_mapEmbedUrl",
       "c_careersEyebrow", "c_careersHeading", "c_careersBody", "c_careersEmail",
       "c_contactEyebrow", "c_contactHeading", "c_contactIntro", "c_contactCallLabel", "c_contactRowKeys", "c_contactRowValues",

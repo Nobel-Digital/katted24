@@ -143,13 +143,6 @@ export type Katted24Entity = {
   c_formSuccessCardBody: string;
   c_formSuccessAgain: string;
 
-  // Team (VAADE9)
-  c_teamEyebrow: string;
-  c_teamHeading: string;
-  c_teamIntro: string;
-  c_teamNames: string[];
-  c_teamRoles: string[];
-
   // Map (VAADE10)
   c_mapEmbedUrl: string;
 
