@@ -59,8 +59,6 @@ export type Katted24Entity = {
 
   // Header / global CTAs
   c_navLabels: string[];
-  c_ctaPrimaryLabel: string;
-  c_ctaSecondaryLabel: string;
   c_ctaPrimary?: YextCTA;
   c_ctaSecondary?: YextCTA;
 

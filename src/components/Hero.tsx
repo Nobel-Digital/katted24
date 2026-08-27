@@ -25,11 +25,11 @@ export function Hero({ entity, locale }: Props) {
             <p className="lede">{entity.c_heroLede}</p>
             <div className="hero-actions">
               <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="btn btn-primary">
-                {entity.c_ctaPrimary?.label ?? entity.c_ctaPrimaryLabel}
+                {entity.c_ctaPrimary?.label}
                 <Icon.arrow className="arrow" />
               </a>
               <a href={entity.c_ctaSecondary?.uRL ?? "#solutions"} className="btn btn-ghost">
-                {entity.c_ctaSecondary?.label ?? entity.c_ctaSecondaryLabel}
+                {entity.c_ctaSecondary?.label}
                 <Icon.arrow className="arrow" />
               </a>
             </div>

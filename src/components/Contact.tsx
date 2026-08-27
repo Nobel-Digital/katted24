@@ -20,7 +20,7 @@ export function Contact({ entity }: Props) {
           <div className="contact-card">
             <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="contact-call">
               <div>
-                <div className="num">{entity.c_ctaPrimary?.label ?? entity.c_ctaPrimaryLabel}</div>
+                <div className="num">{entity.c_ctaPrimary?.label}</div>
                 <div className="lbl">{entity.c_contactCallLabel}</div>
               </div>
               <Icon.arrow style={{ width: 20, height: 20 }} />

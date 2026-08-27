@@ -32,7 +32,7 @@ export function Footer({ entity }: Props) {
             <h4>{entity.c_footerColHeadings[0]}</h4>
             <ul>
               {entity.c_navLabels.map((l, i) => (<li key={i}><a href={NAV_ANCHORS[i] ?? "#top"}>{l}</a></li>))}
-              <li><a href={entity.c_ctaPrimary?.uRL ?? "#form"}>{entity.c_ctaPrimary?.label ?? entity.c_ctaPrimaryLabel}</a></li>
+              <li><a href={entity.c_ctaPrimary?.uRL ?? "#form"}>{entity.c_ctaPrimary?.label}</a></li>
             </ul>
           </div>
           <div>

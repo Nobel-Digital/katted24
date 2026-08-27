@@ -55,8 +55,8 @@ export function Header({ entity, locale }: Props) {
                 </a>
               ))}
             </div>
-            <a href="#form" className="nav-cta" onClick={closeMenu}>
-              <span>{entity.c_ctaPrimaryLabel}</span>
+            <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="nav-cta" onClick={closeMenu}>
+              <span>{entity.c_ctaPrimary?.label}</span>
               <Icon.arrow className="arrow" />
             </a>
             <button
@@ -94,7 +94,7 @@ export function Header({ entity, locale }: Props) {
             ))}
           </div>
           <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="btn btn-dark btn-lg mobile-menu-cta" onClick={closeMenu}>
-            {entity.c_ctaPrimary?.label ?? entity.c_ctaPrimaryLabel}
+            {entity.c_ctaPrimary?.label}
             <Icon.arrow className="arrow" />
           </a>
         </div>

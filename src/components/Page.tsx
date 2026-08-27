@@ -36,9 +36,9 @@ export function Page({ entity, locale }: Props) {
       </main>
       <Footer entity={entity} locale={locale} />
       <CookieBanner entity={entity} />
-      <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="float-call" aria-label={entity.c_ctaPrimary?.label ?? entity.c_ctaPrimaryLabel}>
+      <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="float-call" aria-label={entity.c_ctaPrimary?.label}>
         <Icon.arrow style={{ width: 16, height: 16 }} />
-        {entity.c_ctaPrimary?.label ?? entity.c_ctaPrimaryLabel}
+        {entity.c_ctaPrimary?.label}
       </a>
     </div>
   );
