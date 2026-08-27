@@ -26,14 +26,14 @@ export const config: TemplateConfig = {
     fields: [
       "id", "name", "slug", "address", "mainPhone", "emails", "facebookPageUrl", "logo", "c_logoImage",
       "c_navLabels", "c_ctaPrimaryLabel", "c_ctaSecondaryLabel", "c_ctaPrimary", "c_ctaSecondary",
-      "c_heroEyebrow", "c_heroTitle", "c_heroLede", "c_heroImage", "c_heroMetaKicker", "c_heroMetaNum", "c_heroMetaSub",
-      "c_trustLabels", "c_trustValues",
+      "c_heroTitle", "c_heroLede", "c_heroImage",
+      "c_trustValues",
       "c_valuePropsHeading", "c_valuePropTitles", "c_valuePropBodies",
       "c_useCasesEyebrow", "c_useCasesHeading", "c_useCasesIntro", "c_useCaseItems", "c_repairHeading", "c_repairItems",
       "c_solutionsEyebrow", "c_solutionsHeading", "c_solutionsIntro",
       "c_solutions.id", "c_solutions.c_solutionTags", "c_solutions.c_solutionTitles", "c_solutions.c_solutionBodies", "c_solutions.c_solutionGallery",
-      "c_aboutEyebrow", "c_aboutHeading", "c_aboutBody", "c_aboutPhoto", "c_aboutPhotoTag", "c_aboutSignatureName", "c_aboutSignatureRole", "c_aboutStatNums", "c_aboutStatLabels",
-      "c_valuesHeading", "c_valueTitles", "c_valueBodies",
+      "c_aboutEyebrow", "c_aboutHeading", "c_aboutBody", "c_aboutPhoto", "c_aboutPhotoTag", "c_aboutSignatureName",
+      "c_valueTitles", "c_valueBodies",
       "c_inspirationEyebrow", "c_inspirationHeading", "c_inspirationIntro", "c_inspirationGallery",
       "c_faqEyebrow", "c_faqHeading", "c_faqIntro", "c_faqQuestions", "c_faqAnswers",
       "c_formEyebrow", "c_formTitle", "c_formLede", "c_formBulletTitles", "c_formBulletBodies",
@@ -45,9 +45,9 @@ export const config: TemplateConfig = {
       "c_teamEyebrow", "c_teamHeading", "c_teamIntro", "c_teamNames", "c_teamRoles",
       "c_mapEmbedUrl",
       "c_careersEyebrow", "c_careersHeading", "c_careersBody", "c_careersEmail",
-      "c_contactEyebrow", "c_contactHeading", "c_contactIntro", "c_contactCallLabel", "c_contactRowKeys", "c_contactRowValues", "c_contactRowSmall",
+      "c_contactEyebrow", "c_contactHeading", "c_contactIntro", "c_contactCallLabel", "c_contactRowKeys", "c_contactRowValues",
       "c_footerTagline", "c_footerColHeadings", "c_footerLegalLine", "c_footerLegalLinks",
-      "c_metaDescription", "c_ogImage", "c_favicon", "c_keywords", "c_yearsExperience", "c_foundingYear",
+      "c_metaDescription", "c_favicon", "c_keywords", "c_yearsExperience", "c_foundingYear",
       "c_privacyPolicyContent", "c_cookiesContent",
       "c_cookieHeading", "c_cookieBody", "c_cookieAcceptLabel", "c_cookieRejectLabel", "c_cookieLearnMore",
       "c_policyHeading", "c_policyPrivacyTab", "c_policyCookiesTab", "c_policyClose",
@@ -67,7 +67,7 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({ document }):
   const locale = (doc.meta?.locale ?? "et") as Locale;
   const title = `${doc.name} — ${doc.c_heroTitle}`;
   const description = doc.c_metaDescription ?? "";
-  const ogImage = doc.c_ogImage?.image?.url ?? doc.c_heroImage?.image?.url ?? "";
+  const ogImage = doc.c_heroImage?.image?.url ?? "";
   const faviconUrl = doc.c_favicon?.image?.url;
   const schemas = allSchemas(doc, locale);
   const ogLocale = locale === "et" ? "et_EE" : locale === "ru" ? "ru_RU" : "en_EE";

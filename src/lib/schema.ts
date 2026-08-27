@@ -36,7 +36,7 @@ export function localBusinessSchema(entity: Katted24Entity, locale: Locale) {
     url: canonicalUrl(locale),
     telephone: entity.mainPhone,
     email: entity.emails?.[0],
-    image: entity.c_heroImage?.image?.url ?? entity.c_ogImage?.image?.url,
+    image: entity.c_heroImage?.image?.url,
     address: postalAddress(entity),
     foundingDate: entity.c_foundingYear,
     knowsAbout: entity.c_keywords ?? [],
@@ -52,7 +52,7 @@ export function organizationSchema(entity: Katted24Entity) {
     "@type": "Organization",
     name: entity.name,
     url: SITE_DOMAIN,
-    logo: entity.c_ogImage?.image?.url,
+    logo: entity.c_logoImage?.image?.url ?? entity.logo?.image?.url,
     email: entity.emails?.[0],
     sameAs: sameAs(entity),
   };

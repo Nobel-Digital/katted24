@@ -5,7 +5,7 @@ import { Icon } from "./Icon";
 type Props = { entity: Katted24Entity };
 
 export function Contact({ entity }: Props) {
-  const rows = zipParallel({ k: entity.c_contactRowKeys, v: entity.c_contactRowValues, small: entity.c_contactRowSmall });
+  const rows = zipParallel({ k: entity.c_contactRowKeys, v: entity.c_contactRowValues });
   return (
     <section className="contact-section section-pad" id="contact">
       <div className="wrap">

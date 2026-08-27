@@ -7,7 +7,6 @@ type Props = { entity: Katted24Entity };
 
 export function About({ entity }: Props) {
   const photo = entity.c_aboutPhoto?.image?.url;
-  const stats = zipParallel({ num: entity.c_aboutStatNums, label: entity.c_aboutStatLabels });
   const values = zipParallel({ title: entity.c_valueTitles, body: entity.c_valueBodies });
   const paras = entity.c_aboutBody.split(/\n\n+/);
   const [open, setOpen] = useState(0);
@@ -29,21 +28,11 @@ export function About({ entity }: Props) {
             {paras.map((p, i) => (<p key={i} style={i === 0 ? { marginTop: 28 } : undefined}>{p}</p>))}
             <div className="signature">
               <span className="scribble">{entity.c_aboutSignatureName}</span>
-              <span>{entity.c_aboutSignatureRole}</span>
-            </div>
-            <div className="about-stats">
-              {stats.map((s, i) => (
-                <div className="stat" key={i}>
-                  <div className="num"><span className="serif">{s.num}</span></div>
-                  <div className="lbl">{s.label}</div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
 
         <div style={{ marginTop: 64 }}>
-          <h2 style={{ marginBottom: 28, fontSize: "clamp(28px,3.4vw,44px)" }}>{entity.c_valuesHeading}</h2>
           <div className="acc">
             {values.map((v, i) => {
               const isOpen = open === i;

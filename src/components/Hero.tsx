@@ -1,5 +1,4 @@
 import type { Katted24Entity, Locale } from "@/types/entity";
-import { zipParallel } from "@/types/entity";
 import { ui } from "@/i18n";
 import { Icon } from "./Icon";
 
@@ -8,7 +7,6 @@ type Props = { entity: Katted24Entity; locale: Locale };
 export function Hero({ entity, locale }: Props) {
   const s = ui(locale);
   const heroUrl = entity.c_heroImage?.image?.url;
-  const trust = zipParallel({ label: entity.c_trustLabels, value: entity.c_trustValues });
 
   return (
     <section className="hero" id="top">
@@ -23,10 +21,7 @@ export function Hero({ entity, locale }: Props) {
       <div className="wrap">
         <div className="hero-grid">
           <div>
-            {entity.c_heroEyebrow && (
-              <span className="eyebrow on-dark">{entity.c_heroEyebrow}</span>
-            )}
-            <h1 style={{ marginTop: entity.c_heroEyebrow ? 18 : 0 }}>{entity.c_heroTitle}</h1>
+            <h1>{entity.c_heroTitle}</h1>
             <p className="lede">{entity.c_heroLede}</p>
             <div className="hero-actions">
               <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="btn btn-primary">
@@ -39,19 +34,11 @@ export function Hero({ entity, locale }: Props) {
               </a>
             </div>
           </div>
-          {entity.c_heroMetaKicker && (
-            <div className="hero-meta">
-              <div className="kicker">{entity.c_heroMetaKicker}</div>
-              <div className="num">{entity.c_heroMetaNum}</div>
-              <div className="num-sub">{entity.c_heroMetaSub}</div>
-            </div>
-          )}
         </div>
         <div className="trust-strip">
-          {trust.map((t, i) => (
+          {entity.c_trustValues.map((value, i) => (
             <div key={i}>
-              <span className="label">{(t.label ?? "").replace(/^\d+\s*[—–-]\s*/, "")}</span>
-              <span className="value">{t.value}</span>
+              <span className="value">{value}</span>
             </div>
           ))}
         </div>

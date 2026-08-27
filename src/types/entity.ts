@@ -65,16 +65,11 @@ export type Katted24Entity = {
   c_ctaSecondary?: YextCTA;
 
   // Hero (AVAVAADE)
-  c_heroEyebrow: string;
   c_heroTitle: string;
   c_heroLede: string;
   c_heroImage?: YextImage;
-  c_heroMetaKicker: string;
-  c_heroMetaNum: string;
-  c_heroMetaSub: string;
 
   // Trust strip
-  c_trustLabels: string[];
   c_trustValues: string[];
 
   // Value props (VAADE2)
@@ -103,12 +98,8 @@ export type Katted24Entity = {
   c_aboutPhoto?: YextImage;
   c_aboutPhotoTag: string;
   c_aboutSignatureName: string;
-  c_aboutSignatureRole: string;
-  c_aboutStatNums: string[];
-  c_aboutStatLabels: string[];
 
   // Values (VAADE5 accordion)
-  c_valuesHeading: string;
   c_valueTitles: string[];
   c_valueBodies: string[];
 
@@ -178,7 +169,6 @@ export type Katted24Entity = {
   c_contactCallLabel: string;
   c_contactRowKeys: string[];
   c_contactRowValues: string[];
-  c_contactRowSmall: string[];
 
   // Footer
   c_footerTagline: string;
@@ -188,7 +178,6 @@ export type Katted24Entity = {
 
   // SEO / schema
   c_metaDescription: string;
-  c_ogImage?: YextImage;
   c_favicon?: YextImage;
   c_keywords: string[];
   c_yearsExperience: string;

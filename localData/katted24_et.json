@@ -34,17 +34,8 @@
   ],
   "c_ctaPrimaryLabel": "Küsi pakkumist",
   "c_ctaSecondaryLabel": "Tutvu lahendustega",
-  "c_heroEyebrow": "",
   "c_heroTitle": "PVC katete valmistamine ja parandamine",
   "c_heroLede": "Valmistame tendid, koormakatted ja vahekardinad eritellimusena — Sinu mõõtude järgi.",
-  "c_heroMetaKicker": "",
-  "c_heroMetaNum": "",
-  "c_heroMetaSub": "",
-  "c_trustLabels": [
-    "01 — Värvid",
-    "02 — Kiirus",
-    "03 — Lahendus"
-  ],
   "c_trustValues": [
     "Suurim värvivalik Eestis",
     "Kiire valmistus",
@@ -153,18 +144,6 @@
   "c_aboutBody": "Katted24 OÜ on Eesti perefirma, mis tegeleb PVC-kangast toodete valmistamise, müügi ja remondiga alates 2010. aastast. Töökoda asub Tallinnas, Gaasi 7.\n\nMeie põhilised tooted on tendid veoautohaagistele, erinevad koormakatted ning vahekardinad. Lisaks toodame PVC-kangast katteid erinevatele kerghaagistele, veesõidukitele, tünnisaunadele ja basseinidele ning koduhoovidesse aiamaja-, grilli- ja liivakastikatteid.",
   "c_aboutPhotoTag": "Katted24 töökoda · Tallinn",
   "c_aboutSignatureName": "— Katted24 tiim",
-  "c_aboutSignatureRole": "Tallinn, Gaasi 7",
-  "c_aboutStatNums": [
-    "2010",
-    "15+ a",
-    "Eesti"
-  ],
-  "c_aboutStatLabels": [
-    "Asutatud Tallinnas",
-    "Kogemust PVC-toodetega",
-    "Oma tootmine, Gaasi 7"
-  ],
-  "c_valuesHeading": "Meie väärtused",
   "c_valueTitles": [
     "Kiirus",
     "Kvaliteet",
@@ -343,15 +322,6 @@
     "16138290",
     "EE20 7700 7710 0593 9502",
     "EE33 4204 2786 3250 2801"
-  ],
-  "c_contactRowSmall": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
   ],
   "c_footerTagline": "PVC katted, tendid ja koormakatted. Eesti tootmine, eritellimused, üle Eesti kohaletoimetamine.",
   "c_footerColHeadings": [

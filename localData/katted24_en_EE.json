@@ -34,17 +34,8 @@
   ],
   "c_ctaPrimaryLabel": "Request a quote",
   "c_ctaSecondaryLabel": "Explore solutions",
-  "c_heroEyebrow": "",
   "c_heroTitle": "PVC cover manufacturing and repair",
   "c_heroLede": "We make tarpaulins, load covers and partition curtains to order — built to your exact dimensions.",
-  "c_heroMetaKicker": "",
-  "c_heroMetaNum": "",
-  "c_heroMetaSub": "",
-  "c_trustLabels": [
-    "01 — Colours",
-    "02 — Speed",
-    "03 — Custom"
-  ],
   "c_trustValues": [
     "Widest range in Estonia",
     "Fast production",
@@ -153,18 +144,6 @@
   "c_aboutBody": "Katted24 OÜ is a family-owned Estonian company manufacturing, selling and repairing PVC-fabric products since 2010. Our workshop is in Tallinn at Gaasi 7.\n\nOur main products are tarpaulins for truck trailers, various load covers and partition curtains. In addition we make PVC-fabric covers for light trailers, watercraft, barrel saunas and pools, plus garden-house, grill and sandbox covers for home yards.",
   "c_aboutPhotoTag": "Katted24 workshop · Tallinn",
   "c_aboutSignatureName": "— The Katted24 team",
-  "c_aboutSignatureRole": "Tallinn, Gaasi 7",
-  "c_aboutStatNums": [
-    "2010",
-    "15+ yrs",
-    "Estonia"
-  ],
-  "c_aboutStatLabels": [
-    "Founded in Tallinn",
-    "Experience with PVC products",
-    "Our own workshop, Gaasi 7"
-  ],
-  "c_valuesHeading": "Our values",
   "c_valueTitles": [
     "Speed",
     "Quality",
@@ -343,15 +322,6 @@
     "16138290",
     "EE20 7700 7710 0593 9502",
     "EE33 4204 2786 3250 2801"
-  ],
-  "c_contactRowSmall": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
   ],
   "c_footerTagline": "PVC covers, tarpaulins and load covers. Made in Estonia, built to order, delivered nationwide.",
   "c_footerColHeadings": [
