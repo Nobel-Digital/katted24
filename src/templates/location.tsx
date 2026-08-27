@@ -25,7 +25,7 @@ export const config: TemplateConfig = {
     filter: { entityIds: ENTITY_ID ? [ENTITY_ID] : [] },
     fields: [
       "id", "name", "slug", "address", "mainPhone", "emails", "facebookPageUrl", "logo", "c_logoImage",
-      "c_navLabels", "c_ctaPrimaryLabel", "c_ctaSecondaryLabel",
+      "c_navLabels", "c_ctaPrimaryLabel", "c_ctaSecondaryLabel", "c_ctaPrimary", "c_ctaSecondary",
       "c_heroEyebrow", "c_heroTitle", "c_heroLede", "c_heroImage", "c_heroMetaKicker", "c_heroMetaNum", "c_heroMetaSub",
       "c_trustLabels", "c_trustValues",
       "c_valuePropsHeading", "c_valuePropTitles", "c_valuePropBodies",

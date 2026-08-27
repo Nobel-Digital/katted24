@@ -18,9 +18,9 @@ export function Contact({ entity }: Props) {
         </div>
         <div className="contact-grid">
           <div className="contact-card">
-            <a href="#form" className="contact-call">
+            <a href={entity.c_ctaPrimary?.uRL ?? "#form"} className="contact-call">
               <div>
-                <div className="num">{entity.c_ctaPrimaryLabel}</div>
+                <div className="num">{entity.c_ctaPrimary?.label ?? entity.c_ctaPrimaryLabel}</div>
                 <div className="lbl">{entity.c_contactCallLabel}</div>
               </div>
               <Icon.arrow style={{ width: 20, height: 20 }} />

@@ -465,5 +465,13 @@
     "image": {
       "url": "/assets/logo.png"
     }
+  },
+  "c_ctaPrimary": {
+    "label": "Küsi pakkumist",
+    "uRL": "#form"
+  },
+  "c_ctaSecondary": {
+    "label": "Tutvu lahendustega",
+    "uRL": "#solutions"
   }
 }

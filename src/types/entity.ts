@@ -31,6 +31,9 @@ export type YextPhotoGalleryItem = {
   alternateText?: string;
 };
 
+/** A Yext custom struct field with a label + URL (our CTA field shape, subfield `uRL`). */
+export type YextCTA = { label?: string; uRL?: string };
+
 /** A `ce_solution` linked entity. */
 export type SolutionEntity = {
   id: string;
@@ -58,6 +61,8 @@ export type Katted24Entity = {
   c_navLabels: string[];
   c_ctaPrimaryLabel: string;
   c_ctaSecondaryLabel: string;
+  c_ctaPrimary?: YextCTA;
+  c_ctaSecondary?: YextCTA;
 
   // Hero (AVAVAADE)
   c_heroEyebrow: string;

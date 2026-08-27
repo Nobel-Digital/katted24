@@ -465,5 +465,13 @@
     "image": {
       "url": "/assets/logo.png"
     }
+  },
+  "c_ctaPrimary": {
+    "label": "Request a quote",
+    "uRL": "#form"
+  },
+  "c_ctaSecondary": {
+    "label": "Explore solutions",
+    "uRL": "#solutions"
   }
 }

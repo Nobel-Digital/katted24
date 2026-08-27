@@ -465,5 +465,13 @@
     "image": {
       "url": "/assets/logo.png"
     }
+  },
+  "c_ctaPrimary": {
+    "label": "Запросить расчёт",
+    "uRL": "#form"
+  },
+  "c_ctaSecondary": {
+    "label": "Посмотреть решения",
+    "uRL": "#solutions"
   }
 }
