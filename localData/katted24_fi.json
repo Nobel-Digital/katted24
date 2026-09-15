@@ -4,14 +4,14 @@
     "countryCode": "EE",
     "line1": "Gaasi tn 7",
     "line2": "Lasnamäe linnaosa",
-    "localizedCountryName": "Eesti",
+    "localizedCountryName": "Viro",
     "localizedRegionName": "Harju maakond",
     "postalCode": "13816",
     "region": "Harju maakond"
   },
   "businessId": 4746561,
-  "c_aboutBody": "KATTED24 on Eesti ettevõte, mis tegeleb PVC‑katete valmistamise ja parandamisega nii äriklientidele (peamiselt tööstusele ja põllumajandusele) kui ka eraklientidele. Meie põhitoodete hulka kuuluvad katted veoautohaagistele ning vastupidavad vahekardinad tootmis‑ ja laoruumidesse, mis aitavad eraldada tööalasid, hoida ruume puhtana ja tagada ohutust. \n\nLisaks toodame ja hooldame kõiki teisi PVC-katetega seotud lahendusi alates liivakastikattest kuni erilahendusteni. Meie tugevuseks on pikaajaline kogemus, täpsed mõõdud ja töökindlad materjalid, mis tagavad katetele pika eluea ja kliendile soovitud tulemuse. \n\n \n„Katted24 sündis soovist teha PVC‑katete valdkonnas midagi paremini. Meie meeskond ühendab pikaajalise kogemuse ja pühendumuse, et pakkuda igale kliendile lahendust, mis kestab, toimib ja mille üle võib tõesti uhke olla.“",
-  "c_aboutEyebrow": "Meist",
+  "c_aboutBody": "KATTED24 on virolainen yritys, joka valmistaa ja korjaa PVC-peitteitä sekä yritysasiakkaille (pääasiassa teollisuudelle ja maataloudelle) että yksityisasiakkaille. Päätuotteisiimme kuuluvat kuorma-autojen perävaunujen pressut sekä kestävät väliverhot tuotanto- ja varastotiloihin, jotka auttavat erottamaan työalueet, pitämään tilat puhtaina ja varmistamaan turvallisuuden. \n\nLisäksi valmistamme ja huollamme kaikkia muita PVC-peitteisiin liittyviä ratkaisuja hiekkalaatikon peitteestä aina erikoisratkaisuihin asti. Vahvuutemme on pitkä kokemus, tarkat mitat ja luotettavat materiaalit, jotka takaavat peitteille pitkän käyttöiän ja asiakkaalle halutun tuloksen. \n\n \n”Katted24 syntyi halusta tehdä PVC-peitteiden alalla jotain paremmin. Tiimimme yhdistää pitkän kokemuksen ja omistautumisen, jotta voimme tarjota jokaiselle asiakkaalle ratkaisun, joka kestää, toimii ja josta voi olla todella ylpeä.”",
+  "c_aboutEyebrow": "Meistä",
   "c_aboutHeading": "KATTED24",
   "c_aboutPhoto": {
     "image": {
@@ -20,145 +20,145 @@
       "width": 947
     }
   },
-  "c_aboutPhotoTag": "Katted24 töökoda · Tallinn",
+  "c_aboutPhotoTag": "Katted24:n verstas · Tallinna",
   "c_aboutSignatureName": "— Heigo Varik",
-  "c_careersBody": "Meie meeskonda on alati oodatud inimesed, kes tahavad omandada PVC-katete valmistamist. Saada oma CV aadressile info@katted24.ee.",
+  "c_careersBody": "Tiimiimme ovat aina tervetulleita ihmiset, jotka haluavat oppia PVC-peitteiden valmistusta. Lähetä ansioluettelosi osoitteeseen info@katted24.ee.",
   "c_careersEmail": "info@katted24.ee",
-  "c_careersEyebrow": "Karjäär",
-  "c_careersHeading": "Tule meie meeskonda",
-  "c_contactCallLabel": "Täida päringuvorm — vastame esimesel võimalusel",
-  "c_contactEyebrow": "Kontakt",
-  "c_contactHeading": "Helista, kirjuta või tule kohale",
-  "c_contactIntro": "Kõige kiiremini saab vastuse alati telefoni teel – see on meie jaoks kõige otsesem suhtluskanal. Päringud on oodatud ka meilitsi, läbi päringuvormi või kohapeale tulles.\n\nTöökoda on avatud E–R, kokkuleppel ka L ja P.  \n\nKui soovid kohapeale tulla, palun helista alati ette.",
+  "c_careersEyebrow": "Työpaikat",
+  "c_careersHeading": "Tule tiimiimme",
+  "c_contactCallLabel": "Täytä tarjouspyyntölomake — vastaamme ensi tilassa",
+  "c_contactEyebrow": "Yhteystiedot",
+  "c_contactHeading": "Soita, kirjoita tai tule käymään",
+  "c_contactIntro": "Nopeimmin saat vastauksen aina puhelimitse – se on meille suorin yhteydenpitokanava. Tiedustelut ovat tervetulleita myös sähköpostilla, tarjouspyyntölomakkeella tai paikan päällä käymällä.\n\nVerstas on avoinna ma–pe, sopimuksesta myös la ja su.  \n\nJos haluat tulla paikan päälle, soita aina etukäteen.",
   "c_contactRowKeys": [
-    "Telefon",
-    "E-post",
-    "Aadress",
-    "Lahtiolekuajad",
-    "Reg. nr",
+    "Puhelin",
+    "Sähköposti",
+    "Osoite",
+    "Avoinna",
+    "Rek.nro",
     "LHV",
     "COOP"
   ],
   "c_contactRowValues": [
     "+372 566 555 66",
     "info@katted24.ee",
-    "Gaasi tn 7, Lasnamäe, 13816 Tallinn",
-    "E–R 9.00–17.30  ·  L–P kokkuleppel",
+    "Gaasi tn 7, Lasnamäe, 13816 Tallinna",
+    "ma–pe 9.00–17.30  ·  la–su sopimuksesta",
     "16138290",
     "EE20 7700 7710 0593 9502",
     "EE33 4204 2786 3250 2801"
   ],
-  "c_cookieAcceptLabel": "Nõustu",
-  "c_cookieBody": "Kasutame vajalikke küpsiseid ja Sinu nõusolekul analüütikat, et lehte paremaks teha. Jälgimist ei toimu enne nõustumist.",
-  "c_cookieHeading": "Küpsised sellel veebilehel",
-  "c_cookieLearnMore": "Loe privaatsuspoliitikat",
-  "c_cookieRejectLabel": "Keeldu",
-  "c_cookiesContent": "See veebileht kasutab ainult vajalikke küpsiseid ja — Sinu nõusolekul — Yexti esmapoolset analüütikat (lehevaated, klikid, seansi-ID, ligikaudne asukoht). Analüütikat ei käivitata enne nõustumist. Andmeid säilitatakse ~13 kuud. Saad oma valikut igal ajal muuta jaluse lingilt „Küpsiste seaded“.",
+  "c_cookieAcceptLabel": "Hyväksy",
+  "c_cookieBody": "Käytämme välttämättömiä evästeitä ja suostumuksellasi analytiikkaa sivuston parantamiseen. Seurantaa ei tapahdu ennen hyväksyntää.",
+  "c_cookieHeading": "Evästeet tällä verkkosivustolla",
+  "c_cookieLearnMore": "Lue tietosuojakäytäntö",
+  "c_cookieRejectLabel": "Kiellä",
+  "c_cookiesContent": "Tämä verkkosivusto käyttää vain välttämättömiä evästeitä ja — suostumuksellasi — Yextin ensimmäisen osapuolen analytiikkaa (sivunäytöt, klikkaukset, istuntotunnus, likimääräinen sijainti). Analytiikkaa ei käynnistetä ennen hyväksyntää. Tietoja säilytetään noin 13 kuukautta. Voit muuttaa valintaasi milloin tahansa alatunnisteen ”Evästeasetukset”-linkistä.",
   "c_ctaPrimary": {
-    "label": "Küsi pakkumist",
+    "label": "Pyydä tarjous",
     "uRL": "#form"
   },
   "c_ctaSecondary": {
-    "label": "Tutvu lahendustega",
+    "label": "Tutustu ratkaisuihin",
     "uRL": "#solutions"
   },
-  "c_faqEyebrow": "KKK",
-  "c_faqHeading": "KORDUMA KIPPUVAD KÜSIMUSED",
-  "c_faqIntro": "Levinumad küsimused hinna, tellimise ja valmistamise kohta.",
+  "c_faqEyebrow": "UKK",
+  "c_faqHeading": "USEIN KYSYTYT KYSYMYKSET",
+  "c_faqIntro": "Yleisimmät kysymykset hinnasta, tilaamisesta ja valmistuksesta.",
   "c_footerColHeadings": [
-    "Lehel",
-    "Kontakt",
-    "Keel"
+    "Sivulla",
+    "Yhteystiedot",
+    "Kieli"
   ],
-  "c_footerLegalLine": "© 2026 Katted24 OÜ  ·  Reg. nr 16138290",
+  "c_footerLegalLine": "© 2026 Katted24 OÜ  ·  Rek.nro 16138290",
   "c_footerLegalLinks": [
-    "Privaatsus",
-    "Tingimused",
-    "Küpsised"
+    "Tietosuoja",
+    "Ehdot",
+    "Evästeet"
   ],
-  "c_footerTagline": "PVC katted, tendid ja koormakatted. Eesti tootmine, eritellimused, üle Eesti kohaletoimetamine.",
+  "c_footerTagline": "PVC-peitteet, pressut ja kuormapeitteet. Virolaista tuotantoa, erikoistilaukset, toimitus koko Viroon.",
   "c_formBulletBodies": [
-    "Toome välja alati selge ja lõpliku hinna, et kogu töö oleks algusest peale arusaadav.",
-    "Iga kate valmib sinu mõõtude ja värvieelistuse järgi.",
-    "Vastupidavad materjalid ja pikaajaline kogemus.",
-    "Ettemaks 30%, ülejäänud kättesaamisel – sularahas või arvega."
+    "Ilmoitamme aina selkeän ja lopullisen hinnan, jotta koko työ on ymmärrettävä heti alusta asti.",
+    "Jokainen peite valmistuu sinun mittojesi ja väritoiveesi mukaan.",
+    "Kestävät materiaalit ja pitkä kokemus.",
+    "Ennakkomaksu 30 %, loput noudon yhteydessä – käteisellä tai laskulla."
   ],
   "c_formBulletTitles": [
-    "Täpne hind",
-    "Alati eritellimusel",
-    "Kvaliteetne käsitöö",
-    "Paindlik maksmine"
+    "Tarkka hinta",
+    "Aina erikoistilauksena",
+    "Laadukasta käsityötä",
+    "Joustava maksu"
   ],
-  "c_formCardHead": "Telli oma kate",
-  "c_formEyebrow": "PAKKUMISE PÄRING",
+  "c_formCardHead": "Tilaa oma peite",
+  "c_formEyebrow": "TARJOUSPYYNTÖ",
   "c_formFieldLabels": [
-    "Pikkus",
-    "Laius",
-    "Kõrgus",
-    "Värv",
-    "Soovitud valmimisaeg",
-    "Lisainfo, kinnitused, eritingimused",
-    "Ees- ja perekonnanimi",
-    "Telefon",
-    "E-post",
-    "Lisa fotod või joonised"
+    "Pituus",
+    "Leveys",
+    "Korkeus",
+    "Väri",
+    "Toivottu valmistumisaika",
+    "Lisätiedot, kiinnitykset, erityisehdot",
+    "Etu- ja sukunimi",
+    "Puhelin",
+    "Sähköposti",
+    "Lisää valokuvia tai piirustuksia"
   ],
   "c_formFieldPlaceholders": [
-    "nt 4,2",
-    "nt 8,5",
-    "nt 2,4",
-    "nt sinine, must, valge…",
-    "Vali kuupäev",
-    "Nt. eelmine kate sai katki paremas servas, vajan luuke kahel pool…",
+    "esim. 4,2",
+    "esim. 8,5",
+    "esim. 2,4",
+    "esim. sininen, musta, valkoinen…",
+    "Valitse päivämäärä",
+    "Esim. edellinen peite repesi oikeasta reunasta, tarvitsen luukut molemmille puolille…",
     "Mari Tamm",
     "+372 555 0000",
-    "mari@näide.ee"
+    "mari@esimerkki.ee"
   ],
-  "c_formFootHelp": "Vajutades Saada päring nõustud, et võtame sinuga ühendust pakkumise edastamiseks. Andmeid me kolmandatele osapooltele ei jaga.",
+  "c_formFootHelp": "Painamalla Lähetä pyyntö hyväksyt, että otamme sinuun yhteyttä tarjouksen toimittamiseksi. Emme jaa tietoja kolmansille osapuolille.",
   "c_formGroupLabels": [
-    "Toote andmed",
-    "Sinu kontakt"
+    "Tuotteen tiedot",
+    "Sinun yhteystietosi"
   ],
-  "c_formLede": "Täida vorm ja saadame sulle e-kirjaga hinnapakkumise. Pakkumine on tasuta ega kohusta sind millekski.",
-  "c_formOptionalLabel": "Valikuline",
-  "c_formProductTypeLabel": "Mida soovid tellida?",
+  "c_formLede": "Täytä lomake ja lähetämme sinulle tarjouksen sähköpostilla. Tarjous on maksuton eikä velvoita sinua mihinkään.",
+  "c_formOptionalLabel": "Valinnainen",
+  "c_formProductTypeLabel": "Mitä haluat tilata?",
   "c_formProductTypeOptions": [
-    "Vali toode…",
-    "Tent (veoauto või haagis)",
-    "Koormakate",
-    "Vahekardin",
-    "Kerghaagise kate",
-    "Paadi- või veesõiduki kate",
-    "Tünnisauna- või basseinikate",
-    "Aiamaja- või grillkate",
-    "Parandustöö",
-    "Muu / täpsustan kirjeldusena"
+    "Valitse tuote…",
+    "Pressu (kuorma-auto tai perävaunu)",
+    "Kuormapeite",
+    "Väliverho",
+    "Kevytperävaunun peite",
+    "Veneen tai vesikulkuneuvon peite",
+    "Palju- tai uima-altaan peite",
+    "Puutarhamajan tai grillin peite",
+    "Korjaustyö",
+    "Muu / tarkennan kuvauksessa"
   ],
-  "c_formStepPill": "TASUTA · LIHTNE",
-  "c_formSubmitBusy": "Saatmine…",
-  "c_formSubmitIdle": "Saada päring",
-  "c_formSuccessAgain": "Saada veel üks",
-  "c_formSuccessBody": "Vaatame Sinu päringu üle ja saadame täpse hinnapakkumise esimesel võimalusel.",
-  "c_formSuccessCardBody": "Tutvume andmetega ja saadame hinnapakkumise esimesel võimalusel.",
-  "c_formSuccessCardTitle": "Päring saadetud",
+  "c_formStepPill": "MAKSUTON · HELPPO",
+  "c_formSubmitBusy": "Lähetetään…",
+  "c_formSubmitIdle": "Lähetä pyyntö",
+  "c_formSuccessAgain": "Lähetä uusi",
+  "c_formSuccessBody": "Käymme pyyntösi läpi ja lähetämme tarkan tarjouksen ensi tilassa.",
+  "c_formSuccessCardBody": "Tutustumme tietoihin ja lähetämme tarjouksen ensi tilassa.",
+  "c_formSuccessCardTitle": "Pyyntö lähetetty",
   "c_formSuccessRowBodies": [
-    "saadame kinnituse aadressile",
-    "helistame, kui vajame täpsustusi",
-    "ja Sind ei kohusta millekski"
+    "lähetämme vahvistuksen osoitteeseen",
+    "soitamme, jos tarvitsemme tarkennuksia",
+    "eikä se velvoita sinua mihinkään"
   ],
   "c_formSuccessRowTitles": [
-    "E-post:",
-    "Telefon:",
-    "Pakkumine on tasuta"
+    "Sähköposti:",
+    "Puhelin:",
+    "Tarjous on maksuton"
   ],
-  "c_formSuccessTitle": "Pakkumine teel su postkasti",
-  "c_formTitle": "SAADA MÕÕDUD, SAA TÄPNE PAKKUMINE",
+  "c_formSuccessTitle": "Tarjous on tulossa postilaatikkoosi",
+  "c_formTitle": "LÄHETÄ MITAT, SAA TARKKA TARJOUS",
   "c_formValidationMessages": [
-    "Vali toote tüüp",
-    "Palun sisesta oma nimi",
-    "Kontrolli telefoninumbrit",
-    "Kontrolli e-posti",
-    "Vajalik"
+    "Valitse tuotetyyppi",
+    "Syötä nimesi",
+    "Tarkista puhelinnumero",
+    "Tarkista sähköpostiosoite",
+    "Pakollinen"
   ],
   "c_foundingYear": "2021",
   "c_heroImage": {
@@ -168,9 +168,9 @@
       "width": 1400
     }
   },
-  "c_heroLede": "Valmistame kõik katted eritellimusena. Sina ütled katte kuju, mõõdud ja värvuse ning kõik muu jääb meie teha.",
-  "c_heroTitle": "PVC-KATETE VALMISTAMINE JA PARANDAMINE",
-  "c_inspirationEyebrow": "Inspiratsioon",
+  "c_heroLede": "Valmistamme kaikki peitteet erikoistilauksena. Sinä kerrot peitteen muodon, mitat ja värin – kaikesta muusta huolehdimme me.",
+  "c_heroTitle": "PVC-PEITTEIDEN VALMISTUS JA KORJAUS",
+  "c_inspirationEyebrow": "Inspiraatio",
   "c_inspirationGallery": [
     {
       "image": {
@@ -292,17 +292,17 @@
       }
     }
   ],
-  "c_inspirationHeading": "VAATA, MIDA PVC-KANGAST SAAB TEHA",
-  "c_inspirationIntro": "PVC-kangale leiab lõputult kasutusviise. Toome inspiratsiooniks ja ideede saamiseks laia valiku näiteid PVC-katete kasutamisest.",
+  "c_inspirationHeading": "KATSO, MITÄ PVC-KANKAASTA VOI TEHDÄ",
+  "c_inspirationIntro": "PVC-kankaalle löytyy loputtomasti käyttötapoja. Esittelemme inspiraatioksi ja ideoiden lähteeksi laajan valikoiman esimerkkejä PVC-peitteiden käytöstä.",
   "c_keywords": [
-    "PVC katted",
-    "tendid",
-    "koormakatted",
-    "vahekardinad",
-    "PVC hallide remont",
-    "veesõidukite katted",
-    "eritellimus katted",
-    "Tallinn"
+    "PVC-peitteet",
+    "pressut",
+    "kuormapeitteet",
+    "väliverhot",
+    "PVC-hallien korjaus",
+    "vesikulkuneuvojen peitteet",
+    "erikoistilauspeitteet",
+    "Tallinna"
   ],
   "c_logoImage": {
     "image": {
@@ -312,39 +312,39 @@
     }
   },
   "c_mapEmbedUrl": "https://www.google.com/maps?q=Gaasi+7,+Tallinn,+Estonia&output=embed",
-  "c_metaDescription": "Katted24 OÜ valmistab PVC katteid eritellimusena — tendid, koormakatted, vahekardinad, paadi- ja saunakatted ning PVC-hallide hooldus. Küsi pakkumist.",
+  "c_metaDescription": "Katted24 OÜ valmistaa PVC-peitteitä erikoistilauksena — pressut, kuormapeitteet, väliverhot, veneiden ja saunojen peitteet sekä PVC-hallien huolto. Pyydä tarjous.",
   "c_navLabels": [
-    "Lahendused",
-    "Kasutusalad",
-    "Inspiratsioon",
-    "KKK",
-    "Meist",
-    "Kontakt"
+    "Ratkaisut",
+    "Käyttökohteet",
+    "Inspiraatio",
+    "UKK",
+    "Meistä",
+    "Yhteystiedot"
   ],
-  "c_policyClose": "Sulge",
-  "c_policyCookiesTab": "Küpsised",
-  "c_policyHeading": "Privaatsus ja küpsised",
-  "c_policyPrivacyTab": "Privaatsus",
-  "c_privacyPolicyContent": "Vastutav töötleja on Katted24 OÜ (Gaasi 7, Tallinn 11415). Kogume ainult andmeid, mille Sa ise päringuvormis edastad (nimi, telefon, e-post, toote kirjeldus), et Sulle pakkumist teha. Andmeid ei jagata kolmandatele osapooltele ega kasutata turunduslikuks profileerimiseks. Sul on õigus oma andmetega tutvuda, neid parandada ja kustutada — kirjuta info@katted24.ee. Järelevalveasutus on Andmekaitse Inspektsioon (info@aki.ee).",
-  "c_repairHeading": "PVC-kangast tooteid saab alati ka parandada!",
+  "c_policyClose": "Sulje",
+  "c_policyCookiesTab": "Evästeet",
+  "c_policyHeading": "Tietosuoja ja evästeet",
+  "c_policyPrivacyTab": "Tietosuoja",
+  "c_privacyPolicyContent": "Rekisterinpitäjä on Katted24 OÜ (Gaasi 7, Tallinna 11415). Keräämme vain ne tiedot, jotka itse annat tarjouspyyntölomakkeella (nimi, puhelin, sähköposti, tuotteen kuvaus), jotta voimme tehdä sinulle tarjouksen. Tietoja ei luovuteta kolmansille osapuolille eikä käytetä markkinoinnilliseen profilointiin. Sinulla on oikeus tarkastaa, oikaista ja poistaa tietosi — kirjoita osoitteeseen info@katted24.ee. Valvontaviranomainen on Viron tietosuojavirasto (info@aki.ee).",
+  "c_repairHeading": "PVC-kankaasta valmistetut tuotteet voi aina myös korjata!",
   "c_repairItems": [
-    "Tendid",
-    "Koormakatted",
-    "Vahekardinad",
-    "PVC-hallid",
-    "Haagiste katted",
-    "Peotelgid",
-    "Täispuhutavad atraktsioonid",
-    "Kummipaadid",
-    "Batuudid",
-    "Veepealsed tuubid",
-    "Stardi- ja finišikaared",
-    "Rallikaared"
+    "Pressut",
+    "Kuormapeitteet",
+    "Väliverhot",
+    "PVC-hallit",
+    "Perävaunujen peitteet",
+    "Juhlateltat",
+    "Puhallettavat aktiviteetit",
+    "Kumiveneet",
+    "Trampoliinit",
+    "Vesituubit",
+    "Lähtö- ja maaliportit",
+    "Ralliportit"
   ],
   "c_solutions": [
     {
       "c_solutionBodies": [
-        "Valmistame vastupidavad ja veekindlad PVC‑katted kõigile kodustele lahendustele, mis vajavad kaitset Eesti heitliku ilmastiku eest. Olgu sul aiamaja, liivakast, grill, suitsuahi, aiamööbel, bassein, tünnisaun või mõni muu objekt, mis vajab kindlat katet – teeme selle täpselt sinu mõõtude järgi. \n\nKatted hoiavad sinu kodused asjad kuivana, puhtana ja pikendavad nende eluiga, pakkudes aastaringselt kaitset, mis on ühtaegu esteetiline ja praktiline."
+        "Valmistamme kestävät ja vedenpitävät PVC-peitteet kaikkiin kodin kohteisiin, jotka tarvitsevat suojaa Viron vaihtelevaa säätä vastaan. Olipa sinulla puutarhamaja, hiekkalaatikko, grilli, savustusuuni, puutarhakalusteet, uima-allas, palju tai jokin muu kohde, joka tarvitsee kunnon peitteen – teemme sen tarkasti sinun mittojesi mukaan. \n\nPeitteet pitävät kodin tavarat kuivina ja puhtaina ja pidentävät niiden käyttöikää tarjoamalla ympärivuotisen suojan, joka on samalla sekä siisti että käytännöllinen."
       ],
       "c_solutionGallery": [
         {
@@ -514,16 +514,16 @@
         }
       ],
       "c_solutionTags": [
-        "ERAKLIENDILE"
+        "YKSITYISASIAKKAILLE"
       ],
       "c_solutionTitles": [
-        "PVC‑katted kodu ja aia kaitseks"
+        "PVC-peitteet kodin ja pihan suojaksi"
       ],
       "id": "1691756530422518060"
     },
     {
       "c_solutionBodies": [
-        "Toodame mitmesuguseid PVC‑kardinaid, mis sobivad nii tootmis‑ kui laoruumidesse. Valikus on tavalised PVC‑kardinad, kilekardinad ja võrguga kardinad, mis võimaldavad ruumidesse tuua rohkem valgust ning tagada parema õhuringluse. \n\nLisaks valmistame ka keevituskardinaid, mis kaitsevad tööalasid sädemete, valguse ja kuumuse eest ning vastavad tööstuslikele ohutusnõuetele. \n\nKõik kardinad valmistame täpselt mõõdu järgi, et lahendus sobiks ideaalselt ettenähtud ruumi ja kasutusotstarbega."
+        "Valmistamme monenlaisia PVC-verhoja, jotka sopivat niin tuotanto- kuin varastotiloihin. Valikoimassa on tavallisia PVC-verhoja, kalvoverhoja ja verkkoverhoja, jotka päästävät tiloihin enemmän valoa ja parantavat ilmankiertoa. \n\nLisäksi valmistamme hitsausverhoja, jotka suojaavat työalueita kipinöiltä, valolta ja kuumuudelta ja täyttävät teollisuuden turvallisuusvaatimukset. \n\nKaikki verhot valmistamme tarkasti mittojen mukaan, jotta ratkaisu sopii täydellisesti kyseiseen tilaan ja käyttötarkoitukseen."
       ],
       "c_solutionGallery": [
         {
@@ -643,16 +643,16 @@
         }
       ],
       "c_solutionTags": [
-        "PVC‑KARDINAD"
+        "PVC-VERHOT"
       ],
       "c_solutionTitles": [
-        "Erinevad lahendused ruumide eraldamiseks"
+        "Erilaisia ratkaisuja tilojen erottamiseen"
       ],
       "id": "8595302113338213386"
     },
     {
       "c_solutionBodies": [
-        "Usalda PVC-katted meile – parandame kõike, mis on valmistatud PVC‑kangast. Olgu tegemist haagiste katete, PVC‑hallide, batuutide, veepealsete tuubide, kummipaatide, peotelkide või muude meelelahutuslike toodetega, nagu rallikaared, stardi- ja finišikaared ja täispuhutavad atraktsioonid – anname neile uue elu. \n\nRemondi käigus saame lisada uued lukud, rihmad, kinnitused, vajadusel tugevdada kulunud servi ning taastada kõik, mis aitab pikendada katte või toote kasutusiga. Töö teeme täpselt vastavalt sinu vajadusele ja objekti eripärale."
+        "Luota PVC-peitteesi meille – korjaamme kaiken, mikä on valmistettu PVC-kankaasta. Olipa kyse perävaunujen peitteistä, PVC-halleista, trampoliineista, vesituubeista, kumiveneistä, juhlateltoista tai muista vapaa-ajan tuotteista, kuten ralliporteista, lähtö- ja maaliporteista sekä puhallettavista aktiviteeteista – annamme niille uuden elämän. \n\nKorjauksen yhteydessä voimme lisätä uudet vetoketjut, hihnat ja kiinnikkeet, tarvittaessa vahvistaa kuluneet reunat ja kunnostaa kaiken, mikä auttaa pidentämään peitteen tai tuotteen käyttöikää. Teemme työn tarkasti tarpeidesi ja kohteen erityispiirteiden mukaan."
       ],
       "c_solutionGallery": [
         {
@@ -672,16 +672,16 @@
         }
       ],
       "c_solutionTags": [
-        "HOOLDUS"
+        "HUOLTO"
       ],
       "c_solutionTitles": [
-        "PVC‑katete parandamine ja remont"
+        "PVC-peitteiden korjaus ja huolto"
       ],
       "id": "286873313655269856"
     },
     {
       "c_solutionBodies": [
-        "Valmistame kõigile haagistele ja konteineritele täpselt mõõdus PVC‑tendid ja koormakatted, mis tagavad veosele kindla kaitse igas olukorras. Meilt saad terviklahenduse: vajadusel vahetame välja rihmad, torud, pingutid, rullikud, katuseplastikud ja kõik muu, mis on vajalik selleks, et kate oleks laitmatult töökindel. \n\nSoovi korral saab kohapealt osta ka varuosi, et need hiljem ise paigaldada. Lisaks pakume võimalust isikupärastada haagist või konteinerit, kandes kattele värviga või kleebistega peale logo, tekstid või muud kujundused. Nii muutub veok mitte ainult praktiliseks, vaid ka visuaalselt eristuvaks."
+        "Valmistamme kaikkiin perävaunuihin ja kontteihin tarkasti mittojen mukaiset PVC-pressut ja kuormapeitteet, jotka suojaavat kuorman varmasti kaikissa olosuhteissa. Meiltä saat kokonaisratkaisun: tarvittaessa vaihdamme hihnat, putket, kiristimet, rullat, kattomuovit ja kaiken muun, mikä on tarpeen, jotta peite toimii moitteettomasti. \n\nHalutessasi voit ostaa varaosat myös paikan päältä ja asentaa ne itse myöhemmin. Lisäksi tarjoamme mahdollisuuden yksilöidä perävaunu tai kontti lisäämällä peitteeseen maalilla tai tarroilla logon, tekstit tai muut kuviot. Näin ajoneuvosta tulee paitsi käytännöllinen myös visuaalisesti erottuva."
       ],
       "c_solutionGallery": [
         {
@@ -836,16 +836,16 @@
         }
       ],
       "c_solutionTags": [
-        "TRANSPORT"
+        "KULJETUS"
       ],
       "c_solutionTitles": [
-        "Tendid ja koormakatted"
+        "Pressut ja kuormapeitteet"
       ],
       "id": "786711843254186896"
     },
     {
       "c_solutionBodies": [
-        "PVC‑katted on ehitussektoris praktiline ja vastupidav lahendus, mis sobitub väga erinevatesse olukordadesse. Valmistame vahekardinad tootmis‑ ja laoruumidesse, katusealuste uued kardinad, samuti kattelahendused kuuridele ja konteineritele, mis vajavad kaitset ehitusobjektil. \n\nLisaks toodame ruume eraldavaid PVC‑kardinaid pesulatesse ja töökodadesse, mis aitavad hoida tööprotsessid puhtad, turvalised ja eraldatud. \n\nEhitusobjektidele valmistame ka tõstekatteid, millega saab mugavalt ja ohutult tõsta erinevaid materjale või esemeid. Meie katteid on kasutatud isegi lume tõstmiseks, et vähendada töömeeste vaeva. \n\nPVC‑katted sobivad suurepäraselt ka seadmete ja tööriistade kaitsmiseks vihma, tuule, päikese ja lume eest – kindel kate aitab oluliselt pikendada nende eluiga ning hoida tööobjekti korras ja turvalisena."
+        "Rakennusalalla PVC-peitteet ovat käytännöllinen ja kestävä ratkaisu, joka sopeutuu hyvin erilaisiin tilanteisiin. Valmistamme väliverhoja tuotanto- ja varastotiloihin, uusia verhoja katoksiin sekä peiteratkaisuja vajoihin ja kontteihin, jotka tarvitsevat suojaa työmaalla. \n\nLisäksi valmistamme tiloja erottavia PVC-verhoja pesuloihin ja korjaamoihin, mikä auttaa pitämään työprosessit puhtaina, turvallisina ja erillään. \n\nTyömaille valmistamme myös nostopeitteitä, joilla voi nostaa erilaisia materiaaleja tai esineitä kätevästi ja turvallisesti. Peitteitämme on käytetty jopa lumen nostamiseen työmiesten vaivan vähentämiseksi. \n\nPVC-peitteet sopivat erinomaisesti myös laitteiden ja työkalujen suojaamiseen sateelta, tuulelta, auringolta ja lumelta – kunnon peite auttaa pidentämään niiden käyttöikää huomattavasti ja pitää työmaan siistinä ja turvallisena."
       ],
       "c_solutionGallery": [
         {
@@ -905,16 +905,16 @@
         }
       ],
       "c_solutionTags": [
-        "EHITUS JA TÖÖSTUS"
+        "RAKENTAMINEN JA TEOLLISUUS"
       ],
       "c_solutionTitles": [
-        "Ehitus ja hooned"
+        "Rakentaminen ja rakennukset"
       ],
       "id": "7243587257085155038"
     },
     {
       "c_solutionBodies": [
-        "PVC‑hallid vajavad regulaarset hooldust, et tagada nende töökindlus ja pikk eluiga. Soovitame halle hooldada 3–4 korda aastas ning alati pärast suuremaid torme, sest just ilmastik mõjutab enim katete seisukorda. See on täpselt see, millega meie tegeleme – PVC‑hallide täielik järelhooldus üle kogu Eesti. \n\nVajadusel vahetame välja halli katted, parandame kahjustused, pingutame katte, kontrollime tros­se, polte, maakiile ja kinnitusi ning teeme kõik muud tööd, mis hoiavad halli konstruktsiooni turvalisena. Soovitame igal aastal teha ka visuaalse kontrolli, et märgata varakult kulumist ja veenduda, kas kate on korralikult pingul. \n\nSoovi korral lisame hallile õhuavasid, mis parandavad õhuringlust ja vähendavad niiskuse kogunemist. Tuulise ilmaga tuleb hoida PVC‑halli uks alati suletuna – lahtine uks tõstab sisemist rõhku ja võib katuse või kardinad lõhki rebida. \n\nKõik füüsilised kahjustused tuleks lasta parandada kohe, sest hiljem võivad need kujuneda kordades suuremaks ja kulukamaks. Meie meeskond käib PVC‑halle hooldamas ja remontimas üle kogu Eesti, pakkudes kiiret ja professionaalset abi."
+        "PVC-hallit vaativat säännöllistä huoltoa, jotta niiden toimintavarmuus ja pitkä käyttöikä säilyvät. Suosittelemme hallien huoltamista 3–4 kertaa vuodessa ja aina suurempien myrskyjen jälkeen, sillä juuri sää vaikuttaa peitteiden kuntoon eniten. Tämä on juuri sitä, mitä me teemme – PVC-hallien täysi jälkihuolto koko Virossa. \n\nTarvittaessa vaihdamme hallin peitteet, korjaamme vauriot, kiristämme peitteen, tarkastamme vaijerit, pultit, maakiilat ja kiinnikkeet sekä teemme kaikki muut työt, jotka pitävät hallin rakenteen turvallisena. Suosittelemme myös vuosittaista silmämääräistä tarkastusta, jotta kuluminen havaitaan ajoissa ja peitteen kireys voidaan varmistaa. \n\nHalutessasi lisäämme halliin ilmanvaihtoaukkoja, jotka parantavat ilmankiertoa ja vähentävät kosteuden kerääntymistä. Tuulisella ilmalla PVC-hallin ovi on pidettävä aina suljettuna – avoin ovi nostaa sisäistä painetta ja voi repäistä katon tai verhot. \n\nKaikki fyysiset vauriot kannattaa korjata heti, sillä myöhemmin ne voivat kasvaa moninkertaisesti suuremmiksi ja kalliimmiksi. Tiimimme huoltaa ja korjaa PVC-halleja koko Virossa tarjoten nopeaa ja ammattitaitoista apua."
       ],
       "c_solutionGallery": [
         {
@@ -959,16 +959,16 @@
         }
       ],
       "c_solutionTags": [
-        "PVC‑HALLID"
+        "PVC-HALLIT"
       ],
       "c_solutionTitles": [
-        "Hooldus ja remont"
+        "Huolto ja korjaus"
       ],
       "id": "4377455616324236"
     },
     {
       "c_solutionBodies": [
-        "PVC‑katted on põllu‑ ja metsameeste igapäevatöös asendamatud, pakkudes vastupidavat kaitset nii seadmetele, masinatele kui ka suuremõõtmelistele tööobjektidele. Valmistame ja parandame PVC‑halle, katusealuseid, kuure, konteinerite katteid ning haagiste katteid, mis peavad vastu intensiivsele kasutusele ja muutlikule ilmastikule. \n\nToodame ka PVC‑kangast torusid ja lõõtsasid, traktorite põhjakatteid, erinevaid aluskatted ning lägamahutite katteid, mis aitavad hoida seadmeid ja materjale kuivana, puhtana ja kaitstuna. Kuna põllumajandus- ja metsandusseadmed on sageli suured, käime kliendi juures üle Eesti, et võtta täpsed mõõdud või teha kohapeal vajalikud parandused. \n\nMetsa- ja põllumeeste jaoks toodame ka populaarse liikuvpõrandaga haagise katteid. Neid valmistame ette ka lattu, et saaksime vajadusel kiiresti reageerida ja pakkuda uut katet ilma pikema ooteajata. \n\nMeie eesmärk on tagada, et kõik PVC‑katted töötaksid tõrgeteta ja pikendaksid seadmete eluiga – olgu tegemist metsatöö, põllutöö või transpordiga."
+        "PVC-peitteet ovat korvaamattomia maan- ja metsämiesten päivittäisessä työssä: ne suojaavat kestävästi niin laitteita, koneita kuin suurikokoisia työkohteita. Valmistamme ja korjaamme PVC-halleja, katoksia, vajoja, konttien peitteitä ja perävaunujen peitteitä, jotka kestävät intensiivistä käyttöä ja vaihtelevaa säätä. \n\nValmistamme myös PVC-kankaasta putkia ja palkeita, traktorien pohjapeitteitä, erilaisia alusmattoja sekä lietesäiliöiden peitteitä, jotka auttavat pitämään laitteet ja materiaalit kuivina, puhtaina ja suojattuina. Koska maa- ja metsätalouden laitteet ovat usein suuria, tulemme asiakkaan luo koko Viroon ottamaan tarkat mitat tai tekemään tarvittavat korjaukset paikan päällä. \n\nMetsä- ja maanmiehille valmistamme myös suositut liikkuvalattiaisten perävaunujen peitteet. Näitä valmistamme myös varastoon, jotta voimme tarvittaessa reagoida nopeasti ja tarjota uuden peitteen ilman pitkää odotusaikaa. \n\nTavoitteemme on varmistaa, että kaikki PVC-peitteet toimivat moitteettomasti ja pidentävät laitteiden käyttöikää – olipa kyse metsätyöstä, peltotyöstä tai kuljetuksesta."
       ],
       "c_solutionGallery": [
         {
@@ -1013,16 +1013,16 @@
         }
       ],
       "c_solutionTags": [
-        "PÕLLUMAJANDUS"
+        "MAATALOUS"
       ],
       "c_solutionTitles": [
-        "Põllumajandus ja metsandus"
+        "Maatalous ja metsätalous"
       ],
       "id": "8231499119510467712"
     },
     {
       "c_solutionBodies": [
-        "Meie PVC‑katted leiavad kasutust ka kaitsetööstuses, kus on vaja vastupidavaid ja töökindlaid lahendusi nii sõidukite, tehnika kui ka hoonete ehituses. Kõik kaitsetööstuse tellimused valmivad eritäpsusega ning kasutame FR‑tähisega (fire resistance) PVC‑materjale, mis tähendab aeglast süttimist ja paremat tulekindlust – just seda, mida NATO standardid nõuavad. \n\nKaitsetööstuse katted toodame alati esmajärjekorras, et anda oma panus Eesti riigikaitsesse. Meie jaoks on oluline, et kaitsevaldkonna tehnika ja rajatised oleksid kaetud lahendustega, mis peavad vastu ekstreemsetele tingimustele ja intensiivsele kasutusele."
+        "PVC-peitteitämme käytetään myös puolustusteollisuudessa, jossa tarvitaan kestäviä ja toimintavarmoja ratkaisuja niin ajoneuvoihin, tekniikkaan kuin rakennuksiin. Kaikki puolustusteollisuuden tilaukset valmistetaan erityisellä tarkkuudella, ja käytämme FR-merkinnällä (fire resistance) varustettuja PVC-materiaaleja, mikä tarkoittaa hidasta syttymistä ja parempaa palonkestoa – juuri sitä, mitä NATO-standardit vaativat. \n\nValmistamme puolustusteollisuuden peitteet aina ensisijaisesti, jotta voimme antaa oman panoksemme Viron maanpuolustukseen. Meille on tärkeää, että puolustusalan tekniikka ja rakenteet on suojattu ratkaisuilla, jotka kestävät ääriolosuhteita ja intensiivistä käyttöä."
       ],
       "c_solutionGallery": [
         {
@@ -1042,16 +1042,16 @@
         }
       ],
       "c_solutionTags": [
-        "KAITSETÖÖSTUS"
+        "PUOLUSTUSTEOLLISUUS"
       ],
       "c_solutionTitles": [
-        "Meil on KATTETAHE!"
+        "Meillä on SUOJAUSTAHTO!"
       ],
       "id": "5306956363768829121"
     },
     {
       "c_solutionBodies": [
-        "PVC‑katted on ideaalne lahendus kõigile hobisõidukitele, pakkudes nii transpordi‑ kui seisukaitset aastaringselt. Valmistame täpselt mõõdus katted kaatritele, jahtidele, lumesaanidele, murutraktoritele, mootorratastele, ATV‑dele ja paljudele teistele masinatele, mis vajavad kaitset vihma, päikese, tuule või lume eest. \n\nLisaks toodame aluskatted mototehnikale, näiteks rallibokside põrandakatted, mis takistavad õli ja muude vedelike sattumist loodusesse. Meie katted on olnud kasutusel mitmetel autoralli võistlustel, kus oleme võimalusel alati toetanud ka noori rallisportlasi. \n\nPVC‑katted sobivad suurepäraselt ka kuuride ja katusealuste ette, kus hobisõidukeid hoitakse aastaringselt. Nii püsib tehnika puhas, kuiv ja kaitstud, olenemata ilmast."
+        "PVC-peitteet ovat ideaalinen ratkaisu kaikille harrasteajoneuvoille: ne suojaavat sekä kuljetuksen että seisonnan aikana ympäri vuoden. Valmistamme tarkasti mittojen mukaiset peitteet moottoriveneille, huviveneille, moottorikelkoille, puutarhatraktoreille, moottoripyörille, mönkijöille ja monille muille koneille, jotka tarvitsevat suojaa sateelta, auringolta, tuulelta tai lumelta. \n\nLisäksi valmistamme alusmattoja moottoriurheiluvälineille, esimerkiksi rallivarikoiden lattiapeitteitä, jotka estävät öljyn ja muiden nesteiden pääsyn maaperään. Peitteitämme on käytetty useissa rallikilpailuissa, joissa olemme mahdollisuuksien mukaan aina tukeneet myös nuoria rallikuljettajia. \n\nPVC-peitteet sopivat erinomaisesti myös vajojen ja katosten eteen, joissa harrasteajoneuvoja pidetään ympäri vuoden. Näin tekniikka pysyy puhtaana, kuivana ja suojattuna säästä riippumatta."
       ],
       "c_solutionGallery": [
         {
@@ -1071,16 +1071,16 @@
         }
       ],
       "c_solutionTags": [
-        "HOBI"
+        "HARRASTE"
       ],
       "c_solutionTitles": [
-        "Hobisõidukite katted"
+        "Harrasteajoneuvojen peitteet"
       ],
       "id": "3420835835884843288"
     },
     {
       "c_solutionBodies": [
-        "Teeme erinevaid metallitöid ja keevitustöid, et pakkuda kliendile terviklikku lahendust nii haagiste kui muude konstruktsioonide juures. Valmistame uusi raame, muudame ja tugevdame olemasolevaid raame, valmistades vajadusel nendele ka uued PVC‑katted. \n\nMetallitöid teeme ka haagistele, et tagada katete parem sobivus, töökindlus ja mugavam kasutamine. Nii saab meilt kogu lahenduse ühest kohast – tugev raam, kvaliteetne kate ja professionaalne paigaldus, mis toetab katte pikaajalist kasutust."
+        "Teemme erilaisia metalli- ja hitsaustöitä, jotta voimme tarjota asiakkaalle kokonaisvaltaisen ratkaisun niin perävaunuihin kuin muihin rakenteisiin. Valmistamme uusia runkoja, muokkaamme ja vahvistamme olemassa olevia runkoja ja valmistamme niihin tarvittaessa myös uudet PVC-peitteet. \n\nTeemme metallitöitä myös perävaunuihin, jotta peitteet istuvat paremmin, toimivat luotettavammin ja ovat mukavampia käyttää. Näin saat meiltä koko ratkaisun yhdestä paikasta – vahvan rungon, laadukkaan peitteen ja ammattitaitoisen asennuksen, joka tukee peitteen pitkäaikaista käyttöä."
       ],
       "c_solutionGallery": [
         {
@@ -1100,16 +1100,16 @@
         }
       ],
       "c_solutionTags": [
-        "METALLITÖÖD"
+        "METALLITYÖT"
       ],
       "c_solutionTitles": [
-        "Täislahendus haagistele ja konstruktsioonidele"
+        "Kokonaisratkaisu perävaunuihin ja rakenteisiin"
       ],
       "id": "7034478130208338214"
     },
     {
       "c_solutionBodies": [
-        "Lisaks tööstuslikele PVC‑katetele valmistame ka PVC‑bännereid, millest paljud meie kliendid veel ei pruugi teadagi. Meie bännereid kasutavad mitmed reklaamiagentuurid, kes hindavad PVC‑materjali vastupidavust, ilmastikukindlust ja head trükikvaliteeti. \n\nMeie ise ei kujunda plakateid ega reklaame, kuid kui sul on olemas vektorfailis kujundus, saad selle meile saata ning koostame sulle kiire ja konkreetse pakkumise. Kõik päringud on oodatud aadressile info@katted24.ee. \n\nPVC‑bännerid sobivad suurepäraselt nii üritustele, ehitusobjektidele, reklaamkampaaniatele kui ka püsivaks välireklaamiks – tugev materjal peab vastu tuulele, vihmale ja päikesele."
+        "Teollisten PVC-peitteiden lisäksi valmistamme myös PVC-banderolleja, joista monet asiakkaamme eivät vielä välttämättä tiedä. Banderollejamme käyttävät useat mainostoimistot, jotka arvostavat PVC-materiaalin kestävyyttä, säänkestoa ja hyvää painolaatua. \n\nEmme itse suunnittele julisteita tai mainoksia, mutta jos sinulla on valmis suunnitelma vektoritiedostona, voit lähettää sen meille ja teemme sinulle nopean ja täsmällisen tarjouksen. Kaikki tiedustelut ovat tervetulleita osoitteeseen info@katted24.ee. \n\nPVC-banderollit sopivat erinomaisesti niin tapahtumiin, rakennustyömaille ja mainoskampanjoihin kuin pysyvään ulkomainontaan – vahva materiaali kestää tuulta, sadetta ja aurinkoa."
       ],
       "c_solutionGallery": [
         {
@@ -1139,16 +1139,16 @@
         }
       ],
       "c_solutionTags": [
-        "REKLAAM"
+        "MAINONTA"
       ],
       "c_solutionTitles": [
-        "PVC‑bännerid ja trükilahendused"
+        "PVC-banderollit ja painoratkaisut"
       ],
       "id": "2792893534999436349"
     },
     {
       "c_solutionBodies": [
-        "Lisaks katete tootmisele pakume klientidele ka võimalust osta PVC‑kangast otse rullist, ilma igasuguse töötlemiseta. See on teenus, millest paljud kliendid veel ei pruugi teada, kuid mis võimaldab neil ise valmistada väiksemaid katteid, parandada olemasolevaid või kasutada PVC‑materjali muudes projektides. \n\nSamuti müüme kõiki varuosi, mida oma igapäevatöös kasutame – rihmasid, torusid, pinguteid, rullikuid, lukke, kinnitusi, katuseplastikuid ja palju muud. Kõik need komponendid on saadaval ka eraldi, et kliendid saaksid vajadusel ise hooldustöid teha või oma katteid täiendada. \n\nKui sul on küsimusi materjalide või varuosade kohta, anna julgelt märku – aitame leida just selle, mida vajad."
+        "Peitteiden valmistuksen lisäksi tarjoamme asiakkaille myös mahdollisuuden ostaa PVC-kangasta suoraan rullalta ilman minkäänlaista käsittelyä. Tämä on palvelu, josta monet asiakkaat eivät vielä välttämättä tiedä, mutta joka antaa heille mahdollisuuden valmistaa itse pienempiä peitteitä, korjata olemassa olevia tai käyttää PVC-materiaalia muissa projekteissa. \n\nMyymme myös kaikkia varaosia, joita käytämme omassa päivittäisessä työssämme – hihnoja, putkia, kiristimiä, rullia, vetoketjuja, kiinnikkeitä, kattomuoveja ja paljon muuta. Kaikki nämä komponentit ovat saatavilla myös erikseen, jotta asiakkaat voivat tarvittaessa tehdä huoltotyöt itse tai täydentää omia peitteitään. \n\nJos sinulla on kysyttävää materiaaleista tai varaosista, ota rohkeasti yhteyttä – autamme löytämään juuri sen, mitä tarvitset."
       ],
       "c_solutionGallery": [
         {
@@ -1183,76 +1183,76 @@
         }
       ],
       "c_solutionTags": [
-        "MÜÜK"
+        "MYYNTI"
       ],
       "c_solutionTitles": [
-        "PVC‑kanga ja varuosade müük"
+        "PVC-kankaan ja varaosien myynti"
       ],
       "id": "692849952948039819"
     }
   ],
-  "c_solutionsEyebrow": "Lahendused",
-  "c_solutionsHeading": "LAHENDUS IGALE VAJADUSELE",
-  "c_solutionsIntro": "Töötame igapäevaselt transpordifirmade, ehitajate, põllumeeste, paadiomanike ja eraisikutega. Vali kategooria ja loe lähemalt.",
+  "c_solutionsEyebrow": "Ratkaisut",
+  "c_solutionsHeading": "RATKAISU JOKAISEEN TARPEESEEN",
+  "c_solutionsIntro": "Teemme päivittäin työtä kuljetusyritysten, rakentajien, maanviljelijöiden, veneenomistajien ja yksityisasiakkaiden kanssa. Valitse kategoria ja lue lisää.",
   "c_trustValues": [
-    "SUURIM VÄRVIVALIK",
-    "KIIRE VALMIMISAEG",
-    "ERILAHENDUSED"
+    "SUURIN VÄRIVALIKOIMA",
+    "NOPEA VALMISTUMISAIKA",
+    "ERIKOISRATKAISUT"
   ],
   "c_useCaseItems": [
-    "Tendid",
-    "Koormakatted",
-    "Vahekardinad",
-    "Veesõidukite katted",
-    "Aiamööbli katted",
-    "Liivakastikatted",
-    "Basseinikatted",
-    "Tünnisauna katted",
-    "Kerghaagiste katted",
-    "Puuriitade katted",
-    "Murutraktorite katted",
-    "Grillide ja suitsuahjude katted",
-    "Lehekotid",
-    "Markiiside katted",
-    "Lõkkealuste katted",
-    "Tiikide põhjakatted",
-    "Ralliautode põhjakatted",
-    "Kummipaatide lisad",
-    "Veepealsed tuubid ja rõngad",
-    "Veo- ja tõstekatted",
-    "Happevanni katted",
-    "Kallurid",
-    "Liikuvpõrand",
-    "Haagised",
-    "Kerghaagised",
-    "Pool- ja täishaagised",
-    "Konteinerid"
+    "Pressut",
+    "Kuormapeitteet",
+    "Väliverhot",
+    "Vesikulkuneuvojen peitteet",
+    "Puutarhakalusteiden peitteet",
+    "Hiekkalaatikon peitteet",
+    "Uima-altaiden peitteet",
+    "Paljun peitteet",
+    "Kevytperävaunujen peitteet",
+    "Puupinojen peitteet",
+    "Puutarhatraktorien peitteet",
+    "Grillien ja savustusuunien peitteet",
+    "Lehtisäkit",
+    "Markiisien peitteet",
+    "Nuotiopaikkojen peitteet",
+    "Lampien pohjakankaat",
+    "Ralliautojen pohjapeitteet",
+    "Kumiveneiden lisävarusteet",
+    "Vesituubit ja -renkaat",
+    "Kuljetus- ja nostopeitteet",
+    "Happoaltaiden peitteet",
+    "Kippiautot",
+    "Liikkuva lattia",
+    "Perävaunut",
+    "Kevytperävaunut",
+    "Puoli- ja täysperävaunut",
+    "Kontit"
   ],
-  "c_useCasesEyebrow": "KASUTUSALAD",
-  "c_useCasesHeading": "KUS SAAB PVC-KANGAST KATTEID KASUTADA?",
-  "c_useCasesIntro": "PVC-kangast saame valmistada katteid igaks elujuhtumiks. Allpool leiad väikese osa sellest, mida oleme valmistanud.",
+  "c_useCasesEyebrow": "KÄYTTÖKOHTEET",
+  "c_useCasesHeading": "MISSÄ PVC-KANKAASTA VALMISTETTUJA PEITTEITÄ VOI KÄYTTÄÄ?",
+  "c_useCasesIntro": "PVC-kankaasta voimme valmistaa peitteitä joka tilanteeseen. Alla näet pienen osan siitä, mitä olemme valmistaneet.",
   "c_valueBodies": [
-    "Meie juures valmivad katted kõige kiiremini. Oleme oma tööprotsessid teinud nii sujuvaks, et suudame pakkuda kiiret reageerimist, lühikesi tähtaegu ja paindlikku tegutsemist ka keerukamate projektide puhul.",
-    "Kvaliteet sünnib pikaajalisest kogemusest, täpsest käsitööst ja vastupidavatest materjalidest. Kõik need kokku annavad tulemuse, mis kestab aastaid, peab vastu igapäevasele kasutusele ja näeb välja professionaalne.",
-    "Meie juures on hinnastamine aus ja läbipaistev ning suhtlus selge ja otsekohene. Ütleme alati, mis on võimalik, mis mitte, ja mis on kliendile kõige mõistlikum lahendus.",
-    "Koostöös leiame alati sobiva lahenduse, olgu selleks erimõõdud, värvivalik või paindlik makseviis. Meie eesmärk on kohandada kate täpselt kliendi vajadustele – mitte vastupidi."
+    "Meillä peitteet valmistuvat kaikkein nopeimmin. Olemme hioneet työprosessimme niin sujuviksi, että voimme tarjota nopeaa reagointia, lyhyitä toimitusaikoja ja joustavaa toimintaa myös vaativammissa projekteissa.",
+    "Laatu syntyy pitkästä kokemuksesta, tarkasta käsityöstä ja kestävistä materiaaleista. Yhdessä ne antavat tuloksen, joka kestää vuosia, pitää pintansa päivittäisessä käytössä ja näyttää ammattimaiselta.",
+    "Meillä hinnoittelu on rehellistä ja läpinäkyvää sekä viestintä selkeää ja suoraa. Sanomme aina, mikä on mahdollista, mikä ei, ja mikä on asiakkaalle järkevin ratkaisu.",
+    "Yhteistyössä löydämme aina sopivan ratkaisun, olkoon kyse erikoismitoista, värivalinnasta tai joustavasta maksutavasta. Tavoitteemme on sovittaa peite tarkasti asiakkaan tarpeisiin – ei toisin päin."
   ],
   "c_valuePropBodies": [
-    "Lai valik erineva paksuse ja värvusega materjale ühest kohast – leiame sulle sobiva lahenduse.",
-    "Võime julgelt öelda, et meie juures valmivad katted kõige kiiremini.",
-    "Lahendused kõigile, erakliendist suurettevõtteni – iga kate valmib sinu soovide ja nõudmiste järgi. Räägi oma soovist ja pakume välja lahenduse, mida mujalt ei saa."
+    "Laaja valikoima eri paksuisia ja värisiä materiaaleja yhdestä paikasta – löydämme sinulle sopivan ratkaisun.",
+    "Voimme rohkeasti sanoa, että meillä peitteet valmistuvat kaikkein nopeimmin.",
+    "Ratkaisuja kaikille, yksityisasiakkaasta suuryritykseen – jokainen peite valmistuu sinun toiveidesi ja vaatimustesi mukaan. Kerro toiveesi, niin tarjoamme ratkaisun, jota et saa muualta."
   ],
   "c_valuePropTitles": [
-    "Suurim värvivalik PVC-kangaid Eestis",
-    "Kiire ja kvaliteetne käsitöö",
-    "Katted igaks vajaduseks"
+    "Viron suurin PVC-kankaiden värivalikoima",
+    "Nopeaa ja laadukasta käsityötä",
+    "Peitteet joka tarpeeseen"
   ],
-  "c_valuePropsHeading": "MEIL ON KATTETAHE!",
+  "c_valuePropsHeading": "MEILLÄ ON SUOJAUSTAHTO!",
   "c_valueTitles": [
-    "KIIRUS",
-    "KVALITEET",
-    "AUSUS",
-    "PAINDLIKKUS"
+    "NOPEUS",
+    "LAATU",
+    "REHELLISYYS",
+    "JOUSTAVUUS"
   ],
   "c_yearsExperience": "15",
   "emails": [
@@ -1261,68 +1261,68 @@
   "facebookPageUrl": "https://www.facebook.com/357083485401098",
   "frequentlyAskedQuestions": [
     {
-      "answer": "Iga projekt on erinev, mistõttu saame anda täpse hinnapakkumise alles pärast vajaliku info saamist. Selleks palume edastada: \n\n• Mõõdud – Täpsed mõõdud tagavad korrektse hinnastuse ja sobiva lõpptulemuse. \n\n• Visand või joonis – Lihtne käsitsi tehtud visand sobib suurepäraselt. \n\n• Fotod kohast või esemest, kuhu katet soovid – Soovitavalt 2–3 pilti erinevatest külgedest, et mõista konteksti ja eripärasid. \n\n• Soovitud värvus – Värv mõjutab nii materjali valikut kui ka lõplikku hinda.",
-      "question": "Hinnastamise loogika"
+      "answer": "Jokainen projekti on erilainen, minkä vuoksi voimme antaa tarkan hinta-arvion vasta tarvittavien tietojen saatuamme. Pyydämme lähettämään: \n\n• Mitat – Tarkat mitat takaavat oikean hinnoittelun ja sopivan lopputuloksen. \n\n• Luonnos tai piirustus – Yksinkertainen käsin tehty luonnos riittää hyvin. \n\n• Valokuvat paikasta tai kohteesta, johon peitteen haluat – Mieluiten 2–3 kuvaa eri suunnista, jotta ymmärrämme kokonaisuuden ja erityispiirteet. \n\n• Toivottu väri – Väri vaikuttaa sekä materiaalin valintaan että lopulliseen hintaan.",
+      "question": "Hinnoittelun logiikka"
     },
     {
-      "answer": "Tellimine on lihtne ja kiire. Täpse tulemuse tagamiseks toimub protsess järgmiste sammudena: \n\n \n\n• Info edastamine – Klient saadab meile mõõdud, 2–3 fotot paigalduskohast ning soovitud värvuse. Soovi korral võib lisada ka visandi või joonise. \n\n• Meistri täpsustused – Meister võtab kliendiga ühendust, et enne töö alustamist ühiselt üle kontrollida mõõdud, eripärad ja kõik olulised detailid. \n\n• Valmimisaja kinnitamine – Kui kõik andmed on täpsustatud, annab meister teada orienteeruva valmimisaja ning kate läheb tootmisse.",
-      "question": "Tellimise protsess"
+      "answer": "Tilaaminen on helppoa ja nopeaa. Tarkan tuloksen varmistamiseksi prosessi kulkee seuraavien vaiheiden kautta: \n\n \n\n• Tietojen toimittaminen – Asiakas lähettää meille mitat, 2–3 valokuvaa asennuspaikasta sekä toivotun värin. Halutessaan voi liittää mukaan myös luonnoksen tai piirustuksen. \n\n• Mestarin tarkennukset – Mestari ottaa asiakkaaseen yhteyttä, jotta mitat, erityispiirteet ja kaikki olennaiset yksityiskohdat käydään yhdessä läpi ennen työn aloittamista. \n\n• Valmistumisajan vahvistaminen – Kun kaikki tiedot on tarkennettu, mestari ilmoittaa arvioidun valmistumisajan ja peite siirtyy tuotantoon.",
+      "question": "Tilausprosessi"
     },
     {
-      "answer": "Täpsed mõõdud on kvaliteetse tulemuse alus. Kui klient ei ole kindel, kuidas mõõte võtta, siis on võimalik: \n\n• Telefoninõustamine – Meister selgitab telefoni teel samm-sammult, kuidas vajalikud mõõdud õigesti võtta, et tagada täpne sobivus ja ilus lõpptulemus. \n\n• Kohapealne mõõtmine – Soovi korral tuleme ise kohale ja võtame mõõdud professionaalselt. Teenuse hind lepitakse eelnevalt kokku, sõltuvalt objekti asukohast.",
-      "question": "Mõõtmise protsess"
+      "answer": "Tarkat mitat ovat laadukkaan tuloksen perusta. Jos asiakas ei ole varma, miten mitat otetaan, on kaksi vaihtoehtoa: \n\n• Puhelinneuvonta – Mestari selittää puhelimessa vaihe vaiheelta, miten tarvittavat mitat otetaan oikein, jotta peite istuu tarkasti ja lopputulos on siisti. \n\n• Mittaus paikan päällä – Halutessasi tulemme itse paikalle ja otamme mitat ammattitaidolla. Palvelun hinta sovitaan etukäteen ja riippuu kohteen sijainnista.",
+      "question": "Mittausprosessi"
     },
     {
-      "answer": "Väiksemad pakid saadame üle Eesti pakiautomaatidesse. Suuremad tooted liiguvad kas Cargobusi esindusse või Jet Expressi kulleriga otse teie koju või tehasesse. Transpordiviis sõltub toote mõõtudest ja kaalust — leiame alati kõige mugavama lahenduse.",
-      "question": "Kuidas toimub saatmine ja transport?"
+      "answer": "Pienemmät paketit lähetämme pakettiautomaatteihin koko Virossa. Suuremmat tuotteet kulkevat joko Cargobusin toimipisteeseen tai Jet Expressin kuriirin mukana suoraan kotiisi tai tehtaalle. Kuljetustapa riippuu tuotteen mitoista ja painosta — löydämme aina kätevimmän ratkaisun.",
+      "question": "Miten toimitus ja kuljetus tapahtuvat?"
     },
     {
-      "answer": "Kasutame kvaliteetseid ja vastupidavaid materjale, mis taluvad igapäevast kasutust, niiskust ja välitingimusi. Materjali paksus ja tugevus sõltuvad valitud kangast, kuid kõik variandid on mõeldud pikaajaliseks kasutamiseks.",
-      "question": "Kui paks ja vastupidav on kate?"
+      "answer": "Käytämme laadukkaita ja kestäviä materiaaleja, jotka kestävät päivittäistä käyttöä, kosteutta ja ulko-olosuhteita. Materiaalin paksuus ja lujuus riippuvat valitusta kankaasta, mutta kaikki vaihtoehdot on tarkoitettu pitkäaikaiseen käyttöön.",
+      "question": "Kuinka paksu ja kestävä peite on?"
     },
     {
-      "answer": "Kõik katted on veekindlad või vetthülgavad, vastates kliendi vajadustele ja kasutuskohale.",
-      "question": "Kas kate on veekindel?"
+      "answer": "Kaikki peitteet ovat vedenpitäviä tai vettä hylkiviä asiakkaan tarpeiden ja käyttöpaikan mukaan.",
+      "question": "Onko peite vedenpitävä?"
     },
     {
-      "answer": "Jah – kasutame UV-kaitsega materjale, mis säilitavad oma värvi ka päikese käes. See on eriti oluline välitingimustes kasutatavate katete puhul.",
-      "question": "Kas kate talub UV-kiirgust?"
+      "answer": "Kyllä – käytämme UV-suojattuja materiaaleja, jotka säilyttävät värinsä myös auringossa. Tämä on erityisen tärkeää ulkona käytettävissä peitteissä.",
+      "question": "Kestääkö peite UV-säteilyä?"
     },
     {
-      "answer": "Kate vajab minimaalset hooldust. Soovitame puhastada niiske lapiga või õrna pesuvahendiga. Regulaarne hooldus pikendab oluliselt katte eluiga.",
-      "question": "Kuidas katet hooldada?"
+      "answer": "Peite vaatii hyvin vähän huoltoa. Suosittelemme puhdistamista kostealla liinalla tai miedolla pesuaineella. Säännöllinen huolto pidentää peitteen käyttöikää huomattavasti.",
+      "question": "Miten peitettä huolletaan?"
     },
     {
-      "answer": "Kõik meie materjalid sobivad aastaringseks kasutamiseks.",
-      "question": "Kas kate sobib aastaringseks kasutamiseks?"
+      "answer": "Kaikki materiaalimme soveltuvat ympärivuotiseen käyttöön.",
+      "question": "Soveltuuko peite ympärivuotiseen käyttöön?"
     },
     {
-      "answer": "Mida täpsemad mõõdud, seda parem tulemus. Kui klient ei ole kindel, kuidas mõõta, saab alati helistada – meister juhendab samm-sammult. Soovi korral tuleme ka ise kohale mõõte võtma (hind kokkuleppel).",
-      "question": "Kui täpsed peavad mõõdud olema?"
+      "answer": "Mitä tarkemmat mitat, sitä parempi tulos. Jos et ole varma, miten mitata, voit aina soittaa – mestari opastaa vaihe vaiheelta. Halutessasi tulemme myös itse paikalle ottamaan mitat (hinta sopimuksen mukaan).",
+      "question": "Kuinka tarkkoja mittojen pitää olla?"
     },
     {
-      "answer": "Tootmisaeg sõltub töö keerukusest ja järjekorrast. Keskmiselt kulub 1–3 tööpäeva. Täpse valmimisaja kinnitab meister pärast mõõtude ja detailide ülevaatamist.",
-      "question": "Kui kaua tootmine aega võtab?"
+      "answer": "Valmistusaika riippuu työn vaativuudesta ja jonotustilanteesta. Keskimäärin siihen kuluu 1–3 työpäivää. Mestari vahvistaa tarkan valmistumisajan mittojen ja yksityiskohtien tarkastamisen jälkeen.",
+      "question": "Kuinka kauan valmistus kestää?"
     },
     {
-      "answer": "Jah – kõik meie tööd valmivad eritellimusel. Saame valmistada katteid igas mõõdus ja kujus.",
-      "question": "Kas teete ka erikujulisi või ebastandardseid katteid?"
+      "answer": "Kyllä – kaikki työmme valmistuvat erikoistilauksena. Voimme valmistaa peitteitä kaikissa mitoissa ja muodoissa.",
+      "question": "Teettekö myös erikoismuotoisia tai epästandardeja peitteitä?"
     },
     {
-      "answer": "Jah – meil on Eesti suurim värvi- ja materjalivalik. Kui klient ei ole kindel, milline materjal sobib, aitab meister valida kõige vastupidavama ja sobivama variandi.",
-      "question": "Kas saan valida värvi ja materjali?"
+      "answer": "Kyllä – meillä on Viron suurin väri- ja materiaalivalikoima. Jos asiakas ei ole varma, mikä materiaali sopii, mestari auttaa valitsemaan kestävimmän ja sopivimman vaihtoehdon.",
+      "question": "Voinko valita värin ja materiaalin?"
     },
     {
-      "answer": "Kui tegemist on tootega, mis vajab paigaldust, saame selle soovi korral ise teostada. Paigaldusvõimalus ja hind sõltuvad asukohast ja töö iseloomust.",
-      "question": "Kas paigaldate katte ise?"
+      "answer": "Jos kyse on tuotteesta, joka vaatii asennuksen, voimme halutessasi tehdä sen itse. Asennusmahdollisuus ja hinta riippuvat sijainnista ja työn luonteesta.",
+      "question": "Asennatteko peitteen itse?"
     },
     {
-      "answer": "Jah – valmistame katteid nii täpsete mõõtude järgi kui ka olemasoleva vana katte põhjal. Kui soovite uut katet vana järgi, on oluline, et vana kate oleks võimalikult terves seisukorras. Aja jooksul võivad mõned materjalid päikese käes kokku tõmmata, seega palume alati täpsustada, kas soovite uut katet täpselt sama mõõduga või pigem veidi suuremat, et see sobiks ideaalselt. \n\n \n\nKui asute Tallinnast kaugemal, pole probleemi – saate vana katte meile mugavalt saata. Meil on koostöö Cargobusi ja Jet Expressi kulleritega, kes toimetavad pakid turvaliselt meieni ning hiljem uued katted ka tagasi teie aadressile.",
-      "question": "Kas toodate ka vana katte järgi?"
+      "answer": "Kyllä – valmistamme peitteitä sekä tarkkojen mittojen mukaan että vanhan peitteen perusteella. Jos haluat uuden peitteen vanhan mallin mukaan, on tärkeää, että vanha peite on mahdollisimman ehjä. Ajan myötä jotkin materiaalit voivat kutistua auringossa, joten pyydämme aina tarkentamaan, haluatko uuden peitteen täsmälleen samaan mittaan vai mieluummin hieman suuremman, jotta se istuu täydellisesti. \n\n \n\nJos olet kaukana Tallinnasta, se ei ole ongelma – voit lähettää vanhan peitteen meille kätevästi. Teemme yhteistyötä Cargobusin ja Jet Expressin kuriirien kanssa, jotka toimittavat paketit turvallisesti meille ja myöhemmin uudet peitteet takaisin osoitteeseesi.",
+      "question": "Valmistatteko myös vanhan peitteen mukaan?"
     }
   ],
   "id": "393880",
-  "locale": "et",
+  "locale": "fi",
   "logo": {
     "clickthroughUrl": "https://katted24.ee",
     "description": "Katted24",
@@ -1339,12 +1339,12 @@
       "id": "location",
       "uid": 0
     },
-    "locale": "et"
+    "locale": "fi"
   },
   "name": "Katted24 - PVC-KATETE VALMISTAMINE JA PARANDAMINE",
   "siteDomain": "",
   "siteId": 0,
   "siteInternalHostName": "",
-  "slug": "index.html",
+  "slug": "fi",
   "uid": 2065684904
 }

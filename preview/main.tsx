@@ -5,20 +5,22 @@ import "@/index.css";
 import { Page } from "@/components/Page";
 import type { Katted24Entity, Locale } from "@/types/entity";
 import etData from "@data/katted24_et.json";
-import enData from "@data/katted24_en_EE.json";
+import enData from "@data/katted24_en.json";
 import ruData from "@data/katted24_ru.json";
+import fiData from "@data/katted24_fi.json";
 
 const DATA: Record<Locale, Katted24Entity> = {
   et: etData as unknown as Katted24Entity,
-  en_EE: enData as unknown as Katted24Entity,
+  en: enData as unknown as Katted24Entity,
   ru: ruData as unknown as Katted24Entity,
+  fi: fiData as unknown as Katted24Entity,
 };
-const LOCALE_FROM_HREF: Record<string, Locale> = { "/": "et", "/en": "en_EE", "/ru": "ru" };
+const LOCALE_FROM_HREF: Record<string, Locale> = { "/": "et", "/en": "en", "/ru": "ru", "/fi": "fi" };
 
 function Preview() {
   const [locale, setLocale] = useState<Locale>("et");
 
-  // In-page locale links (header/footer) point at /, /en, /ru — intercept them
+  // In-page locale links (header/footer) point at /, /en, /ru, /fi — intercept them
   // so the preview swaps fixtures instead of navigating away.
   const onClickCapture = useCallback((e: MouseEvent) => {
     const a = (e.target as HTMLElement).closest("a");

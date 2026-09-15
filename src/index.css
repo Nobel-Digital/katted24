@@ -118,6 +118,10 @@
     linear-gradient(0deg, transparent 43%, #C8102E 43% 57%, transparent 57%),
     linear-gradient(90deg, transparent 43%, #C8102E 43% 57%, transparent 57%); }
   .flag-ru { background: linear-gradient(180deg, #fff 33.33%, #0039A6 33.33% 66.66%, #D52B1E 66.66%); }
+  .flag-fi { background: #fff; position: relative; overflow: hidden; }
+  .flag-fi::before { content: ""; position: absolute; inset: 0; background:
+    linear-gradient(0deg, transparent 38%, #003580 38% 62%, transparent 62%),
+    linear-gradient(90deg, transparent 30%, #003580 30% 48%, transparent 48%); }
 
   .nav-cta {
     appearance: none; border: 1px solid rgba(255,255,255,0.32);

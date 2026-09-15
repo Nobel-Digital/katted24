@@ -4,8 +4,8 @@ import { LANG_LABELS, FLAG_CLASS, LANG_SHORT } from "@/i18n";
 import { Icon, Logo } from "./Icon";
 
 const NAV_ANCHORS = ["#solutions", "#use-cases", "#inspiration", "#faq", "#about", "#contact"];
-const LOCALE_HREF: Record<Locale, string> = { et: "/", en_EE: "/en", ru: "/ru" };
-const LANG_ORDER: Locale[] = ["et", "ru"];
+const LOCALE_HREF: Record<Locale, string> = { et: "/", en: "/en", ru: "/ru", fi: "/fi" };
+const LANG_ORDER: Locale[] = ["et", "en", "ru", "fi"];
 
 type Props = { entity: Katted24Entity; locale: Locale };
 

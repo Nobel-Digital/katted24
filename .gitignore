@@ -8,3 +8,11 @@ dist/
 .DS_Store
 sites/
 .claude/
+
+# Local-only working files (not part of the site build)
+yext-config/
+conventions.md
+
+# pages dev regenerates these from the live account on every run
+localData/katted24-stream__*.json
+localData/mapping.json
