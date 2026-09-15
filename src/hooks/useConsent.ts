@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 // Bump when the privacy/cookies text materially changes — forces re-consent.
-export const CONSENT_VERSION = 1;
+export const CONSENT_VERSION = 2;
 const KEY = "katted24.consent";
 
 export type ConsentStatus = "accepted" | "rejected" | null;

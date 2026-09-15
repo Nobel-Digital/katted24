@@ -12,7 +12,6 @@ import { Contact } from "./Contact";
 import { Careers } from "./Careers";
 import { Footer } from "./Footer";
 import { CookieBanner } from "./CookieBanner";
-import { GtmNoscript } from "./GtmNoscript";
 import { Icon } from "./Icon";
 
 type Props = { entity: Katted24Entity; locale: Locale };
@@ -20,7 +19,6 @@ type Props = { entity: Katted24Entity; locale: Locale };
 export function Page({ entity, locale }: Props) {
   return (
     <div className="min-h-screen">
-      <GtmNoscript />
       <Header entity={entity} locale={locale} />
       <main>
         <Hero entity={entity} locale={locale} />
