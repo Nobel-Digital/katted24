@@ -12,6 +12,7 @@ import { AnalyticsProvider, useAnalytics } from "@yext/pages-components";
 import type { Katted24Entity, Locale } from "@/types/entity";
 import { Page } from "@/components/Page";
 import { allSchemas, canonicalUrl } from "@/lib/schema";
+import { GTM_HEAD_SNIPPET } from "@/lib/gtm";
 
 const ENTITY_ID = process.env.YEXT_PUBLIC_LOCATION_ENTITY_ID ?? "393880";
 const LOCALES = (process.env.YEXT_PUBLIC_LOCATION_LOCALE_CODE ?? "et,ru")
@@ -99,6 +100,7 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({ document }):
         children: JSON.stringify(schema).replace(/</g, "\\u003c"),
       })),
     ],
+    other: GTM_HEAD_SNIPPET,
   };
 };
 
