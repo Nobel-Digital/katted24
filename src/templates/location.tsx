@@ -94,17 +94,20 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({ document }):
       { type: "link", attributes: { rel: "alternate", hreflang: "ru", href: canonicalUrl("ru") } },
       { type: "link", attributes: { rel: "alternate", hreflang: "x-default", href: canonicalUrl("et") } },
       ...(faviconUrl ? [{ type: "link" as const, attributes: { rel: "icon", href: faviconUrl } }] : []),
-      ...schemas.map((schema) => ({
-        type: "script" as const,
-        attributes: { type: "application/ld+json" },
-        children: JSON.stringify(schema).replace(/</g, "\\u003c"),
-      })),
     ],
-    other: GTM_HEAD_SNIPPET,
+    // JSON-LD has to go here too: a Tag carries attributes only, so the schema
+    // bodies were being dropped and the page shipped empty ld+json tags.
+    other: [GTM_HEAD_SNIPPET, ...schemas.map(ldJsonScript)].join("\n"),
   };
 };
 
 type Doc = TemplateRenderProps["document"] & Katted24Entity;
+
+/** Renders one schema.org object as a real inline ld+json script tag. */
+function ldJsonScript(schema: unknown): string {
+  const json = JSON.stringify(schema).replace(/</g, "\\u003c");
+  return `<script type="application/ld+json">${json}</script>`;
+}
 
 /** Bridges GDPR consent to Yext Analytics: opt in only once the user accepts. */
 function ConsentAnalyticsBridge() {
