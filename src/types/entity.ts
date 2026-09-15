@@ -1,6 +1,6 @@
-export type Locale = "et" | "en_EE" | "ru";
+export type Locale = "et" | "en" | "ru" | "fi";
 
-export const LOCALES: Locale[] = ["et", "en_EE", "ru"];
+export const LOCALES: Locale[] = ["et", "en", "ru", "fi"];
 
 export type YextImageRef = {
   url: string;

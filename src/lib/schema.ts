@@ -2,8 +2,8 @@ import type { Katted24Entity, Locale } from "@/types/entity";
 
 export const SITE_DOMAIN = "https://katted24.ee";
 
-// Locale → URL path segment (kept clean: en_EE → /en, ru → /ru).
-const URL_PATH: Record<Locale, string> = { et: "", en_EE: "en", ru: "ru" };
+// Locale → URL path segment (kept clean: en → /en, ru → /ru, fi → /fi).
+const URL_PATH: Record<Locale, string> = { et: "", en: "en", ru: "ru", fi: "fi" };
 
 /** Absolute canonical URL for this locale's page. */
 export function canonicalUrl(locale: Locale): string {
@@ -65,7 +65,7 @@ export function websiteSchema(entity: Katted24Entity) {
     "@type": "WebSite",
     name: entity.name,
     url: SITE_DOMAIN,
-    inLanguage: ["et", "en-EE", "ru"],
+    inLanguage: ["et", "en", "ru", "fi"],
   };
 }
 

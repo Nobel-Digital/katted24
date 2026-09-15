@@ -14,7 +14,7 @@ import { Page } from "@/components/Page";
 import { allSchemas, canonicalUrl } from "@/lib/schema";
 
 const ENTITY_ID = process.env.YEXT_PUBLIC_LOCATION_ENTITY_ID ?? "393880";
-const LOCALES = (process.env.YEXT_PUBLIC_LOCATION_LOCALE_CODE ?? "et,ru")
+const LOCALES = (process.env.YEXT_PUBLIC_LOCATION_LOCALE_CODE ?? "et,en,ru,fi")
   .split(",").map((l) => l.trim()).filter(Boolean);
 const EVENTS_API_KEY = process.env.YEXT_PUBLIC_EVENTS_API_KEY ?? "";
 
@@ -69,7 +69,8 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({ document }):
   const ogImage = doc.c_heroImage?.image?.url ?? "";
   const faviconUrl = doc.c_favicon?.image?.url;
   const schemas = allSchemas(doc, locale);
-  const ogLocale = locale === "et" ? "et_EE" : locale === "ru" ? "ru_RU" : "en_EE";
+  const ogLocale =
+    locale === "et" ? "et_EE" : locale === "ru" ? "ru_RU" : locale === "fi" ? "fi_FI" : "en_EE";
 
   return {
     title,
@@ -90,7 +91,9 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({ document }):
       ...(ogImage ? [{ type: "meta" as const, attributes: { name: "twitter:image", content: ogImage } }] : []),
       { type: "link", attributes: { rel: "canonical", href: canonicalUrl(locale) } },
       { type: "link", attributes: { rel: "alternate", hreflang: "et", href: canonicalUrl("et") } },
+      { type: "link", attributes: { rel: "alternate", hreflang: "en", href: canonicalUrl("en") } },
       { type: "link", attributes: { rel: "alternate", hreflang: "ru", href: canonicalUrl("ru") } },
+      { type: "link", attributes: { rel: "alternate", hreflang: "fi", href: canonicalUrl("fi") } },
       { type: "link", attributes: { rel: "alternate", hreflang: "x-default", href: canonicalUrl("et") } },
       ...(faviconUrl ? [{ type: "link" as const, attributes: { rel: "icon", href: faviconUrl } }] : []),
       ...schemas.map((schema) => ({
