@@ -1,22 +1,14 @@
-// Google Tag Manager — single source of truth for the container ID and the
-// install snippet.
+// Google Tag Manager container ID.
 //
-// The snippet has to be injected through HeadConfig.other, not HeadConfig.tags:
-// renderTag() in @yext/pages emits `<script attrs></script>` with an empty body
-// for every script tag, so an inline script cannot be expressed as a Tag. See
-// node_modules/@yext/pages/dist/common/src/template/head.js.
+// The container is NOT injected through HeadConfig.other the way
+// GTM_ON_YEXT_PAGES.md describes, because that renders at build time and cannot
+// see consent. This site promises in its cookie notice — in every locale — that
+// analytics does not start before the visitor accepts, and it already gates Yext
+// Analytics on the same signal (AnalyticsProvider requireOptIn). So GTM is
+// loaded client-side by <GoogleTagManager />, behind that same gate.
 //
-// `other` is rendered last in the head (title → charset → viewport → tags →
-// other), which is a fixed order in the package. GTM therefore lands just
-// before </head> rather than first as Google's instructions ask — still well
-// before <body> executes, so the container fires normally.
+// If consent ever moves into the container itself (Cookiebot + Consent Mode),
+// the guide's unconditional `other: GTM_HEAD_SNIPPET` approach becomes the
+// right one again.
 
 export const GTM_ID = "GTM-5BZ86CG";
-
-export const GTM_HEAD_SNIPPET = `<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${GTM_ID}');</script>
-<!-- End Google Tag Manager -->`;

@@ -12,7 +12,7 @@ import { AnalyticsProvider, useAnalytics } from "@yext/pages-components";
 import type { Katted24Entity, Locale } from "@/types/entity";
 import { Page } from "@/components/Page";
 import { allSchemas, canonicalUrl } from "@/lib/schema";
-import { GTM_HEAD_SNIPPET } from "@/lib/gtm";
+import { GoogleTagManager } from "@/components/GoogleTagManager";
 
 const ENTITY_ID = process.env.YEXT_PUBLIC_LOCATION_ENTITY_ID ?? "393880";
 const LOCALES = (process.env.YEXT_PUBLIC_LOCATION_LOCALE_CODE ?? "et,ru")
@@ -97,7 +97,7 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({ document }):
     ],
     // JSON-LD has to go here too: a Tag carries attributes only, so the schema
     // bodies were being dropped and the page shipped empty ld+json tags.
-    other: [GTM_HEAD_SNIPPET, ...schemas.map(ldJsonScript)].join("\n"),
+    other: schemas.map(ldJsonScript).join("\n"),
   };
 };
 
@@ -132,7 +132,12 @@ function ConsentAnalyticsBridge() {
 const LocationTemplate = (props: TemplateRenderProps) => {
   const doc = props.document as Doc;
   const locale = (doc.meta?.locale ?? "et") as Locale;
-  const page = <Page entity={doc} locale={locale} />;
+  const page = (
+    <>
+      <GoogleTagManager />
+      <Page entity={doc} locale={locale} />
+    </>
+  );
 
   if (!EVENTS_API_KEY) return page;
 
