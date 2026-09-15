@@ -12,6 +12,7 @@ import { AnalyticsProvider, useAnalytics } from "@yext/pages-components";
 import type { Katted24Entity, Locale } from "@/types/entity";
 import { Page } from "@/components/Page";
 import { allSchemas, canonicalUrl } from "@/lib/schema";
+import { GTM_HEAD_SNIPPET } from "@/lib/gtm";
 
 const ENTITY_ID = process.env.YEXT_PUBLIC_LOCATION_ENTITY_ID ?? "393880";
 const LOCALES = (process.env.YEXT_PUBLIC_LOCATION_LOCALE_CODE ?? "et,en,ru,fi")
@@ -96,16 +97,20 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({ document }):
       { type: "link", attributes: { rel: "alternate", hreflang: "fi", href: canonicalUrl("fi") } },
       { type: "link", attributes: { rel: "alternate", hreflang: "x-default", href: canonicalUrl("et") } },
       ...(faviconUrl ? [{ type: "link" as const, attributes: { rel: "icon", href: faviconUrl } }] : []),
-      ...schemas.map((schema) => ({
-        type: "script" as const,
-        attributes: { type: "application/ld+json" },
-        children: JSON.stringify(schema).replace(/</g, "\\u003c"),
-      })),
     ],
+    // JSON-LD has to go here too: a Tag carries attributes only, so the schema
+    // bodies were being dropped and the page shipped empty ld+json tags.
+    other: [GTM_HEAD_SNIPPET, ...schemas.map(ldJsonScript)].join("\n"),
   };
 };
 
 type Doc = TemplateRenderProps["document"] & Katted24Entity;
+
+/** Renders one schema.org object as a real inline ld+json script tag. */
+function ldJsonScript(schema: unknown): string {
+  const json = JSON.stringify(schema).replace(/</g, "\\u003c");
+  return `<script type="application/ld+json">${json}</script>`;
+}
 
 /** Bridges GDPR consent to Yext Analytics: opt in only once the user accepts. */
 function ConsentAnalyticsBridge() {
