@@ -14,10 +14,10 @@ import { Page } from "@/components/Page";
 import { allSchemas, canonicalUrl } from "@/lib/schema";
 import { GoogleTagManager } from "@/components/GoogleTagManager";
 
-const ENTITY_ID = process.env.YEXT_PUBLIC_LOCATION_ENTITY_ID ?? "393880";
-const LOCALES = (process.env.YEXT_PUBLIC_LOCATION_LOCALE_CODE ?? "et,en,ru,fi")
+const ENTITY_ID = import.meta.env.YEXT_PUBLIC_LOCATION_ENTITY_ID ?? "393880";
+const LOCALES = (import.meta.env.YEXT_PUBLIC_LOCATION_LOCALE_CODE ?? "et,en,ru,fi")
   .split(",").map((l) => l.trim()).filter(Boolean);
-const EVENTS_API_KEY = process.env.YEXT_PUBLIC_EVENTS_API_KEY ?? "";
+const EVENTS_API_KEY = import.meta.env.YEXT_PUBLIC_EVENTS_API_KEY ?? "";
 
 export const config: TemplateConfig = {
   name: "katted24-location",
